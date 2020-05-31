@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - Zwer&#39;s Home</title>
+        <link>http://yzwer.github.io/posts/</link>
+        <description>所有文章 | Zwer&#39;s Home</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yzwer@qq.com (zwer)</managingEditor>
+            <webMaster>yzwer@qq.com (zwer)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 25 May 2020 01:42:33 &#43;0800</lastBuildDate><atom:link href="http://yzwer.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>C&#43;&#43;标准</title>
+    <link>http://yzwer.github.io/cpp/</link>
+    <pubDate>Mon, 25 May 2020 01:42:33 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://yzwer.github.io/cpp/</guid>
+    <description><![CDATA[Zwer’s first Demo http://stroustrup.com/C++.html C++ 的国际标准有 5 个版本，1998, 2003, 2011, 2014, 2017, 2020 最初的C ++标准于1998年发布，2003年进行了较小的修订， 2011年9月发]]></description>
+</item></channel>
+</rss>
