@@ -28,30 +28,14 @@ while IFS= read -r -d '' file; do
     # New file found
     new_files+=("$file")
     cp "$file" "$TARGET_DIR/$basename"
-    echo "$basename" >> "$STATE_FILE"
     uploaded=$((uploaded + 1))
 done < <(find "$SOURCE_DIR" -name "*.html" -type f -print0 2>/dev/null)
 
 # If no new files, done
 if [ "$uploaded" -eq 0 ]; then
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] No new files. ($total total, 0 new)"
-    # Keep state file sorted and unique
-    [ -f "$STATE_FILE" ] && sort -u -o "$STATE_FILE" "$STATE_FILE"
     exit 0
 fi
-
-# Keep state file sorted and unique
-sort -u -o "$STATE_FILE" "$STATE_FILE"
-
-# Commit and push to GitHub
-cd "$REPO_DIR" || exit 1
-
-# Git add new files and state
-for file in "${new_files[@]}"; do
-    basename=$(basename "$file")
-    git add "static/youtube-articles/$basename"
-done
-git add "$STATE_FILE"
 
 # Build commit message with filenames
 names=""
@@ -60,11 +44,33 @@ for file in "${new_files[@]}"; do
     names="$names $basename"
 done
 
+# Commit and push to GitHub
+cd "$REPO_DIR" || exit 1
+
+# Git add new files
+for file in "${new_files[@]}"; do
+    basename=$(basename "$file")
+    git add "static/youtube-articles/$basename"
+done
+
 git commit -m "auto: upload$names" --no-verify 2>&1 >> "$COMMIT_LOG"
 
-# Push
 if git push origin master 2>&1 >> "$COMMIT_LOG"; then
+    # Only update state file AFTER successful push
+    for file in "${new_files[@]}"; do
+        basename=$(basename "$file")
+        echo "$basename" >> "$STATE_FILE"
+    done
+    sort -u -o "$STATE_FILE" "$STATE_FILE"
+    git add "$STATE_FILE"
+    git commit -m "auto: update upload state" --no-verify 2>&1 >> "$COMMIT_LOG"
+    git push origin master 2>&1 >> "$COMMIT_LOG"
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Uploaded $uploaded new file(s):${names}"
 else
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed for $uploaded file(s)"
+    # Clean up copied files on failure
+    for file in "${new_files[@]}"; do
+        basename=$(basename "$file")
+        rm -f "$TARGET_DIR/$basename"
+    done
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed for $uploaded file(s), cleaned up"
 fi
