@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "id": "a0a4a91f",
+      "cron": "27,57 * * * *",
+      "prompt": "Run the monitor script: bash D:\\code_projects\\vibecoding\\yzwer.github.io\\.claude\\monitor_upload.sh\n\nCheck the output. If new files were uploaded, report to the user what was uploaded. If no new files, do nothing.",
+      "createdAt": 1778953385196,
+      "recurring": true,
+      "createdBySessionId": "f3d78ef6-6e0d-4049-b0ab-bb25e1e85d8e",
+      "createdByPid": 23940
+    }
+  ]
+}
