@@ -5,15 +5,15 @@ theme = "LoveIt"
 enableEmoji = true
 hasCJKLanguage = true
 
-[author]
+[params.author]
   name = "zwer"
   email = "yzwer@qq.com"
+  link = "https://yzwer.github.io/"
 
 [params]
   version = "0.2.9"
   description = "Zwer的个人网站"
   since = "2019"
-  author = "zwer"
   title = "Zwer's Home"
   subtitle = "工作 生活 兴趣 感悟.."
   keywords = ["zwer", "blog", "个人网站"]
