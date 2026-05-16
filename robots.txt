@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://yzwer.github.io/sitemap.xml
+Sitemap: https://yzwer.github.io/sitemap.xml

@@ -1,0 +1,120 @@
+baseURL = "https://yzwer.github.io/"
+languageCode = "zh-CN"
+title = "Zwer's Home"
+theme = "LoveIt"
+enableEmoji = true
+hasCJKLanguage = true
+
+[author]
+  name = "zwer"
+  email = "yzwer@qq.com"
+
+[params]
+  version = "0.2.9"
+  description = "Zwer的个人网站"
+  since = "2019"
+  author = "zwer"
+
+  # 首页信息
+  title = "Zwer's Home"
+  subtitle = "工作 生活 兴趣 感悟.."
+  keywords = ["zwer", "blog", "个人网站"]
+
+  # header
+  headerTitle = "Zwer's Home"
+
+  # page
+  pageStyle = "wide"
+
+  # social links
+  [params.social]
+    GitHub = "yzwer"
+    微博 = "2110982394"
+    知乎 = "yin-jun-gu"
+    bilibili = "7413688"
+    Email = "yzwer@qq.com"
+    RSS = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "所有文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/yzwer/yzwer.github.io"
+    weight = 5
+    params.icon = "fab fa-github fa-fw"
+    params.newtab = true
+
+[params.home]
+  [params.home.profile]
+    enable = true
+    avatar = "/images/avatar.png"
+    title = "Zwer"
+    subtitle = "工作 生活 兴趣 感悟.."
+    typeit = true
+
+  [params.home.posts]
+    enable = true
+    paginate = 10
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "index"
+
+# 不使用 Algolia 搜索
+[params.search]
+  enable = false
+
+# Valine 评论
+[params.comment]
+  [params.comment.valine]
+    enable = true
+    appId = "l6jCjqeyLVrAi7qY4I1MGcLp-gzGzoHsz"
+    appKey = "PkBxKrc6OrzJrOIY1k7JyVSA"
+    avatar = "mm"
+    placeholder = "说点什么吧.."
+    visitor = true
+    recordIP = true
+    enableQQ = false
+
+# 版权信息
+[params.license]
+  enable = true
+  content = 'This work is licensed under a <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.'
+
+# 不使用的功能
+[params.assets]
+  disableFancybox = true
+  disableScrollbar = true
+
+[params.analysis]
+  enable = false
+
+[params.pwa]
+  enable = false
