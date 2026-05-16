@@ -1,5 +1,5 @@
 baseURL = "https://yzwer.github.io/"
-languageCode = "zh-CN"
+locale = "zh-CN"
 title = "Zwer's Home"
 theme = "LoveIt"
 enableEmoji = true
