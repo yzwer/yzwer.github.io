@@ -10,7 +10,7 @@ tags:
   - "全球市场"
 ---
 
-<style data-article-scope>.aw{max-width:680px;margin:0 auto;background:#fff}
+{{< inline_style >}}.aw{max-width:680px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#1a0a28,#3a1a5c,#2a0d6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(200,80,255,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,100,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -59,7 +59,7 @@ table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;bor
 table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}</style>
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">

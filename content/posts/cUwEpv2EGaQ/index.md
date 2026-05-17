@@ -10,7 +10,7 @@ tags:
   - "深度分析"
 ---
 
-<style data-article-scope>.aw{max-width:680px;margin:0 auto;background:#fff}
+{{< inline_style >}}.aw{max-width:680px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#0a2818,#1a5c3a,#0d6b4a);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(0,200,100,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(255,200,0,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -59,7 +59,7 @@ table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;bor
 table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}</style>
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">

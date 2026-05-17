@@ -86,11 +86,10 @@ def convert_file(html_file):
     # Convert <div class="st"> to <h2> for TOC support
     body = fix_section_headings(body)
 
-    # Prepend scoped article CSS (wrapped in a data-attribute style tag so
-    # Goldmark passes it through as raw HTML)
+    # Prepend article CSS via Hugo shortcode (bypasses Goldmark style-tag stripping)
     if article_css:
         article_css = clean_css(article_css)
-        body = f'<style data-article-scope>{article_css}</style>\n{body}'
+        body = f'{{{{< inline_style >}}}}{article_css}{{{{< /inline_style >}}}}\n{body}'
 
     # Build tags YAML with safe quoting
     tags_yaml = ""

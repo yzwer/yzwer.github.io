@@ -9,7 +9,7 @@ tags:
   - "德国"
   - "迷奸案"
 ---
-<style data-article-scope>.aw{max-width:680px;margin:0 auto;background:#fff}
+{{< inline_style >}}.aw{max-width:680px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -28,7 +28,7 @@ tags:
 .ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
 .ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
 .ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.ic li::before{content:'2';color:#3498db;font-weight:bold;position:absolute;left:0}
 .wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
 .wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
 .tl{position:relative;padding-left:28px;margin:24px 0}
@@ -48,7 +48,7 @@ tags:
 .sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
 .sc h4{font-size:18px;margin-bottom:16px}
 .sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
+.sc li::before{content:'¹3';position:absolute;left:0;color:#4fc3f7}
 .dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
 .ft{text-align:center;padding:24px;color:#999;font-size:13px}
 .ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
@@ -56,8 +56,7 @@ table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;bor
 table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}</style>
-
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
