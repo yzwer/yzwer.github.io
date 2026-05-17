@@ -41,6 +41,19 @@ def fix_section_headings(body):
     return body
 
 
+def extract_style(html):
+    """Extract <style> content from source HTML."""
+    m = re.search(r'<style>(.*?)</style>', html, re.DOTALL)
+    return m.group(1).strip() if m else ""
+
+
+def clean_css(css):
+    """Remove global (*, body) rules that would leak site-wide."""
+    css = re.sub(r'\*\{[^}]*\}', '', css)
+    css = re.sub(r'body\{[^}]*\}', '', css)
+    return css.strip()
+
+
 def extract_description(html, title):
     """Try to get a description from the .ct-sub or .lead div."""
     m = re.search(r'<div class="ct-sub">([^<]+)</div>', html, re.DOTALL)
@@ -66,11 +79,18 @@ def convert_file(html_file):
     description = extract_description(html, title)
     tags = extract_tags(html)
     body = extract_body(html)
+    article_css = extract_style(html)
 
     os.makedirs(post_dir, exist_ok=True)
 
     # Convert <div class="st"> to <h2> for TOC support
     body = fix_section_headings(body)
+
+    # Prepend scoped article CSS (wrapped in a data-attribute style tag so
+    # Goldmark passes it through as raw HTML)
+    if article_css:
+        article_css = clean_css(article_css)
+        body = f'<style data-article-scope>{article_css}</style>\n{body}'
 
     # Build tags YAML with safe quoting
     tags_yaml = ""
