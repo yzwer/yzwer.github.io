@@ -32,11 +32,10 @@ def extract_tags(html):
 
 
 def fix_section_headings(body):
-    """Convert <div class="st"> section titles to <h2> so Hugo TOC detects them."""
-    # Pattern: <div class="st"><span class="sn">N</span><span class="stx">Title</span></div>
+    """Convert <div class="st"> section titles to markdown ## headings so Hugo TOC detects them."""
     body = re.sub(
         r'<div class="st">\s*<span class="sn">([^<]*)</span>\s*<span class="stx">([^<]*)</span>\s*</div>',
-        r'<h2><span class="sn">\1</span>\2</h2>',
+        r'\n\n## <span class="sn">\1</span>\2\n\n',
         body
     )
     return body
