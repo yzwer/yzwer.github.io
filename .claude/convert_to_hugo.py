@@ -49,11 +49,6 @@ def convert_file(html_file):
     video_id = os.path.basename(html_file).replace('_wechat_article.html', '')
     post_dir = os.path.join(POSTS_DIR, video_id)
 
-    # Skip if this post already exists
-    if os.path.exists(os.path.join(post_dir, "index.md")):
-        print(f"Skipped (exists): {video_id}")
-        return video_id
-
     with open(html_file, 'r', encoding='utf-8') as f:
         html = f.read()
 
