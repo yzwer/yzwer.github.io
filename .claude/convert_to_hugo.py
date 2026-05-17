@@ -31,6 +31,17 @@ def extract_tags(html):
     return tags
 
 
+def fix_section_headings(body):
+    """Convert <div class="st"> section titles to <h2> so Hugo TOC detects them."""
+    # Pattern: <div class="st"><span class="sn">N</span><span class="stx">Title</span></div>
+    body = re.sub(
+        r'<div class="st">\s*<span class="sn">([^<]*)</span>\s*<span class="stx">([^<]*)</span>\s*</div>',
+        r'<h2><span class="sn">\1</span>\2</h2>',
+        body
+    )
+    return body
+
+
 def extract_description(html, title):
     """Try to get a description from the .ct-sub or .lead div."""
     m = re.search(r'<div class="ct-sub">([^<]+)</div>', html, re.DOTALL)
@@ -58,6 +69,9 @@ def convert_file(html_file):
     body = extract_body(html)
 
     os.makedirs(post_dir, exist_ok=True)
+
+    # Convert <div class="st"> to <h2> for TOC support
+    body = fix_section_headings(body)
 
     # Build tags YAML with safe quoting
     tags_yaml = ""
