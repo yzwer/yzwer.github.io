@@ -1,1 +1,1 @@
-<style data-article-scope>{{- .Inner | safeCSS -}}</style>
+{{- printf `<style data-article-scope>%s</style>` .Inner | safeHTML -}}
