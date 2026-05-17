@@ -1,15 +1,22 @@
 #!/usr/bin/bash
-# Monitor youtube_videos for new .html files and upload to GitHub repo
+# Monitor youtube_videos for new .html files and publish as Hugo posts
 # Called by Claude cron job every 30 minutes
 
 SOURCE_DIR="C:/Users/11132/.qclaw/workspace-yw3plsutb1jupnif/youtube_videos"
 REPO_DIR="D:/code_projects/vibecoding/yzwer.github.io"
-TARGET_DIR="$REPO_DIR/static/youtube-articles"
 STATE_FILE="$REPO_DIR/.claude/uploaded_files.txt"
 COMMIT_LOG="$REPO_DIR/.claude/upload_log.txt"
+CONVERT_SCRIPT="$REPO_DIR/.claude/convert_to_hugo.py"
 
-# Ensure target directory exists
-mkdir -p "$TARGET_DIR"
+# Find Python
+PYTHON=""
+for p in /c/Python314/python /usr/bin/python3 /usr/bin/python; do
+    [ -x "$p" ] && PYTHON="$p" && break
+done
+if [ -z "$PYTHON" ]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] ERROR: Python not found"
+    exit 1
+fi
 
 # Find all .html files in source dir (recursive)
 new_files=()
@@ -27,7 +34,6 @@ while IFS= read -r -d '' file; do
 
     # New file found
     new_files+=("$file")
-    cp "$file" "$TARGET_DIR/$basename"
     uploaded=$((uploaded + 1))
 done < <(find "$SOURCE_DIR" -name "*.html" -type f -print0 2>/dev/null)
 
@@ -44,16 +50,25 @@ for file in "${new_files[@]}"; do
     names="$names $basename"
 done
 
-# Commit and push to GitHub
 cd "$REPO_DIR" || exit 1
 
-# Git add new files
+# Convert each new HTML file to a Hugo post
+converted_ids=()
 for file in "${new_files[@]}"; do
+    "$PYTHON" "$CONVERT_SCRIPT" "$file" 2>&1 >> "$COMMIT_LOG"
     basename=$(basename "$file")
-    git add "static/youtube-articles/$basename"
+    video_id="${basename%_wechat_article.html}"
+    converted_ids+=("$video_id")
 done
 
-git commit -m "auto: upload$names" --no-verify 2>&1 >> "$COMMIT_LOG"
+# Git add the new post directories
+for id in "${converted_ids[@]}"; do
+    if [ -d "content/posts/$id" ]; then
+        git add "content/posts/$id/"
+    fi
+done
+
+git commit -m "auto: publish new article(s):$names" --no-verify 2>&1 >> "$COMMIT_LOG"
 
 if git push origin master 2>&1 >> "$COMMIT_LOG"; then
     # Only update state file AFTER successful push
@@ -65,12 +80,11 @@ if git push origin master 2>&1 >> "$COMMIT_LOG"; then
     git add "$STATE_FILE"
     git commit -m "auto: update upload state" --no-verify 2>&1 >> "$COMMIT_LOG"
     git push origin master 2>&1 >> "$COMMIT_LOG"
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Uploaded $uploaded new file(s):${names}"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Published $uploaded new article(s):${names}"
 else
-    # Clean up copied files on failure
-    for file in "${new_files[@]}"; do
-        basename=$(basename "$file")
-        rm -f "$TARGET_DIR/$basename"
+    # Clean up created posts on failure
+    for id in "${converted_ids[@]}"; do
+        rm -rf "content/posts/$id"
     done
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed for $uploaded file(s), cleaned up"
 fi
