@@ -20,7 +20,7 @@ tags:
 .ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 
 
 .c p{margin-bottom:18px;font-size:16px;text-align:justify}
@@ -95,17 +95,18 @@ table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;paddi
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}{{< /inline_style >}}
+h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
-<div class="ct-tag">深度解读</div>
-<div class="ct-title">南极游轮病毒事件调查：<br>汉坦病毒的真相与误读</div>
+<div class="ct-tag">深度科普</div>
+<div class="ct-title">南极游轮病毒事件调查：汉坦病毒的真相与误读</div>
 <div class="ct-sub">汉坦病毒游轮事件完整还原 · 从零号病人到全球预警</div>
 </div>
 </div>
-<div class="c">
+</div>
 
+<div class="c">
 <div class="lead">
 最近，汉坦病毒相关新闻突然冲上了热搜。很多人一看到"病毒爆发"几个字，心里就开始发毛——毕竟新冠那几年的经历太过<span class="hl">刻骨铭心</span>。封控、抢菜、天天核酸……那段记忆对很多人来说根本没有真正过去。
 </div>
@@ -115,12 +116,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>这些问题，接下来一一解答。让我们先从头说起，把整件事的来龙去脉搞清楚。</p>
 
 <!-- 1 -->
+</div>
 
+## <span class="sn">1</span>一切从一艘南极游轮说起
 
-<h2><span class="sn">1</span>一切从一艘南极游轮说起</h2>
-
-
-
+<div class="c">
 <p>事件的起点是一艘名叫<span class="hl">"洪迪厄尔斯号"</span>的游轮。很多人可能觉得，游轮嘛，就是那种甲板好几层、乘客几千人、在海上晒太阳喝酒的豪华大船。但洪迪厄尔斯号并不是这么回事。</p>
 
 <p>它是一艘<span class="hl">极地探险观光游轮</span>，专门带人去南极看风景的，设计乘客容量仅170人左右。</p>
@@ -142,12 +142,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>所以会买这张船票的人，基本上就是两类：<span class="hl">有钱</span>，或者<span class="hl">爱折腾户外</span>。</p>
 
 <!-- 2 -->
+</div>
 
+## <span class="sn">2</span>零号病人：一对看鸟的老夫妻
 
-<h2><span class="sn">2</span>零号病人：一对看鸟的老夫妻</h2>
-
-
-
+<div class="c">
 <p>紧接着就是这次事件的关键人物——一对<span class="hr">荷兰籍老夫妻</span>，于今年4月1日登上了这艘船。丈夫70岁，妻子69岁。根据后来调查人员的追溯，他们就是这次疫情的<span class="hr">零号病人</span>，也就是最源头的感染者。</p>
 
 <p>在登船之前，这对老夫妻已经在南美玩了段时间，去了阿根廷、智利和乌拉圭。根据后续调查推测，这对夫妻是在阿根廷乌斯怀亚参加<span class="hl">观鸟游览</span>时，跑到了当地的<span class="hl">垃圾填埋厂</span>参观，在那个过程中接触到了啮齿动物，然后感染了汉坦病毒。</p>
@@ -164,12 +163,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>所以这对荷兰老夫妻本来是去看鸟的，不知道怎么就跑到垃圾填埋厂去了，然后可能接触到了老鼠，就这么<span class="hl">稀里糊涂地中招了</span>。他们自己可能完全不知道，上船之前也一切正常，因为汉坦病毒的<span class="hr">潜伏期可以长达7到14天</span>，有时候甚至更长，感染初期没有任何感觉和症状。</p>
 
 <!-- 3 -->
+</div>
 
+## <span class="sn">3</span>从"普通感冒"到死亡：完整事件时间线
 
-<h2><span class="sn">3</span>从"普通感冒"到死亡：完整事件时间线</h2>
-
-
-
+<div class="c">
 <div class="tl">
 <div class="ti"><div class="td">4月1日</div><div class="tx">荷兰老夫妻登船（零号病人）</div></div>
 <div class="ti"><div class="td">4月6日 · 登船第5天</div><div class="tx">70岁荷兰老头开始出现症状：发烧、头疼、轻度腹泻。船上医生以为是普通感冒或肠胃炎，开了点药让老头在船舱里静养</div></div>
@@ -208,12 +206,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 4 -->
+</div>
 
+## <span class="sn">4</span>汉坦病毒到底是什么？
 
-<h2><span class="sn">4</span>汉坦病毒到底是什么？</h2>
-
-
-
+<div class="c">
 <p>现在正式来了解一下这个<span class="hr">汉坦病毒</span>。很多人可能连名字都没听过，但它并非什么陌生病毒——人类发现它至今已有近50年的历史了。</p>
 
 <div class="ic">
@@ -261,12 +258,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>全世界每年大概有<span class="hl">15万到20万人</span>感染汉坦病毒。注意看死亡率这栏：安迪斯病毒导致的HPS高达30%-60%，而且目前<span class="hl">没有任何特效药和疫苗</span>。感染之后只能靠对症支持治疗——说白了就是硬扛，扛过来了就活，扛不过来就没有然后了。</p>
 
 <!-- 5 -->
+</div>
 
+## <span class="sn">5</span>"三痛三红"：如何识别汉坦病毒感染？
 
-<h2><span class="sn">5</span>"三痛三红"：如何识别汉坦病毒感染？</h2>
-
-
-
+<div class="c">
 <p>感染安迪斯病毒之后，典型表现为<span class="hr">三痛三红</span>：</p>
 
 <div class="sg">
@@ -298,12 +294,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>如果你最近去过野外、工地、仓库、老旧房屋等鼠类可能出没的地方，又出现了上面这些症状，一定要告诉医生你的<span class="hl">活动轨迹</span>。这对早期诊断至关重要。</p>
 
 <!-- 6 -->
+</div>
 
+## <span class="sn">6</span>为什么偏偏是这艘船？人传人的深层原因
 
-<h2><span class="sn">6</span>为什么偏偏是这艘船？人传人的深层原因</h2>
-
-
-
+<div class="c">
 <p>洪迪厄尔斯号能碰上安迪斯病毒也不是纯粹的运气不好，背后有其客观原因。</p>
 
 <div class="ic">
@@ -332,12 +327,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 7 -->
+</div>
 
+## <span class="sn">7</span>普通人需要恐慌吗？全球大爆发的风险
 
-<h2><span class="sn">7</span>普通人需要恐慌吗？全球大爆发的风险</h2>
-
-
-
+<div class="c">
 <p>现如今这艘船停在海上，有点进退两难。附近的一些岛屿和国家不愿意让它靠岸——这其实也可以理解：那些小岛国的医疗资源本来就有限，突然来一艘有近150名密切接触者的船，谁敢轻易接收。</p>
 
 <p>但这些人如果在潜伏期就把他们转移到哪里也改变不了这个事实。<span class="hl">暂时留在船上隔离其实是一种相对稳妥的方式</span>，也方便统一监控和管理。只要有症状出现就尽快转移离开并及时就医。</p>
@@ -393,7 +387,5 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <span>安迪斯病毒</span>
 <span>公共卫生</span>
 <span>游轮疫情</span>
-</div>
-
 </div>
 </div>

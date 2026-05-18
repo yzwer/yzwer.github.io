@@ -19,7 +19,7 @@ tags:
 .ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 
 
 .c p{margin-bottom:18px;font-size:16px;text-align:justify}
@@ -94,28 +94,28 @@ table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;paddi
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}{{< /inline_style >}}
+h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">深度解读</div>
-<div class="ct-title">从国宴座位看懂权力秩序：<br>一场顶级饭局的社交密码</div>
+<div class="ct-title">从国宴座位看懂权力秩序：一场顶级饭局的社交密码</div>
 <div class="ct-sub">从国宴合影看社交密码与权力秩序</div>
 </div>
 </div>
-<div class="c">
+</div>
 
+<div class="c">
 <div class="lead">
 国宴的照片和视频陆续流出，里面有几个细节值得一聊。从雷军找马斯克合影引发全网争议，到座次安排里藏着的权力秩序——这场顶级饭局的每一个细节，都在告诉我们一些不一样的东西。
 </div>
 
 <!-- 1 -->
+</div>
 
+## <span class="sn">1</span>雷军找马斯克合影：蹭热度还是社交智慧？
 
-<h2><span class="sn">1</span>雷军找马斯克合影：蹭热度还是社交智慧？</h2>
-
-
-
+<div class="c">
 <p>先从最热的话题开始——雷军找马斯克合影。这件事在网上吵得很厉害，很多人的反应是：雷军好歹也是大佬，小米创始人，身家200多亿美元，怎么能像个小迷弟一样去求合影？</p>
 
 <p>然后大家开始分析现场视频，越分析越起劲。有人说你看雷军的姿势，身体是微微蹲着的，像是在迁就马斯克的坐姿，显得很低姿态。再看马斯克那边，屁股压根没抬，手势也没有，就对着镜头挤了个眼，表情还有点僵，整个人感觉有点敷衍。</p>
@@ -131,12 +131,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 2 -->
+</div>
 
+## <span class="sn">2</span>无效社交？你可能误解了雷军
 
-<h2><span class="sn">2</span>无效社交？你可能误解了雷军</h2>
-
-
-
+<div class="c">
 <p>但说这是"无效社交"，可能把事情想简单了。</p>
 
 <p>首先，雷军不需要通过一张合影来证明什么。他完全可以在自己的主场——中国科技圈——呼风唤雨。但他选择走出去，主动跟全球科技领袖建立联系，这本身就是一种战略性的社交布局。</p>
@@ -148,12 +147,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>有意思的是，马斯克虽然表情看起来敷衍，但他答应了合影。这说明他至少不排斥这个互动。在顶级社交场合，一个愿意的合影，本身就是一个信号。</p>
 
 <!-- 3 -->
+</div>
 
+## <span class="sn">3</span>国宴座次：一张座位表里的权力密码
 
-<h2><span class="sn">3</span>国宴座次：一张座位表里的权力密码</h2>
-
-
-
+<div class="c">
 <p>比合影更有看头的是国宴的座次安排。在正式的外交场合，座次从来不是随便安排的，每一个位置都有讲究。</p>
 
 <div class="ic">
@@ -169,12 +167,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>从流出的照片看，科技企业家的座次安排本身就透露了大量信息——谁被安排在了更核心的位置，谁被安排在了相对边缘的位置，这些细节都在无声地传递信号。</p>
 
 <!-- 4 -->
+</div>
 
+## <span class="sn">4</span>饭局社交的底层逻辑
 
-<h2><span class="sn">4</span>饭局社交的底层逻辑</h2>
-
-
-
+<div class="c">
 <p>国宴这种级别的饭局，吃饭从来不是重点。重点是人在什么位置，跟谁坐在一起，说了什么话。</p>
 
 <p>在中国的社交文化里，饭局是最重要的社交场景之一。座次安排、谁先动筷、谁先敬酒、谁最后离场——每一个细节都是信号。</p>
@@ -192,12 +189,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 5 -->
+</div>
 
+## <span class="sn">5</span>企业家的"破圈"社交
 
-<h2><span class="sn">5</span>企业家的"破圈"社交</h2>
-
-
-
+<div class="c">
 <p>雷军这次的合影事件，其实折射出一个更大的趋势：中国企业家正在积极"破圈"，主动融入全球商业社交网络。</p>
 
 <p>过去，很多中国企业家习惯于在自己的一亩三分地里当"土皇帝"，对国际社交不够重视。但如今，随着中国企业的全球化，企业家们也越来越意识到——人脉就是资源，社交就是生产力。</p>
@@ -207,12 +203,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>当然，也有人担心这种"合影社交"会流于表面。毕竟真正的商业合作，靠的是实力和诚意，而不是一张照片。但至少，它是一个起点。</p>
 
 <!-- 6 -->
+</div>
 
+## <span class="sn">6</span>社交的三个层次
 
-<h2><span class="sn">6</span>社交的三个层次</h2>
-
-
-
+<div class="c">
 <p>从这次国宴的讨论中，我们可以提炼出社交的三个层次：</p>
 
 <div class="sg">
@@ -238,12 +233,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 7 -->
+</div>
 
+## <span class="sn">7</span>结语：别急着嘲笑主动社交的人
 
-<h2><span class="sn">7</span>结语：别急着嘲笑主动社交的人</h2>
-
-
-
+<div class="c">
 <p>很多人嘲笑雷军的合影行为，觉得他"掉价"。但如果换个角度想，敢于主动社交、敢于放低姿态的人，往往比那些端着架子的人走得更远。</p>
 
 <p>真正的自信，不是在所有场合都要表现得高高在上，而是该高的时候能高，该低的时候能低。雷军能放下身段去求合影，恰恰说明他心里有更大的格局。</p>
@@ -270,7 +264,5 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <span>社交密码</span>
 <span>国宴</span>
 <span>企业家</span>
-</div>
-
 </div>
 </div>

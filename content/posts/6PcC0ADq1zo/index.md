@@ -19,7 +19,7 @@ tags:
 .ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 
 
 .c p{margin-bottom:18px;font-size:16px;text-align:justify}
@@ -94,17 +94,18 @@ table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;paddi
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}{{< /inline_style >}}
+h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">深度调查</div>
-<div class="ct-title">比亚迪股价暴跌背后：<br>特斯拉车主的心跳时刻</div>
+<div class="ct-title">比亚迪股价暴跌背后：特斯拉车主的心跳时刻</div>
 <div class="ct-sub">2026年5月4日华盛烟花厂爆炸事故完整还原</div>
 </div>
 </div>
-<div class="c">
+</div>
 
+<div class="c">
 <div class="lead">
 2026年5月4日下午4点左右，湖南浏阳华盛烟花厂突然发生爆炸。冲击波将周围十多个车间夷为平地，燃烧的碎片如"火雨"般落向周边村庄。截至目前，事故已造成<span class="hl">37人死亡</span>、1人失联、51人住院救治。而这家企业，此前已被查处<span class="hr">24次</span>。
 </div>
@@ -113,12 +114,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 1 -->
+</div>
 
+## <span class="sn">1</span>蘑菇云升起的那一刻
 
-<h2><span class="sn">1</span>蘑菇云升起的那一刻</h2>
-
-
-
+<div class="c">
 <p>现场视频拍下了爆炸的瞬间——空中升起几百米高的白色蘑菇云，冲击波把周围十多个车间直接夷为平地。燃烧着的爆竹残片、纸板，还有被炸飞的大铁板，全部被冲击波卷向周边村庄。</p>
 
 <p>附近田交村的村民回忆，那些带火的碎片从天上纷纷落下，像"下火雨"一样。落下来的东西点燃了户外停放的电动车、屋顶、茶树、塑料、海绵、布料，包括树叶全都烧了起来。有电动车被烧得只剩骨架。</p>
@@ -127,12 +127,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 2 -->
+</div>
 
+## <span class="sn">2</span>废墟中的村庄
 
-<h2><span class="sn">2</span>废墟中的村庄</h2>
-
-
-
+<div class="c">
 <p>记者进入田交村时，空气里还有烧焦的气味，路两边散落着铁皮、玻璃碎片以及炸裂的瓦片。好几户人家门口堆着清出来的废墟建材，有人踩着梯子修屋顶，有人在换震裂的窗框。村里一直传来敲瓦片和焊铁门的声音。</p>
 
 <p>村民刘方说，他家刚装修完不到10天，墙漆还没刷完，窗户就全被震碎了。他和丈夫花了整整两天清理玻璃碎片——"玻璃本来很厚，全炸开了。"</p>
@@ -141,12 +140,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 3 -->
+</div>
 
+## <span class="sn">3</span>那些逝去的生命
 
-<h2><span class="sn">3</span>那些逝去的生命</h2>
-
-
-
+<div class="c">
 <div class="wc">
 <h4>🕯️ 遇难者故事</h4>
 <ul>
@@ -160,12 +158,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 4 -->
+</div>
 
+## <span class="sn">4</span>花炮之乡：没有选择的选择
 
-<h2><span class="sn">4</span>花炮之乡：没有选择的选择</h2>
-
-
-
+<div class="c">
 <p>浏阳号称"花炮之乡"，烟花不只是一门产业，它几乎渗透进了当地每一个村庄的生计。在华盛烟花厂所在的关渡镇周边，当地不少家庭都有人从事花炮行业——有人做药物线，有人在表皮、组盆，在封装车间做计件工，有人负责拉火舱。一个家庭里往往同时有两三个人在烟花厂上班。</p>
 
 <p>73岁的村民胡平说，华盛当年最早建厂的时候，村民们把自己的田地以每亩约1000元的补贴价提供出来，就是希望工厂能带动村子发展。他还记得早年间村里条件很差，很多人住的是泥砖房，后来花炮厂建起来，大家才慢慢盖起了红砖房。</p>
@@ -183,12 +180,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 5 -->
+</div>
 
+## <span class="sn">5</span>24次查处，为何仍未阻止悲剧？
 
-<h2><span class="sn">5</span>24次查处，为何仍未阻止悲剧？</h2>
-
-
-
+<div class="c">
 <p>事故发生前，华盛烟花厂已经因为安全问题被处罚多次。央视报道显示，<span class="hr">2022年以来这家企业共接受了24次执法检查，其中18次发现安全隐患</span>。有些问题多次出现，却没有真正整改到位。</p>
 
 <div class="wc">
@@ -216,12 +212,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 6 -->
+</div>
 
+## <span class="sn">6</span>停工—复工—赶工：一个恶性循环
 
-<h2><span class="sn">6</span>停工—复工—赶工：一个恶性循环</h2>
-
-
-
+<div class="c">
 <p>事故发生后第二天，湖南省应急管理厅宣布全省烟花爆竹企业全面停产整顿。不仅是生产企业，连经营、运输、燃放、出口都涵盖在内。</p>
 
 <p>但对浏阳的烟花行业来说，停产整顿根本不是什么新鲜事儿。<span class="hl">几乎每一次重大事故之后，行业都会进入这套流程：全面停工、检查、整改、等待复工。</span></p>
@@ -240,12 +235,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 
 <!-- 7 -->
+</div>
 
+## <span class="sn">7</span>这个行业还要不要继续存在？
 
-<h2><span class="sn">7</span>这个行业还要不要继续存在？</h2>
-
-
-
+<div class="c">
 <p>事故之后，关于烟花产业是否应该继续存在的讨论又出现了。但在浏阳当地，很少有人愿意简单地把事故和产业的存在画上等号。</p>
 
 <p>有村民说："花炮不好，我们都跟着不好。"他年轻时长期在烟花厂做工，记得以前工人们在厂里听到风吹动铁门碰地响一声，大家都会吓一跳往回跑。即便如此，大多数人还是继续留在这个行业里——因为没有其他选择。</p>
@@ -282,7 +276,5 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <span>湖南浏阳</span>
 <span>烟花厂爆炸</span>
 <span>安全生产</span>
-</div>
-
 </div>
 </div>

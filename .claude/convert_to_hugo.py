@@ -21,7 +21,7 @@ DEFAULT_COVER_CSS = """
 .ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 """
 
 # Common article content styles (WeChat-style cards, lists, etc.)
@@ -54,15 +54,70 @@ CONTENT_COMMON_CSS = """
 """
 
 
-def ensure_cover(body, title, tags, description=""):
-    """Wrap body in the gradient cover layout if it doesn't already have one."""
-    if re.search(r'<div\s+class="aw">', body):
-        return body  # already has the cover structure
+def strip_existing_wrapper(body):
+    """If body already has an .aw wrapper (Type A), strip cover + wrapper,
+    keeping only the inner content from inside .c."""
+    if not re.search(r'<div\s+class="aw">', body):
+        return body  # Type B — no wrapper to strip
+    # Extract content inside <div class="c">...</div> which is inside .aw
+    m = re.search(r'<div\s+class="c">(.*)</div>\s*</div>\s*$', body, re.DOTALL)
+    if m:
+        return m.group(1).strip()
+    return body
+
+
+def build_article_body(body, title, tags, description):
+    """Build cover + content sections.
+    Headings are kept as ## markdown at the top level (outside <div> blocks)
+    so Hugo's .TableOfContents can detect them."""
+    # Strip existing cover/wrapper if present (Type A articles)
+    body = strip_existing_wrapper(body)
+
+    # Cover section (standalone, not wrapping content)
     tag_html = f'<div class="ct-tag">{tags[0]}</div>\n' if tags else ""
     desc_html = f'<div class="ct-sub">{description}</div>\n' if description else ""
-    cover = f'<div class="aw">\n<div class="cover">\n<div class="ct">\n{tag_html}<div class="ct-title">{title}</div>\n{desc_html}</div>\n</div>\n<div class="c">\n'
-    body = cover + body + '\n</div>\n</div>'
-    return body
+    cover = (
+        f'<div class="aw">\n'
+        f'<div class="cover">\n'
+        f'<div class="ct">\n'
+        f'{tag_html}<div class="ct-title">{title}</div>\n'
+        f'{desc_html}</div>\n'
+        f'</div>\n'
+        f'</div>'
+    )
+
+    # Convert headings to ## markdown format
+    # Type A: <div class="st"><span class="sn">N</span><span class="stx">Title</span></div>
+    body = re.sub(
+        r'<div class="st">\s*<span class="sn">([^<]*)</span>\s*<span class="stx">([^<]*)</span>\s*</div>',
+        r'\n## <span class="sn">\1</span>\2\n',
+        body
+    )
+    # Type B: <h2>Title</h2>
+    body = re.sub(r'<h2>([^<]+)</h2>', r'\n## \1\n', body)
+
+    # Remove optional <div class="container"> wrapper (Type B articles)
+    body = re.sub(
+        r'<div\s+class="container">\s*(.*)\s*</div>\s*$',
+        r'\1',
+        body,
+        flags=re.DOTALL
+    )
+    body = body.strip()
+
+    # Split at heading boundaries, wrap content blocks in <div class="c">
+    parts = re.split(r'^(## .*)$', body, flags=re.MULTILINE)
+    sections = [cover]
+    for part in parts:
+        part = part.strip()
+        if not part:
+            continue
+        if part.startswith('## '):
+            sections.append(part)
+        else:
+            sections.append(f'<div class="c">\n{part}\n</div>')
+
+    return '\n\n'.join(sections)
 
 
 def extract_title(html):
@@ -78,21 +133,10 @@ def extract_body(html):
 def extract_tags(html):
     """Extract tags from footer divs like <span>tag</span> in .ft container."""
     tags = []
-    # Find the last .ft div which contains tag spans
     m = re.search(r'<div class="ft">(.*?)</div>', html, re.DOTALL)
     if m:
         tags = re.findall(r'<span>([^<]+)</span>', m.group(1))
     return tags
-
-
-def fix_section_headings(body):
-    """Convert <div class="st"> section titles to <h2> so Hugo TOC detects them."""
-    body = re.sub(
-        r'<div class="st">\s*<span class="sn">([^<]*)</span>\s*<span class="stx">([^<]*)</span>\s*</div>',
-        r'\n\n<h2><span class="sn">\1</span>\2</h2>\n\n',
-        body
-    )
-    return body
 
 
 def remove_duplicate_h1(body, title):
@@ -122,7 +166,6 @@ def extract_description(html, title):
         desc = m.group(1).strip()
         desc = re.sub(r'<br\s*/?>', ' ', desc)
         return desc
-    # Fall back to first paragraph
     m = re.search(r'<p>([^<]+)</p>', html)
     if m:
         return m.group(1).strip()[:100]
@@ -147,14 +190,8 @@ def convert_file(html_file):
     # Remove duplicate <h1> (title already shown in cover)
     body = remove_duplicate_h1(body, title)
 
-    # Ensure every article has the gradient cover layout
-    body = ensure_cover(body, title, tags, description)
-
-    # Convert <div class="st"> to <h2> headings for TOC support
-    body = fix_section_headings(body)
-
-    # Add default h2 style only if article doesn't define its own
-    h2_default = '.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}'
+    # Build article body with cover + content sections
+    body = build_article_body(body, title, tags, description)
 
     # Build article CSS: default cover + content styles + any source CSS
     css_parts = [DEFAULT_COVER_CSS, CONTENT_COMMON_CSS]
@@ -162,9 +199,9 @@ def convert_file(html_file):
         article_css = clean_css(article_css)
         if article_css.strip():
             css_parts.append(article_css)
-    # Only add h2 default if article CSS doesn't have its own h2 rules
+    # Add default h2 style only if article doesn't define its own
     if not re.search(r'h2\s*\{', article_css):
-        css_parts.append(h2_default)
+        css_parts.append('h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}')
     full_css = "\n".join(css_parts)
 
     # Prepend article CSS via Hugo shortcode (bypasses Goldmark style-tag stripping)
@@ -176,11 +213,10 @@ def convert_file(html_file):
         tags_list = "\n".join(f'  - {json.dumps(t, ensure_ascii=False)}' for t in tags)
         tags_yaml = f"tags:\n{tags_list}\n"
 
-    # Use JSON dumps for safe YAML quoting (handles quotes, newlines, etc.)
+    # Use JSON dumps for safe YAML quoting
     safe_title = json.dumps(title, ensure_ascii=False)
     safe_desc = json.dumps(description, ensure_ascii=False)
-    # Use source file's modification time for the date, converted to UTC date.
-    # This avoids Hugo filtering the post as "future" when CI runs in UTC.
+    # Use source file's modification time for the date, converted to UTC date
     src_mtime = datetime.fromtimestamp(os.path.getmtime(html_file), timezone.utc)
     today = src_mtime.strftime('%Y-%m-%d')
 
@@ -203,7 +239,6 @@ description: {safe_desc}
 
 
 def main():
-    # Check if a specific file was given, otherwise scan all
     if len(sys.argv) > 1:
         files = [sys.argv[1]]
     else:

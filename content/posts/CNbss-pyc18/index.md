@@ -19,7 +19,7 @@ tags:
 .ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 
 
 .c p{margin-bottom:18px;font-size:16px;text-align:justify}
@@ -96,28 +96,28 @@ table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;paddi
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}{{< /inline_style >}}
+h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">财经深度</div>
-<div class="ct-title">贷款转负、社融腰斩<br>一份金融数据背后的<br>经济真相</div>
+<div class="ct-title">贷款转负、社融腰斩：一份金融数据背后的经济真相</div>
 <div class="ct-sub">4月金融数据全面低于预期，全球市场同步暴跌——发生了什么？</div>
 </div>
 </div>
-<div class="c">
+</div>
 
+<div class="c">
 <div class="lead">
 央行公布了4月金融数据，结果比市场最悲观的预期还要差——社融新增只有预测值的一半，人民币贷款出现历史性负增长，居民不敢借钱，企业不愿投资，钱从银行存款搬进了股市和理财。与此同时，全球市场全线杀跌，韩国股市暴跌6%触发熔断。这背后到底发生了什么？
 </div>
 
 <!-- 1 -->
+</div>
 
+## <span class="sn">1</span>社融腰斩：连预期的一半都没达到
 
-<h2><span class="sn">1</span>社融腰斩：连预期的一半都没达到</h2>
-
-
-
+<div class="c">
 <p>先看最核心的社融数据。一季度新增社融14.83万亿，前4个月累计15.45万亿——也就是说，<span class="hl">4月单月新增社融仅6200亿</span>。</p>
 
 <p>这个数字单独看好像还行，但问题在于市场预期是1.2万亿。实际值连预测值的一半都不到，直接被腰斩。更关键的是，市场预期本来就不算激进，结果真实值还是大幅低于预期。</p>
@@ -133,12 +133,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 2 -->
+</div>
 
+## <span class="sn">2</span>贷款负增长：史无前例的4月
 
-<h2><span class="sn">2</span>贷款负增长：史无前例的4月</h2>
-
-
-
+<div class="c">
 <p>最值得警惕的信号是人民币贷款数据。一季度（1-3月）新增贷款8.6万亿，但前4个月合计只有8.59万亿。<span class="hr">4月整整一个月，贷款不但没新增，还少了100亿——这是历年4月从未出现过的</span>。</p>
 
 <p>通常4月份多少都会有一些新增贷款，哪怕少也是正的。这次直接跌到负数，是一个非常罕见、非常值得警惕的信号。</p>
@@ -157,12 +156,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 3 -->
+</div>
 
+## <span class="sn">3</span>居民不借钱：一线热、其他凉的楼市困局
 
-<h2><span class="sn">3</span>居民不借钱：一线热、其他凉的楼市困局</h2>
-
-
-
+<div class="c">
 <p>居民中长期贷款大幅缩水，背后对应的主要就是房贷。买房要贷款，贷款期限长，所以是中长期的。居民中长期贷款的多少，和地产市场冷热直接挂钩。</p>
 
 <p>目前楼市格局是"一线热，其他凉"——北上广深等一线城市和强二线确实有所回暖，但二三四线城市依然冷。本来大家以为头部城市热起来，综合抵消一下能稳住，但4月数据给出了残酷结论：<span class="hr">凉的地方远多过热的地方，根本抵消不了</span>。</p>
@@ -178,12 +176,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 4 -->
+</div>
 
+## <span class="sn">4</span>企业不投资：高油价扼住了扩张的咽喉
 
-<h2><span class="sn">4</span>企业不投资：高油价扼住了扩张的咽喉</h2>
-
-
-
+<div class="c">
 <p>企业中长期贷款由正转负，背后是企业固定资产投资——买设备、盖厂房、扩大产能的支出全面收缩。</p>
 
 <p>这里面有一个很多人没想到的因素：<span class="hl">中美局势带来的高油价</span>。油价上升不仅仅是短期通胀那么简单，更深层的影响是打击了企业扩大投资的意愿。</p>
@@ -202,12 +199,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>高油价直接劝退了企业扩产意愿，大家都选择观望。这不仅仅是成本问题，更是对未来不确定性的恐惧。</p>
 
 <!-- 5 -->
+</div>
 
+## <span class="sn">5</span>存款大搬家：钱从银行流向了哪里？
 
-<h2><span class="sn">5</span>存款大搬家：钱从银行流向了哪里？</h2>
-
-
-
+<div class="c">
 <p>存款端有两个数字非常扎眼：</p>
 
 <table class="ct2">
@@ -221,12 +217,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <p>这就形成了"金融资产热、实体经济冷"的割裂局面：钱在金融系统里空转，却没有流入实体。</p>
 
 <!-- 6 -->
+</div>
 
+## <span class="sn">6</span>M1偏弱：资金活化程度依然低迷
 
-<h2><span class="sn">6</span>M1偏弱：资金活化程度依然低迷</h2>
-
-
-
+<div class="c">
 <p>M2（广义货币）4月同比增长8.6%，增速比3月微增，大方向在回升。8%-9%的M2增速明显高过名义GDP增速，说明货币仍在放水——但力度比2022-2023年温和多了。</p>
 
 <p>关键看M1（狭义货币）。M1反映资金从定期转向活期的状态——企业或居民把定期转活期，通常是要投资或消费了。4月M1同比增速5%，比3月微降，说明<span class="hr">资金活化程度偏弱，实体经济活跃度不足</span>。</p>
@@ -243,12 +238,11 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <!-- 7 -->
+</div>
 
+## <span class="sn">7</span>全球暴跌：通胀恐惧与债务危机的阴影
 
-<h2><span class="sn">7</span>全球暴跌：通胀恐惧与债务危机的阴影</h2>
-
-
-
+<div class="c">
 <p>与国内金融数据同步的，是全球市场全线杀跌——</p>
 
 <div class="wc">
@@ -304,7 +298,5 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <span>金融数据</span>
 <span>宏观经济</span>
 <span>全球市场</span>
-</div>
-
 </div>
 </div>
