@@ -1,11 +1,49 @@
 ---
 title: "特朗普访华拿到什么？普京紧急跟进：中美俄三角关系正在重写"
-date: 2026-05-17
+date: 2026-05-19
 draft: false
 description: "特朗普这次北京之行（5月13-15日），两国元首互动时间近9小时。他本人在空军1号上评价这是\"非常成功的访问\"，达成了\"很多了不起的贸易协议\"。"
 ---
 
-{{< inline_style >}}body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+{{< inline_style >}}
+.aw{max-width:680px;margin:0 auto;background:#fff}
+.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+.ct{position:relative;z-index:2;text-align:center;padding:40px}
+.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
+.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+.c{padding:30px 24px 40px}
+
+
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
+.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
+.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
+.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
+.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.sb{border-radius:10px;padding:18px;text-align:center}
+.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
+.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
+.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
+.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
+.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
+.ct2 tr:nth-child(even) td{background:#f8f9fa}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }
         h2 { color: #0066cc; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #0066cc; padding-left: 15px; }
@@ -13,6 +51,14 @@ description: "特朗普这次北京之行（5月13-15日），两国元首互动
         .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; }{{< /inline_style >}}
+<div class="aw">
+<div class="cover">
+<div class="ct">
+<div class="ct-title">特朗普访华拿到什么？普京紧急跟进：中美俄三角关系正在重写</div>
+<div class="ct-sub">特朗普这次北京之行（5月13-15日），两国元首互动时间近9小时。他本人在空军1号上评价这是"非常成功的访问"，达成了"很多了不起的贸易协议"。</div>
+</div>
+</div>
+<div class="c">
 <div class="container">
         <h1>特朗普访华拿到什么？普京紧急跟进：中美俄三角关系正在重写</h1>
         <div class="highlight">
@@ -78,3 +124,5 @@ description: "特朗普这次北京之行（5月13-15日），两国元首互动
         <p>但说实话，这次访问最值得深挖的，不是官方议程，而是普京为什么这么急。三种可能性里，第一种（打探消息）和第二种（做交易），可能性最强。至于第三种（来玩一玩、蹭一蹭），多少有点戏谑，但也不能完全排除。</p>
         <p>只不过，这个时间点卡得很微妙。特朗普刚走，普京就到北京。这一周，的确是很热闹。</p>
     </div>
+</div>
+</div>
