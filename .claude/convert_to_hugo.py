@@ -163,7 +163,10 @@ def convert_file(html_file):
     # Use JSON dumps for safe YAML quoting (handles quotes, newlines, etc.)
     safe_title = json.dumps(title, ensure_ascii=False)
     safe_desc = json.dumps(description, ensure_ascii=False)
-    today = datetime.now().strftime('%Y-%m-%d')
+    # Use source file's modification time for the date, converted to UTC date.
+    # This avoids Hugo filtering the post as "future" when CI runs in UTC.
+    src_mtime = datetime.fromtimestamp(os.path.getmtime(html_file), datetime.UTC)
+    today = src_mtime.strftime('%Y-%m-%d')
 
     md_content = f"""---
 title: {safe_title}
