@@ -4,7 +4,7 @@ import os
 import re
 import sys
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 SOURCE_DIR = r"C:\Users\11132\.qclaw\workspace-yw3plsutb1jupnif\youtube_videos"
 REPO_DIR = r"D:\code_projects\vibecoding\yzwer.github.io"
@@ -13,7 +13,7 @@ STATE_FILE = os.path.join(REPO_DIR, ".claude", "uploaded_files.txt")
 
 # Default gradient cover CSS — always injected for a consistent look
 DEFAULT_COVER_CSS = """
-.aw{max-width:680px;margin:0 auto;background:#fff}
+.aw{max-width:960px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -86,13 +86,18 @@ def extract_tags(html):
 
 
 def fix_section_headings(body):
-    """Convert <div class="st"> section titles to markdown ## headings so Hugo TOC detects them."""
+    """Convert <div class="st"> section titles to <h2> so Hugo TOC detects them."""
     body = re.sub(
         r'<div class="st">\s*<span class="sn">([^<]*)</span>\s*<span class="stx">([^<]*)</span>\s*</div>',
-        r'\n\n## <span class="sn">\1</span>\2\n\n',
+        r'\n\n<h2><span class="sn">\1</span>\2</h2>\n\n',
         body
     )
     return body
+
+
+def remove_duplicate_h1(body, title):
+    """Remove <h1> that duplicates the cover title."""
+    return re.sub(r'<h1>\s*' + re.escape(title) + r'\s*</h1>', '', body, flags=re.IGNORECASE)
 
 
 def extract_style(html):
@@ -102,9 +107,11 @@ def extract_style(html):
 
 
 def clean_css(css):
-    """Remove global (*, body) rules that would leak site-wide."""
-    css = re.sub(r'\*\{[^}]*\}', '', css)
-    css = re.sub(r'body\{[^}]*\}', '', css)
+    """Remove global/structural rules that would leak site-wide or override our cover layout."""
+    css = re.sub(r'\*\s*\{[^}]*\}', '', css)
+    css = re.sub(r'body\s*\{[^}]*\}', '', css)
+    # Strip structural cover classes — these are owned by DEFAULT_COVER_CSS
+    css = re.sub(r'\.(?:aw|cover|ct|c)\s*\{[^}]*\}', '', css)
     return css.strip()
 
 
@@ -137,11 +144,17 @@ def convert_file(html_file):
 
     os.makedirs(post_dir, exist_ok=True)
 
+    # Remove duplicate <h1> (title already shown in cover)
+    body = remove_duplicate_h1(body, title)
+
     # Ensure every article has the gradient cover layout
     body = ensure_cover(body, title, tags, description)
 
-    # Convert <div class="st"> to markdown ## headings for TOC support
+    # Convert <div class="st"> to <h2> headings for TOC support
     body = fix_section_headings(body)
+
+    # Add default h2 style only if article doesn't define its own
+    h2_default = '.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}'
 
     # Build article CSS: default cover + content styles + any source CSS
     css_parts = [DEFAULT_COVER_CSS, CONTENT_COMMON_CSS]
@@ -149,6 +162,9 @@ def convert_file(html_file):
         article_css = clean_css(article_css)
         if article_css.strip():
             css_parts.append(article_css)
+    # Only add h2 default if article CSS doesn't have its own h2 rules
+    if not re.search(r'h2\s*\{', article_css):
+        css_parts.append(h2_default)
     full_css = "\n".join(css_parts)
 
     # Prepend article CSS via Hugo shortcode (bypasses Goldmark style-tag stripping)
@@ -165,7 +181,7 @@ def convert_file(html_file):
     safe_desc = json.dumps(description, ensure_ascii=False)
     # Use source file's modification time for the date, converted to UTC date.
     # This avoids Hugo filtering the post as "future" when CI runs in UTC.
-    src_mtime = datetime.fromtimestamp(os.path.getmtime(html_file), datetime.UTC)
+    src_mtime = datetime.fromtimestamp(os.path.getmtime(html_file), timezone.utc)
     today = src_mtime.strftime('%Y-%m-%d')
 
     md_content = f"""---

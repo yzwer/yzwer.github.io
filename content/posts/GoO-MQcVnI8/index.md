@@ -6,7 +6,7 @@ description: "特朗普这次北京之行（5月13-15日），两国元首互动
 ---
 
 {{< inline_style >}}
-.aw{max-width:680px;margin:0 auto;background:#fff}
+.aw{max-width:960px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -43,8 +43,7 @@ description: "特朗普这次北京之行（5月13-15日），两国元首互动
 .ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
 
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
-        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }
         h2 { color: #0066cc; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #0066cc; padding-left: 15px; }
         p { margin-bottom: 20px; text-align: justify; }
@@ -60,7 +59,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 </div>
 <div class="c">
 <div class="container">
-        <h1>特朗普访华拿到什么？普京紧急跟进：中美俄三角关系正在重写</h1>
+        
         <div class="highlight">
             <strong>核心提示：</strong>特朗普刚结束北京之行，普京就紧急访华。中美达成波音订单、农产品采购、机制建设等成果，但芯片、台湾等核心矛盾未解。普京紧急跟进，背后有三重考量。
         </div>

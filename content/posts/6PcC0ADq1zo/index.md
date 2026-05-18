@@ -10,7 +10,8 @@ tags:
   - "安全生产"
 ---
 
-{{< inline_style >}}.aw{max-width:680px;margin:0 auto;background:#fff}
+{{< inline_style >}}
+.aw{max-width:960px;margin:0 auto;background:#fff}
 .cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
@@ -19,6 +20,41 @@ tags:
 .ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
 .ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
 .c{padding:30px 24px 40px}
+
+
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
+.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
+.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
+.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
+.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.sb{border-radius:10px;padding:18px;text-align:center}
+.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
+.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
+.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
+.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
+.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
+.ct2 tr:nth-child(even) td{background:#f8f9fa}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+
+.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+
+.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
+.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+
 .c p{margin-bottom:18px;font-size:16px;text-align:justify}
 .lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
 .st{display:flex;align-items:center;margin:36px 0 18px}
@@ -57,7 +93,8 @@ table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;bor
 table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
 table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
 table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}{{< /inline_style >}}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+.c h2{font-size:20px;font-weight:700;color:#1a1a1a;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
@@ -78,7 +115,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 1 -->
 
 
-## <span class="sn">1</span>蘑菇云升起的那一刻
+<h2><span class="sn">1</span>蘑菇云升起的那一刻</h2>
 
 
 
@@ -92,7 +129,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 2 -->
 
 
-## <span class="sn">2</span>废墟中的村庄
+<h2><span class="sn">2</span>废墟中的村庄</h2>
 
 
 
@@ -106,7 +143,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 3 -->
 
 
-## <span class="sn">3</span>那些逝去的生命
+<h2><span class="sn">3</span>那些逝去的生命</h2>
 
 
 
@@ -125,7 +162,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 4 -->
 
 
-## <span class="sn">4</span>花炮之乡：没有选择的选择
+<h2><span class="sn">4</span>花炮之乡：没有选择的选择</h2>
 
 
 
@@ -148,7 +185,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 5 -->
 
 
-## <span class="sn">5</span>24次查处，为何仍未阻止悲剧？
+<h2><span class="sn">5</span>24次查处，为何仍未阻止悲剧？</h2>
 
 
 
@@ -181,7 +218,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 6 -->
 
 
-## <span class="sn">6</span>停工—复工—赶工：一个恶性循环
+<h2><span class="sn">6</span>停工—复工—赶工：一个恶性循环</h2>
 
 
 
@@ -205,7 +242,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 <!-- 7 -->
 
 
-## <span class="sn">7</span>这个行业还要不要继续存在？
+<h2><span class="sn">7</span>这个行业还要不要继续存在？</h2>
 
 
 
