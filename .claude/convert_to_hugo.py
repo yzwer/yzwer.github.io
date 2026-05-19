@@ -66,12 +66,24 @@ def strip_existing_wrapper(body):
     return body
 
 
+def strip_boilerplate(body):
+    """Remove source attribution, boilerplate text, and empty dividers."""
+    # Remove <p class="source"> or <p class="source-*">
+    body = re.sub(r'<p\s+class="source[^"]*">[^<]*</p>\s*', '', body)
+    # Remove <div class="source">...</div>
+    body = re.sub(r'<div\s+class="source[^"]*">.*?</div>\s*', '', body, flags=re.DOTALL)
+    # Remove trailing divider before source/footer
+    body = re.sub(r'<div class="dv"></div>\s*$', '', body)
+    return body
+
+
 def build_article_body(body, title, tags, description):
     """Build cover + content sections.
     Headings are kept as ## markdown at the top level (outside <div> blocks)
     so Hugo's .TableOfContents can detect them."""
     # Strip existing cover/wrapper if present (Type A articles)
     body = strip_existing_wrapper(body)
+    body = strip_boilerplate(body)
 
     # Cover section (standalone, not wrapping content)
     tag_html = f'<div class="ct-tag">{tags[0]}</div>\n' if tags else ""
@@ -108,6 +120,7 @@ def build_article_body(body, title, tags, description):
     # Split at heading boundaries, wrap content blocks in <div class="c">
     parts = re.split(r'^(## .*)$', body, flags=re.MULTILINE)
     sections = [cover]
+    more_inserted = False
     for part in parts:
         part = part.strip()
         if not part:
@@ -115,7 +128,11 @@ def build_article_body(body, title, tags, description):
         if part.startswith('## '):
             sections.append(part)
         else:
-            sections.append(f'<div class="c">\n{part}\n</div>')
+            content = f'<div class="c">\n{part}\n</div>'
+            if not more_inserted:
+                content += '\n\n<!--more-->'
+                more_inserted = True
+            sections.append(content)
 
     return '\n\n'.join(sections)
 

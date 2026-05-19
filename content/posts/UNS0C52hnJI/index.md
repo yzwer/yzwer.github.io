@@ -67,6 +67,8 @@ h1 { font-size: 24px; text-align: center; margin-bottom: 30px; }
     <div class="divider"></div>
 </div>
 
+<!--more-->
+
 ## 二、俄罗斯经济困难的那些年
 
 <div class="c">
@@ -136,6 +138,4 @@ h1 { font-size: 24px; text-align: center; margin-bottom: 30px; }
     <p>普京的公开表态也在一点点软化。这一切叠加在一起似乎传递出了一个信号：四年多，无数生命，无数代价，不管这场战争最终以什么方式收场，但愿苦战至今的人能早点看到和平的曙光。</p>
 
     <div class="divider"></div>
-
-    <p class="source">本文根据公开视频内容整理</p>
 </div>
