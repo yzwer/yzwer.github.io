@@ -110,21 +110,19 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <div class="lead">
 最近，汉坦病毒相关新闻突然冲上了热搜。很多人一看到"病毒爆发"几个字，心里就开始发毛——毕竟新冠那几年的经历太过<span class="hl">刻骨铭心</span>。封控、抢菜、天天核酸……那段记忆对很多人来说根本没有真正过去。
 </div>
-
 <p>所以听说又有病毒，社交媒体上立刻就炸了。</p>
 <p>这个<span class="hr">汉坦病毒</span>到底是个什么来路？有多危险？这次会不会又是一场全球大流行？新闻中四川那个人又是怎么回事？会不会传开？</p>
 <p>这些问题，接下来一一解答。让我们先从头说起，把整件事的来龙去脉搞清楚。</p>
-
 <!-- 1 -->
 </div>
+
+<!--more-->
 
 ## <span class="sn">1</span>一切从一艘南极游轮说起
 
 <div class="c">
 <p>事件的起点是一艘名叫<span class="hl">"洪迪厄尔斯号"</span>的游轮。很多人可能觉得，游轮嘛，就是那种甲板好几层、乘客几千人、在海上晒太阳喝酒的豪华大船。但洪迪厄尔斯号并不是这么回事。</p>
-
 <p>它是一艘<span class="hl">极地探险观光游轮</span>，专门带人去南极看风景的，设计乘客容量仅170人左右。</p>
-
 <div class="ic">
 <h4>洪迪厄尔斯号小档案</h4>
 <ul>
@@ -136,11 +134,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li><strong>船票：</strong>6000美元起步，高至上万美元</li>
 </ul>
 </div>
-
 <p>听起来很酷对吧？能看到南极大陆，还能踩着历史的足迹探访那些充满故事的岛屿。而且这艘船不像普通游轮那样只能待在甲板上喝酒——它的介绍里明确说了，<span class="hl">每天可以在陆地上步行好几个小时</span>，妥妥的户外探险风格。</p>
-
 <p>所以会买这张船票的人，基本上就是两类：<span class="hl">有钱</span>，或者<span class="hl">爱折腾户外</span>。</p>
-
 <!-- 2 -->
 </div>
 
@@ -148,9 +143,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 
 <div class="c">
 <p>紧接着就是这次事件的关键人物——一对<span class="hr">荷兰籍老夫妻</span>，于今年4月1日登上了这艘船。丈夫70岁，妻子69岁。根据后来调查人员的追溯，他们就是这次疫情的<span class="hr">零号病人</span>，也就是最源头的感染者。</p>
-
 <p>在登船之前，这对老夫妻已经在南美玩了段时间，去了阿根廷、智利和乌拉圭。根据后续调查推测，这对夫妻是在阿根廷乌斯怀亚参加<span class="hl">观鸟游览</span>时，跑到了当地的<span class="hl">垃圾填埋厂</span>参观，在那个过程中接触到了啮齿动物，然后感染了汉坦病毒。</p>
-
 <div class="ic">
 <h4>什么叫啮齿动物？</h4>
 <ul>
@@ -159,9 +152,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>鼠类是其中数量最庞大的一种</li>
 </ul>
 </div>
-
 <p>所以这对荷兰老夫妻本来是去看鸟的，不知道怎么就跑到垃圾填埋厂去了，然后可能接触到了老鼠，就这么<span class="hl">稀里糊涂地中招了</span>。他们自己可能完全不知道，上船之前也一切正常，因为汉坦病毒的<span class="hr">潜伏期可以长达7到14天</span>，有时候甚至更长，感染初期没有任何感觉和症状。</p>
-
 <!-- 3 -->
 </div>
 
@@ -178,11 +169,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <div class="ti"><div class="td">5月2日</div><div class="tx"><span class="hr">一名德国女性乘客在船上死亡</span>。症状与荷兰老头一模一样：先发烧腹泻，四五天后突然恶化。船上又陆续有多人出现发烧不适症状</div></div>
 <div class="ti"><div class="td">5月2日之后</div><div class="tx">事件终于上报世卫组织。采集病毒样本进行实验室检测和流行病学调查，对疑似病人隔离、消杀。但此时距离零号病人登船已过去整整一个月……</div></div>
 </div>
-
 <p>一个70岁的老人在漫长的海上旅途中因为一场看似普通的感冒去世，这在经常航行的人眼里其实不算太罕见。人上了岁数，有时候因为一场小病就可能被夺去生命。</p>
-
 <p><span class="hr">正是因为这个惯性思维</span>，船长和船员们都没有多想，没有把这件事往病毒传播的方向去联想，也没有启动任何防疫和消毒措施，更没有向世卫组织报告。最终船长决定继续旅程。</p>
-
 <div class="wc">
 <h4>最让人头皮发麻的：29名乘客散向全球</h4>
 <ul>
@@ -192,9 +180,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>这条隐形的传播链究竟延伸到哪里，没有人知道</li>
 </ul>
 </div>
-
 <p>好在新冠疫情之后各国对于突发传染病事件都绷紧了神经。在接到世卫组织通报的第一时间就开始追踪这29名乘客以及他们的密切接触者，目前正展开流调排查。</p>
-
 <div class="ic">
 <h4>关于"四川人员曾登上该游轮"</h4>
 <ul>
@@ -204,7 +190,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>经过官方核查：<strong>无感染风险、无社区传播风险</strong></li>
 </ul>
 </div>
-
 <!-- 4 -->
 </div>
 
@@ -212,7 +197,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 
 <div class="c">
 <p>现在正式来了解一下这个<span class="hr">汉坦病毒</span>。很多人可能连名字都没听过，但它并非什么陌生病毒——人类发现它至今已有近50年的历史了。</p>
-
 <div class="ic">
 <h4>发现历史</h4>
 <ul>
@@ -221,11 +205,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>经过多年研究，科学家已搞清其基本规律</li>
 </ul>
 </div>
-
 <p>汉坦病毒主要通过<span class="hl">啮齿类动物（老鼠）</span>传播给人。传播途径包括：接触老鼠的排泄物或皮毛、被老鼠咬伤、吸入含有病毒的气溶胶（比如打扫鼠窝时扬起的灰尘）。</p>
-
 <p>汉坦病毒其实是一个大家族，里面有很多种类，大体上可以分为两大类：</p>
-
 <table class="ct2">
 <tr><th>类型</th><th>分布地区</th><th>导致疾病</th><th>主要症状</th><th>死亡率</th></tr>
 <tr>
@@ -243,9 +224,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <td><span class="hr">30% - 60%</span></td>
 </tr>
 </table>
-
 <p>而这次游轮上碰到的，是新世界汉坦病毒中一个叫做<span class="hr">安迪斯病毒（Andes virus）</span>的种类。</p>
-
 <div class="wc">
 <h4>安迪斯病毒的"特殊之处"</h4>
 <ul>
@@ -254,9 +233,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>洪迪厄尔斯号上的乘客这次真的很倒霉：<span class="hl">在所有汉坦病毒里偏偏碰上了最特殊、唯一能人传人的那个</span></li>
 </ul>
 </div>
-
 <p>全世界每年大概有<span class="hl">15万到20万人</span>感染汉坦病毒。注意看死亡率这栏：安迪斯病毒导致的HPS高达30%-60%，而且目前<span class="hl">没有任何特效药和疫苗</span>。感染之后只能靠对症支持治疗——说白了就是硬扛，扛过来了就活，扛不过来就没有然后了。</p>
-
 <!-- 5 -->
 </div>
 
@@ -264,7 +241,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 
 <div class="c">
 <p>感染安迪斯病毒之后，典型表现为<span class="hr">三痛三红</span>：</p>
-
 <div class="sg">
 <div class="sb sp">
 <h5>三痛</h5>
@@ -275,9 +251,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <p>面红 · 颈红<br>上胸部红（酒醉貌）</p>
 </div>
 </div>
-
 <p>除此之外还有突发高烧、浑身发酸、有时伴随腹泻——看起来和普通感冒或肠胃炎非常相似。这也是为什么船上的医生一开始完全没有警觉。</p>
-
 <div class="wc">
 <h4>最危险的地方：第二阶段（心肺期）</h4>
 <ul>
@@ -290,9 +264,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>也就是说：一旦进入第二阶段，需要<strong>顶级的重症医疗条件才能救命</strong>——这不是随便一个地方都有的</li>
 </ul>
 </div>
-
 <p>如果你最近去过野外、工地、仓库、老旧房屋等鼠类可能出没的地方，又出现了上面这些症状，一定要告诉医生你的<span class="hl">活动轨迹</span>。这对早期诊断至关重要。</p>
-
 <!-- 6 -->
 </div>
 
@@ -300,7 +272,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 
 <div class="c">
 <p>洪迪厄尔斯号能碰上安迪斯病毒也不是纯粹的运气不好，背后有其客观原因。</p>
-
 <div class="ic">
 <h4>自然宿主：长尾柽柳鼠</h4>
 <ul>
@@ -309,11 +280,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>而洪迪厄尔斯号的出发点正是阿根廷最南端的乌斯怀亚</li>
 </ul>
 </div>
-
 <p>买这张船票的人大多都是热爱户外探险的欧美人。一群有钱爱折腾的欧美人要去阿根廷最南端坐船出发，出发前大概率会先在阿根廷和智利的<span class="hl">安第斯山脉一带露营几天</span>——而这个区域恰恰就是安迪斯病毒分布最密集的地方。</p>
-
 <p>在野外旅行的过程中接触到老鼠的排泄物或者皮毛，其实并不是什么罕见的事。可能就是在哪里坐下来歇了歇脚，或者打扫营地的时候扬起了一点灰尘——就这么感染了。</p>
-
 <div class="ic">
 <h4>游轮人传人的关键因素</h4>
 <ul>
@@ -325,7 +293,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li><strong>难得的机会：</strong>给了安迪斯病毒这个唯一能人传人的汉坦病毒一个难得的传播机会</li>
 </ul>
 </div>
-
 <!-- 7 -->
 </div>
 
@@ -333,9 +300,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 
 <div class="c">
 <p>现如今这艘船停在海上，有点进退两难。附近的一些岛屿和国家不愿意让它靠岸——这其实也可以理解：那些小岛国的医疗资源本来就有限，突然来一艘有近150名密切接触者的船，谁敢轻易接收。</p>
-
 <p>但这些人如果在潜伏期就把他们转移到哪里也改变不了这个事实。<span class="hl">暂时留在船上隔离其实是一种相对稳妥的方式</span>，也方便统一监控和管理。只要有症状出现就尽快转移离开并及时就医。</p>
-
 <div class="ic">
 <h4>世卫组织的结论：对全球人口的风险很低</h4>
 <ul>
@@ -346,7 +311,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>而安迪斯病毒的传播力<strong>不具备形成大流行的基础</strong></li>
 </ul>
 </div>
-
 <div class="sc">
 <h4>日常防范要点</h4>
 <ul>
@@ -357,7 +321,6 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li>野外活动后出现发热等症状，及时就医并告知活动轨迹</li>
 </ul>
 </div>
-
 <div class="wc">
 <h4>真正让人担忧的：变异风险</h4>
 <ul>
@@ -370,17 +333,11 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <li><span class="hl">世界杯马上就要开始了</span>——那么多人聚集在一起，万一病毒发生了变异……那可就坏事了</li>
 </ul>
 </div>
-
 <div class="dv"></div>
-
 <p>回到这次游轮事件本身，它之所以可怕，不是因为汉坦病毒本身有多容易传播，而是因为<span class="hr">一个看似普通的感冒症状</span>，在特殊环境下，居然能造成如此严重的后果。而这，本来是可以避免的。</p>
-
 <p>如果当时船上能更警觉一些，如果船长能更重视那个"普通感冒"的死亡，如果更早启动防疫和报告机制——也许就不会有后续的悲剧。</p>
-
 <p>这或许就是这次事件最值得我们深思的地方：<span class="hl">在传染病的防控中，最危险的往往不是病毒本身，而是我们的麻痹大意。</span></p>
-
 <div class="dv"></div>
-
 <div class="ft">
 <span>深度科普</span>
 <span>汉坦病毒</span>

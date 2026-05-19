@@ -128,6 +128,8 @@ def build_article_body(body, title, tags, description):
         if part.startswith('## '):
             sections.append(part)
         else:
+            # Strip internal blank lines (CommonMark terminates HTML blocks on blank lines)
+            part = re.sub(r'\n{2,}', '\n', part)
             content = f'<div class="c">\n{part}\n</div>'
             if not more_inserted:
                 content += '\n\n<!--more-->'
