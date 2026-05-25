@@ -1,8 +1,13 @@
 ---
-title: "武汉癌症村的悲剧"
+title: "湖北\"白血病村\"调查：585人的村子62人确诊，污染工厂为何经营40年不倒？"
 date: 2026-05-24
 draft: false
-description: "武汉癌症村的悲剧"
+description: "黄土坡村的痛，不该仅靠舆论\"翻红\"才被看见"
+tags:
+  - "深度调查"
+  - "环境污染"
+  - "黄土坡村"
+  - "监管缺失"
 ---
 
 {{< inline_style >}}
@@ -17,37 +22,163 @@ description: "武汉癌症村的悲剧"
 .c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
 
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify;color:#333}
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
 .lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
+.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
+.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
+.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.sb{border-radius:10px;padding:18px;text-align:center}
+.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
+.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
+.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
 .dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
+.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
+.ct2 tr:nth-child(even) td{background:#f8f9fa}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
 
+.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 50% 50%,rgba(255,80,80,.15),transparent 60%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+
+.ct-tag{display:inline-block;background:rgba(255,100,100,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px;font-weight:700}
+.ct-title{font-size:26px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
+.lead{font-size:17px;color:#555;border-left:4px solid #c0392b;padding:16px 16px 16px 20px;margin:24px 0;line-height:2;background:#fff5f5}
+.st{display:flex;align-items:center;margin:36px 0 18px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#c0392b,#a93226);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.stx{font-size:20px;font-weight:700;color:#1a1a1a}
+.ic{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #c0392b}
+.ic h4{font-size:16px;color:#a93226;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'▸';color:#c0392b;font-weight:bold;position:absolute;left:0}
+.wc{background:#f8f0ff;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #7b2d8e}
+.wc h4{font-size:16px;color:#7b2d8e;margin-bottom:12px}
+.sc{background:linear-gradient(135deg,#2d0000,#5a0000);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'▸';position:absolute;left:0;color:#ff7b7b}
+.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
+th{background:#fff5f5;padding:10px 14px;border:1px solid #f0d0d0;color:#a93226;font-weight:700}
+td{padding:10px 14px;border:1px solid #f0d0d0;color:#555}
+tr:nth-child(even){background:#fafafa}
 h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
 <div class="aw">
 <div class="cover">
 <div class="ct">
-<div class="ct-title">武汉癌症村的悲剧</div>
-<div class="ct-sub">武汉癌症村的悲剧</div>
+<div class="ct-tag">深度调查</div>
+<div class="ct-title">湖北"白血病村"调查：585人的村子62人确诊，污染工厂为何经营40年不倒？</div>
+<div class="ct-sub">黄土坡村的痛，不该仅靠舆论"翻红"才被看见</div>
 </div>
 </div>
 </div>
 
 <div class="c">
-<p>今天我们来说国内两个社会新闻 湖北武还有个地方叫新州区 新州区下侠有一个户籍人口只有585人的小自然村 叫黄土破村 这些年来 因为一场又一场突如起来的大病 在附近一代出了名 村民们自己也说不清楚 从什么时候开始 这个村子就悄悄多了个名称 别的村的人都管他们这叫挨正村 为什么呢 这些年 这个村子先后有62个人得来证 585个人里面有62个 差不多10个村民里面至少有1个 有的家庭是接连两三个人重招 光是2015年之后 就有34个人确诊 其中19个人已经去世了 还有15个人现在还在治疗 而这一串冰冷的数字背后 是一个个破碎的家庭具体的人 村里有个徐先生 2012年 他的妻子查出白血病 治了4年 花了不知道多少钱 最后还是没留住人 </p>
+<div class="lead">
+湖北武汉新洲区，有一个户籍人口只有585人的小自然村，叫黄土坡村。这些年来，因为一场又一场突如其来的大病，这个村子在附近一代出了名。村民们自己也说不清楚，从什么时候开始，这个村子悄悄多了个名称——别的村的人都管他们这叫"白血村"。
+</div>
+<div class="st"><div class="sn">1</div><div class="stx">585人，62人确诊：这不是天灾，是人祸</div></div>
+<p>585个人里面有62个确诊白血病——<strong>差不多10个村民里面至少有1个</strong>。有的家庭是接连两三个人中招。光是2015年之后，就有34个人确诊，其中19个人已经去世了，还有15个人现在还在治疗。</p>
+<p>而这一串冰冷的数字背后，是一个个破碎的家庭、具体的人。</p>
+<p>村里有个徐先生，2012年他的妻子查出白血病，治了4年，花了不知道多少钱，最后还是没留住人。2017年，还没等家里缓过来，他年仅26岁的儿媳妇也查出白血病。那时候孩子才4岁。他跟记者说了一句话：<strong>"我这家怎么这么倒霉？"</strong></p>
+<p>一个经历了这么多的人，还在用"倒霉"这个词来解释自己的遭遇。但实际上，这并不是什么倒霉的天灾，<strong>很可能是一场人祸</strong>。</p>
+<div class="st"><div class="sn">2</div><div class="stx">全村人的目光，都落在了村北头的化工厂</div></div>
+<p>黄土坡村的村民也不是没有思考过。村民把遗传、饮食习惯、生活习惯什么的，都挨个儿想了个遍——几个受害的家庭婆媳相继得病，但之间又没血缘关系；隔壁其他村子祖祖辈辈，也没听说过白血病高发。</p>
+<p>越想越觉得不对劲，最后目光全落在了村北头、和村民菜地只有一墙之隔的那个厂房——<strong>武汉市新洲区昌圣泡花碱厂</strong>。</p>
+<p>这家厂从1986年就有的，本来是公社办的铁厂，1995年由当时乡里的干部承包，2000年被承包者自己买断了，改造成了化工厂，专门生产<strong>泡花碱（硅酸钠）</strong>。所谓泡花碱，工业上用来做洗涤剂、防腐剂这些的，生产过程中会产生<strong>大量强碱性废水和有毒废渣</strong>，对人体、对土壤、对水源危害极大。</p>
+<p>更关键的是，<strong>这家厂本身就是违规的</strong>：没有环评手续，没有排污许可证，而且还建在<strong>生态红线保护区</strong>里面。所谓生态红线保护区，就是明确规定不能搞工业开发、必须保护的区域。但这么一家违规的化工厂，却在那里堂而皇之地开了几十年。</p>
+<div class="ic">
+<h4>⚠️ 村民亲眼所见的污染证据</h4>
+<ul>
+<li>那个厂排出的水是<strong>酱黄色的</strong>，排污沟底部结着黑褐色的硬壳</li>
+<li>附近的菜地种不出苗，玉米长得比正常高度差一半，半死不活的</li>
+<li>灌溉渠里的鱼死了，毛驴喝了水也死了</li>
+<li>村民共用的井水里面，<strong>重金属锰的含量超标3倍</strong>，空气里常年弥漫着刺鼻的气味</li>
+</ul>
+</div>
+<p>虽然2016年黄土坡村村民用上了自来水，不必再共用一口井喝水，避开了地下水，<strong>可土壤和空气他们是避不开的</strong>。</p>
+<div class="st"><div class="sn">3</div><div class="stx">四年举报，监管部门的"神操作"</div></div>
+<p>2022年，村民实在受不了了，集体联名往省里举报。但这一举报就举报了四年！这四年里发生了什么？</p>
+<p>武汉市生态环境局执法支队下去查，确认了这个化工厂<strong>没有环评、没有排污资格</strong>。第三方检测机构显示：<strong>水里pH值呈强碱性，色度超标500倍</strong>。这还不算最绝的——<strong>总碱度高达29214毫克每升</strong>！</p>
+<div class="wc">
+<h4>📊 29214毫克/升是什么概念？</h4>
+<ul style="padding-left:20px;margin-top:10px;">
+<li>市面上大多数检测，碱度的一级上限也才<strong>2000毫克/升</strong></li>
+<li>一般内陆盐碱湖的碱度，大概也就<strong>5000毫克/升</strong></li>
+<li>只有极高浓度的苏打湖，才会达到这个水平</li>
+</ul>
+</div>
+<p>这下应该铁证如山了吧？可问题还是没有解决。让所有人感到愤怒的，是新洲区环保部门期间的一系列操作，<strong>怎么想都不对劲</strong>。</p>
+<div class="ic">
+<h4>🚨 监管部门的"神操作"时间线</h4>
+<ul>
+<li><strong>通风报信</strong>：村民第一次举报化工厂的时候，去环保局执法人员迟迟没见到影子。但让人奇怪的是，工厂那边倒是一点都没当格——老板马上带着人连夜挖沟，把排污口给堵死了，美其名曰"整改"。直到后来武汉市执法人员来调查，真相才报出来：<strong>工厂老板自己都承认，是去环保局的人提前给他打的电话，让他赶紧把排污口堵上</strong></li>
+<li><strong>错时采样</strong>：更离谱的是检测环节——区环保局偏偏选在一场大暴雨之后，才来取样。雨水一冲刷，之前检测出来的超标数据刚好被稀释。有村民拍了工厂偷偷排酱黄色污水的证据，湖北省生态环境厅后来都吓出冷汗，明确要求查处。可<strong>当地的环保部门还是一口咬定"没发现废水监测全部达标"</strong></li>
+<li><strong>罚酒三杯</strong>：最后中央环保督察组转办督办，但换来的结果也只是<strong>20万元罚款了事</strong>，和罚酒三杯没什么区别。罚完之后，工厂继续偷偷开工</li>
+</ul>
+</div>
+<p>一个没有环评、没有排污许可、建在生态红线里的违规化工厂，市局去执法了，污染数据严重超标，省厅下了督办函，中央督察组多次转办，<strong>4年里村民无数次举报，但这家工厂就是稳如泰山，该开工开工</strong>。这是为什么？</p>
+<div class="st"><div class="sn">4</div><div class="stx">两种可能：利益勾结，还是自保？</div></div>
+<p>我们说几种可能：</p>
+<p><strong>第一种可能：区里某些当权人物，和这家化工厂有利益勾结。</strong>有人在暗中保这家工厂，替他消化掉所有来自上面的压力，替他通风报信，替他挡住所有调查。</p>
+<p><strong>第二种可能：区里承受不起追责后果。</strong>这家工厂开了将近40年，期间环保监管的失职是长期积累的，如果真的彻查下去，不光是这家厂的问题，更多是监管部门这些年的失职渎职，要被翻出来。牵连太广，所以——<strong>一条道走到黑，能拖就拖，能演就演</strong>。</p>
+<p>要么就是两者兼而有之：<strong>工厂给某些人输送利益，他们为了自保，不断掩盖问题，以牺牲村民的土地、水源和生命为代价</strong>。否则，区环保局那些匪夷所思的操作，真的没有办法解释。</p>
+<div class="st"><div class="sn">5</div><div class="stx">媒体的胜利，还是制度的失败？</div></div>
+<p>但武汉"白血村"事件中，有一个不幸中的万幸，那就是<strong>遇上了大象新闻</strong>。这个媒体的这个报道，大象新闻在5月18日做了深度报道，把所有的细节、所有的证据都摆了出来，引发全网关注，推上了热搜。</p>
+<p>但这恰恰也是最讽刺的一点：<strong>这个村庄用数十年的健康、几十条生命和无数家庭的破碎，才换来一次被大众舆论看见的运气</strong>。</p>
+<p>即便现在已经展开全面调查，很多人也并不乐观，或者说麻木了。因为过去有太多这样的热点事件，被社会舆论推上风口浪尖，官方为了平息民愤，才不得不被迫成立调查组。这次的调查结果，我们大概也能猜到：</p>
+<table>
+<tr><th>预期结果</th><th>实际影响</th></tr>
+<tr><td>确认污染</td><td>受害者的病痛与恐惧并不会因此消失</td></tr>
+<tr><td>赔偿受害者</td><td>可能无法覆盖后续治疗费用</td></tr>
+<tr><td>官方道歉</td><td>道义上的安慰，无法修复已受损的健康</td></tr>
+<tr><td>相关部门人员失职被处理</td><td>并不会消除幸存者的病痛与恐惧</td></tr>
+</table>
+<p><strong>甚至几乎不会改变下一个黄土坡村产生的逻辑。</strong>这一切，不过是在舆论高压之下的被迫为之。</p>
+<div class="st"><div class="sn">6</div><div class="stx">更深层的问题：私有产权缺失与监管失效</div></div>
+<p>在现实中，之所以环境污染纠纷层出不穷，最关键的一个原因，就在于<strong>长期以来对私有产权和个人权利的漠视</strong>。</p>
+<p>地方上为了发展经济、安排就业等公共福利目标，默认开办工厂对当地有利。这实际上就是预设了一个前提：<strong>所谓的"公共目标"比私有财产更重要，个人利益要做出牺牲，以服从和服务于"集体利益"</strong>。</p>
+<p>什么有利、什么不利的判定，以官方的说法为准，而不是基于当地居民私有产权和自身利益的判断。也正是有关当局无视私有财产的原则，<strong>让污染企业侵犯他人产权的行为不受惩罚，事实上是鼓励了环境污染</strong>。</p>
+<div class="wc">
+<h4>🔗 更深层的连锁反应</h4>
+<ul style="padding-left:20px;margin-top:10px;">
+<li><strong>打击环境治理新技术的研发</strong>：既然污染行为不受惩罚，那么何必投入环境治理的研发而增加成本呢？</li>
+<li><strong>公共资源被短期榨取</strong>：当资源公有化时，也很容易为环境污染大开方便之门。既然这份资源不是私有的，而是公共的，那么公共资源的临时代管人，就只愿意在有限的时间内，尽可能地榨取这份资源的租金，而不顾资源的长久资本价值。于是他们就会变得非常短视，倾向于最大限度地污染、最大限度地盈利，而不顾环境</li>
+<li><strong>罚款变成收入来源</strong>：这种情况下，地方上甚至会欢迎污染企业——因为这不但会带来显性的税收，而且还能增加罚款。当污染无法掩盖，那就罚款了事。本应给受侵犯的人的补偿，就被这样装进了国库，被他们所支配。这也是一种隐性的成本转移——只不过是把污染和疾病的代价，强行转嫁给了最没有话语权的人</li>
+</ul>
+</div>
+<p>而这种行为和逻辑，我们不能否认，其实一直都存在于社会上的其他各个行业中，<strong>尤其是食品行业</strong>。只是坐标在黄土坡村的这个化工厂，没能一直幸运下去，被抓住了现行。</p>
+<div class="dv"></div>
+<div class="sc">
+<h4>🔗 相关插曲：电影《监狱来的妈妈》撤档风波</h4>
+<ul>
+<li>凌晨两点，王丹妮工作室发力辟声明，彻底切割。半夜发声明，可想而知这压力得有多大</li>
+<li>这部电影最大的问题是出在了宣发上——片方宣发时把重点压在了"反抗家暴"和"女性困境"上，还把姚晨拉来站台。但问题是现在的舆论场，跟几年前已经完全不一样了。前几年女性议题是流量密码，但疫情之后经济下行、情绪反弹，现在一碰女性议题，很多人的第一反应是对立、是质疑、是反弹。所以片方这部棋本来想借势出圈，结果直接引火烧身</li>
+<li>但还不是最炸的部分——真正让舆论彻底炸的，是片方放出的第二个噱头："改编自真实案件，当事人亲自出演"。结果有人去翻了当年的案件，发现并没有家暴，夫妻关系也还过得去，就是因为生活摩擦，女方过失杀人判了十年。一个过失杀人的案子，被包装成"反抗压迫的女性史诗"。当事人出狱之后，还成了直播网红，名利双收。网友们肯定接受不了，甚至还有人上升到"挑战司法公信力"</li>
+<li>一查，拍摄过程确实有不合规的地方。这下舆论就彻底炸了——明星切割、撤档、有关部门介入</li>
+<li>这部电影真正想讲的主题是什么？是刑满释放人员重新融入社会的艰难。但现在所有人在炒什么？在炒男女对立。那些真正的社会议题，比如黄土坡村的事情，就这么被淹没了</li>
+</ul>
+</div>
+<div class="dv"></div>
+<p style="color:#999;font-size:14px;text-align:right;">—— 基于YouTube视频内容整理分析</p>
+</div>
+<div class="ft">
+<span>深度调查</span><span>环境污染</span><span>黄土坡村</span><span>监管缺失</span>
 </div>
 
 <!--more-->
-
-<div class="c">
-<p>2017年还没等家里缓过来 他年仅26岁的儿媳妇也查出白血病 那时候小村子才4岁 他跟记者说了一句话 我这家怎么这么倒霉 一个经历了这么多的人 还在用倒霉这个词来解释自己的遭遇 但实际上 这并不是什么倒霉的天灾 很可能是一场人祸 那么问题出在哪 黄土破村的村民 也不是没有思考过 村民把一传 隐食生活习惯什么的 都挨个儿响了个变 几个受害的家庭婆媳相计得病 但之间又没血缘关系 隔壁其他村子组组背背 也没听说过高发这些病 越想越觉得不对劲 最后目光全落在了村北头 和村民菜地 只有异强之格的那个厂房 武汉市新州区 昌圣泡花检厂 这厂是从1986年就有的 本来是公社办的铁厂 1995年由当时相里的干部成包 20000年被成包者自己买断了 改造成了化工厂 </p>
-<p>专门生产泡花检 所谓泡花检就是归酸纳 工业上用来做洗敌剂 防腐剂这些的 生产过程中会产生大量 强检性费水和有毒费渣 对人体对土壤对水源危害极大 更关键在于这家厂子本身就是违规的 没有环品手续 没有排屋许可政 而且还建在生态红线保护区里面 所谓生态红线保护区 就是明确规定不能搞工业开发 必须保护的区域 但这么一家违规的化工厂 却在那里唐尔黄枝的开了几十年 村民说 那个厂排出的水是降油色的 排屋勾底部 截着黑黑色的硬壳 附近的菜地重红属不出苗 玉米涨的高外差一半 半死不活的 关盖区里的鱼死了 毛喝了水也死了 村民共用的井水里面 重金属猛的含量超标三倍 空气里常年迷慢着刺鼻的气味 虽然2016年黄土破村村民用上了自来水 不必再共用一口井喝水 避开了地下水 </p>
-<p>可土壤和空气他们是避不开的 2022年村民实在受不了了 集体联名往势力举报 但这一举报就举报了四年 这四年里发生了什么呢 武汉市生态环境局 执法支对下去查 确认了这个化工厂没有环瓶 没有排屋资格 第三方检测机构显示 水里编辑值成强检性 色度超标五百倍 这还不算最绝的 总检督干到了29214毫克美升 什么概念呢 市面上大多数检测 检督的一气上线也才两千 一般内陆延检湖的检督 大概也就五千 只有极高农度的苏打湖 才会达到这个水平 这下应该铁正如山了吧 可问题还是没有解决 让所有人感到愤怒的 是新州区环保部门期间的 一系列操作 怎么想都不对劲 村民第一次举报化工厂的时候 去环保局的指法人员 迟迟没见到影子 但让人奇怪的是 工厂那边倒是一点都没当格 </p>
-<p>老板马上带着人连夜挖钩 把排屋口给堵死了 美其名约整改 直到后来武汉市的指法人员来调查 真相才报出来 工厂老板自己都承认 是去环保局的人 提前给他打的电话 让他赶紧把排屋口堵上 更觉得是检测环节 去环保局偏偏选在一场大暴雨之后 才来取样 雨水一冲刷 之前检测出来的超标数据 刚好大标 有村民拍了工厂偷偷排 降油色污水的证据 湖北省生态环境厅 后来都吓了督伴汗 明确要求查处 可当地的环保部门 还是一口咬定 没发现副产监测全部大标 最后中央环保督查组转办督伴 但换来的结果 也只是20万元乏款了事 和乏酒三杯没什么区别 罚完之后 工厂继续偷偷开工 一个没有环瓶 没有排污许可 建在生态红线里的违规化工厂 市局去执法了 污染数据严重超标 省厅吓了督伴汗 </p>
-<p>中央督查组多次转办 4年里村民无数次举报 但这家工厂就是稳入泰山 该开工开工 罚了20万继续干 这是为什么 我们说几种可能啊 第一种可能 区里某些当权人物 和这家化工厂有利益勾结 有人在暗中保这家工厂 替他消化掉所有来自上面的压力 替他通风报信 替他挡住所有调查 第二种可能是 区里承受不起追责后果 这家工厂开了将近40年 期间环保监管的失职是长期积累的 如果真的测查下去 不光是这家厂的问题 更多是监管部门 这些年的失职独职 要被翻出来 千连太广 所幸一调到走到黑 能脱就脱 能演就演 要么就是两者监而有之 工厂给某些人输送利益 他们为了自保 不断掩盖问题 以牺牲村民的土地 水源那只生命为代价 否则 区环保局那些匪夷所思的操作 真的没有办法解释 </p>
-<p>但武汉埃政村事件中 有一个不幸中的万姓 那就是遇上了大向新闻 这个媒体的这个报道 大向新闻在5月18日 做了深度报道 把所有的细节 所有的证据都摆了出来 引发全网关注 推上了热搜 但这恰恰也是最讽刺的一点 这个村庄用数十年的健康 几十条生命和无数家庭的破碎 才换来一次 被大众舆论看见的运气 但即便现在已经展开全面调查 很多人也并不乐观 或者说麻木了 因为过去有太多这样的热点事件 被社会舆论推上风口浪坚 官方为了平息民奋 才不得不被迫成立调查组 这次的调查结果 我们大概也能猜到 却任污染 赔偿受害者 可能会有官方的道歉 以及相关部门人员 失职点名的处理结果 但这些并不会消除 姓存者的病痛与恐惧 甚至几乎不会改变 下一个黄土波村产生的逻辑 这一切 </p>
-<p>不过是在舆论高压之下的被迫为之 在现实中 之所以环境污染纠纷层出不穷 最关键的一个原因 就在于长时间以来 对个人权利私有产权的末式 地方上为了发展经济 安排就业等公共福利目标 默认开办工厂对当地有利 这实际上就是预设了一个前提 所谓的公共目标 比私有财产更重要 个人利益要做出牺牲 以服从和服务于集体利益 什么有利 什么不利的判定 以官方的说法为准 而不是基于当地居民私有产权 和自身利益的判断 也正是有关当局无视私有财产的原则 让污染企业侵犯他人产权的行为 不受惩罚 事实上是鼓励了环境污染 他同时还造成了另一个后果 打击了对治理环境污染的新技术 新设备的研发和制造 既然这种行为不受惩罚 那么何必投入环境治理的研发 而增加成本呢 更为严重的是 </p>
-<p>当资源公有化时 也很容易为环境污染 大开方便之门 既然这份资源不是私有的 而是公共的 那么公共资源的临时代管人 就只愿意在有限的时间内 尽可能的诈取这份资源的租金 而不顾资源的长久资本价值 于是他们就会变得非常短视 倾向于最大限度的污染 最大限度的盈利 而不顾环境 这种情况下 地方上甚至会欢迎污染企业 而更加无视当地居民的意愿 因为这不但会给他们带来显信的证据 而且增加税收 甚至还能增加罚款 当污染无法掩盖 那就罚款了事 本营给受侵犯的人的补偿 就被这样装进了国库 被他们所支配 这也是一种隐性的成本分配 只不过是把污染和疾病的代价 强行转价给最没有话语权的人 而这种行为和逻辑 我们不能否认 其实一直都存在于社会上的其他各个行业中 尤其是食品行业 </p>
-<p>只是坐标在黄土波村的这个化工厂 没能一直幸运下去 被抓住了远行 接下来再说另一件新闻 凌晨两点 王韩工作是发力篇声明 就定监狱来的妈妈致欠 宣布彻底切割 半夜发声明 可想而知这压力得有多大 那这部电影到底怎么了 其实最大的问题是出在了宣发上 先说他为什么能活起来 片方宣发的时候自以为很聪明 把重点压在了反抗加暴和女性困境上 还把姚晨拉来站台 当问题是现在的舆论厂 跟几年前已经完全不一样了 前几年女性一体是流量密码 但疫情之后经济一条整 情绪反弹 现在一碰女性一体 很多人的第一反应是对立 是质疑是反弹 所以片方这部齐本来想借势出圈 结果直接引火烧身 但这还不是最炸的部分 真正让舆论彻底爆的 是片方放出的第二个血头 改编字真实按键 当时人亲自出演 </p>
-<p>这导演之前是拍纪录片的 这个项目本来也想拍成纪录片 后来觉得题材好 就改成故事片了 但问题也就处在这 纪录片改成了故事片 依然还是拿真实来当卖点 然后有人去翻了当年的案件 发现并没有加报 夫妻关系也还过得去 就是因为生活摩擦 女方过时杀人判了十年 一个过时杀人的案子 被包装成反抗压迫的女性史识 当时人出育之后 还成了直播网红 明理双收 网友们肯定接受不了 甚至还有人上升到 挑战司法公信力 在一查 拍摄过程确实有不合规的地方 这下舆论就彻底炸了 结局大家都看到了 明星切割 撤档有关部门介入 这部电影的命运 其实就是这个时代 舆论生态的一个缩影 这部电影真正想讲的主题是什么 是行满释放人员 重新融入社会的艰难 但现在所有人在炒什么 在炒男女对立 </p>
-<p>那些真正的社会议题 比如黄土婆村的事情 就这么被沿默了 另外 刚刚还有个新闻 也就一块说了 中美经贸错商初步成果 今天公布了更多细节 中国商务部发言人一共谈及了 八个方面的成果 其中西土部分引人注目 记者问 美国白宫网站上说 中国将解决 美国关于西土及关键 矿产供应链短缺的关切 中方对此有何评论 商务部回应说 中国衣法衣规实施出口管制 对何规 民用的许可申请予以审核 市场一听 立刻堵懂了 这是有限放行利益色 而比西土更重要的 是中美全局性的关税如何安排 商务部透露了一个重要信息 双方正在推动级龙坡 经贸错商连和安排延期 这里有个背景要说一下 去年四月 美国对中国发动新一轮关税站 打得很激烈 后来在去年10月的 级龙坡错商里 达成了一个协议 暂停关税站 </p>
-<p>有效期一年 今年11月10日到7 今天商务部透露 双方正在讨论 把安排延期 也算是在给市场吃定心完 另外 双方正在协商 把部分商品关税 降低到 使用最会果税率 甚至更低的水平 第一批的规模是各三百亿美元 估计都是生活必须品 所以这笔账大概是这么算的 整体关税部长 部分关税还要降 这是美国拿出来的交换条件 而中国在西土出口管制上 做出有限松动 是中国这边给出的回应 不过 还有一个领域 商务部一个自媒体 那就是芯片和半导体 这说明这块应该还在谈 还没到能公布的阶段 双方分歧还是比较大的</p>
-</div>
