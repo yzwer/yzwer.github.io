@@ -49,6 +49,9 @@ hasCJKLanguage = true
 [params.like]
   enable = true
 
+[params.tts]
+  enable = true
+
 [params.comment]
   [params.comment.valine]
     enable = true

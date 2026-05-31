@@ -1,0 +1,22 @@
+{{- $tts := (.Scratch.Get "params").tts | default dict -}}
+{{- if $tts.enable -}}
+<div class="post-tts" id="post-tts">
+    <div class="tts-controls">
+        <button class="tts-btn" id="tts-btn" title="朗读文章">
+            <i class="tts-icon fas fa-volume-up"></i>
+            <span class="tts-label">朗读</span>
+        </button>
+        <button class="tts-stop" id="tts-stop" title="停止">
+            <i class="fas fa-stop"></i>
+        </button>
+        <span class="tts-indicator" id="tts-indicator"></span>
+    </div>
+    <div class="tts-speeds">
+        <span class="tts-speed-label">语速:</span>
+        {{- $speeds := slice 0.75 1 1.25 1.5 1.75 2 -}}
+        {{- range $speeds -}}
+        <button class="tts-speed" data-rate="{{ . }}">{{ . }}x</button>
+        {{- end -}}
+    </div>
+</div>
+{{- end -}}
