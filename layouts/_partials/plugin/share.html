@@ -1,0 +1,60 @@
+{{- $share := (.Scratch.Get "params").share | default dict -}}
+
+{{- if $share.enable -}}
+    {{- /* 001: Weibo */ -}}
+    {{- if $share.Weibo -}}
+        <a href="javascript:void(0);" title="{{ T `shareOn` }} 微博" data-sharer="weibo" data-url="{{ .Permalink }}" data-title="{{ .Title }}"{{ with .Params.featuredImage }} data-image="{{ . }}"{{ end }}{{ with .Site.Params.Social.Weibo }} data-ralateuid="{{ . }}"{{ end }}>
+            {{- dict "Class" "fab fa-weibo" | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+
+    {{- /* 002: QQ */ -}}
+    {{- if $share.QQ -}}
+        <a href="https://connect.qq.com/widget/shareqq/index.html?url={{ .Permalink | urlquery }}&title={{ .Title | urlquery }}&summary={{ .Description | urlquery }}" target="_blank" title="分享到 QQ">
+            {{- dict "Class" "fab fa-qq" | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+
+    {{- /* 003: WeChat */ -}}
+    {{- if $share.Wechat -}}
+        <a href="javascript:void(0);" title="分享到微信" onclick="showWechatModal('{{ .Permalink | safeURL }}')">
+            {{- dict "Class" "fab fa-weixin" | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+
+    {{- /* 004: Telegram */ -}}
+    {{- if $share.Telegram -}}
+        <a href="https://t.me/share/url?url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank" title="{{ T `shareOn` }} Telegram">
+            {{- dict "Class" "fab fa-telegram" | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+
+    {{- /* 005: Baidu */ -}}
+    {{- if $share.Baidu -}}
+        <a href="javascript:void(0);" title="{{ T `shareOn` }} 百度" data-sharer="baidu" data-url="{{ .Permalink }}" data-title="{{ .Title }}">
+            {{- dict "Simpleicons" "baidu" "Prefix" (.Scratch.Get "cdn" | default dict).simpleIconsPrefix | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+
+    {{- /* 006: X (Twitter) */ -}}
+    {{- if $share.X | default $share.Twitter -}}
+        {{- $socialX := .Site.Params.Social.X | default .Site.Params.Social.Twitter -}}
+        {{- if reflect.IsMap $socialX -}}
+            {{- $socialX = $socialX.id -}}
+        {{- end -}}
+        <a href="javascript:void(0);" title="{{ T `shareOn` }} X" data-sharer="x" data-url="{{ .Permalink }}" data-title="{{ .Title }}"{{ with $socialX }} data-via="{{ . }}"{{ end }}{{ with .Params.tags }} data-hashtags="{{ delimit . `,` }}"{{ end }}>
+            {{- dict "Class" "fab fa-x-twitter" | partial "plugin/icon.html" -}}
+        </a>
+    {{- end -}}
+{{- end -}}
+
+{{- /* WeChat QR code modal */ -}}
+{{- if $share.Wechat -}}
+<div id="wechat-modal" class="wechat-modal" style="display:none;" onclick="closeWechatModal(event)">
+    <div class="wechat-modal-content">
+        <span class="wechat-modal-close" onclick="closeWechatModal()">&times;</span>
+        <p style="margin-bottom:12px;font-size:15px;color:#333;">微信扫一扫分享本文</p>
+        <div id="wechat-qr"></div>
+    </div>
+</div>
+{{- end -}}

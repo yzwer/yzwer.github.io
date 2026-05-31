@@ -35,6 +35,20 @@ hasCJKLanguage = true
 [params.search]
   enable = false
 
+[params.share]
+  enable = true
+  Weibo = true
+  Baidu = true
+  Telegram = true
+  Wechat = true
+  QQ = true
+  # Disable platforms not relevant for Chinese users
+  Twitter = false
+  Facebook = false
+
+[params.like]
+  enable = true
+
 [params.comment]
   [params.comment.valine]
     enable = true
