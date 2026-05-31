@@ -1,8 +1,8 @@
 ---
-title: "视频分析_o-S-ibIBvrk"
+title: "黄金投资者必看：金价震荡背后的资金结构之变"
 date: 2026-05-24
 draft: false
-description: "基于YouTube视频内容整理"
+description: "黄金剧烈波动，避险属性失灵？深度分析资金结构变化如何重塑黄金定价逻辑"
 tags:
   - "本文不包含任何商业推广内容"
 ---
@@ -75,7 +75,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">本文不包含任何商业推广内容</div>
-<div class="ct-title">视频分析_o-S-ibIBvrk</div>
+<div class="ct-title">黄金投资者必看：金价震荡背后的资金结构之变</div>
 <div class="ct-sub">基于YouTube视频内容整理</div>
 </div>
 </div>

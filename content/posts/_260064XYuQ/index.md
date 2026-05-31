@@ -1,8 +1,8 @@
 ---
-title: "视频分析__260064XYuQ"
+title: "房地产股逆势爆发：城市更新15条规划如何点燃市场"
 date: 2026-05-30
 draft: false
-description: "基于YouTube视频内容整理"
+description: "2026年5月29日A股房地产板块逆势大涨，国务院城市更新15条规划释放了什么信号？"
 tags:
   - "本文不包含任何商业推广内容"
 ---
@@ -75,7 +75,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">本文不包含任何商业推广内容</div>
-<div class="ct-title">视频分析__260064XYuQ</div>
+<div class="ct-title">房地产股逆势爆发：城市更新15条规划如何点燃市场</div>
 <div class="ct-sub">基于YouTube视频内容整理</div>
 </div>
 </div>
