@@ -1,8 +1,8 @@
 ---
-title: "视频分析_oDq9hCzzEng"
+title: "美伊协议拉扯中的伊朗普通人：一位中产女性的战争实录"
 date: 2026-05-29
 draft: false
-description: "基于YouTube视频内容整理"
+description: "美伊核协议谈判进入关键时刻，伊朗普通人在战争阴影下的真实生活"
 tags:
   - "本文不包含任何商业推广内容"
 ---
@@ -75,7 +75,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <div class="cover">
 <div class="ct">
 <div class="ct-tag">本文不包含任何商业推广内容</div>
-<div class="ct-title">视频分析_oDq9hCzzEng</div>
+<div class="ct-title">美伊协议拉扯中的伊朗普通人：一位中产女性的战争实录</div>
 <div class="ct-sub">基于YouTube视频内容整理</div>
 </div>
 </div>
