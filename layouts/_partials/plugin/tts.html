@@ -1,4 +1,4 @@
-{{- $tts := (.Scratch.Get "params").tts | default dict -}}
+{{- $tts := .Site.Params.tts | default dict -}}
 {{- if $tts.enable -}}
 <div class="post-tts" id="post-tts">
     <div class="tts-controls">

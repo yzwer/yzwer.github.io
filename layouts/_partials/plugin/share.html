@@ -1,4 +1,4 @@
-{{- $share := (.Scratch.Get "params").share | default dict -}}
+{{- $share := .Site.Params.share | default dict -}}
 
 {{- if $share.enable -}}
     {{- /* 001: Weibo */ -}}

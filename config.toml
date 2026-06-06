@@ -53,6 +53,7 @@ hasCJKLanguage = true
   enable = true
 
 [params.comment]
+  enable = true
   [params.comment.valine]
     enable = true
     appId = "l6jCjqeyLVrAi7qY4I1MGcLp-gzGzoHsz"

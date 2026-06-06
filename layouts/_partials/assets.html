@@ -85,7 +85,7 @@
 {{- end -}}
 
 {{- /* Sharer.js */ -}}
-{{- if $params.share.enable -}}
+{{- if .Site.Params.share.enable -}}
     {{- $source := $cdn.sharerJS | default "lib/sharer/sharer.min.js" -}}
     {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 {{- end -}}
@@ -214,17 +214,15 @@
 {{- end -}}
 
 {{- /* Custom interact CSS */ -}}
-{{- $like := $params.like | default dict -}}
-{{- $tts := $params.tts | default dict -}}
+{{- $like := .Site.Params.like | default dict -}}
+{{- $tts := .Site.Params.tts | default dict -}}
 {{- if or $like.enable $params.share.enable $tts.enable -}}
-    {{- $interactCSS := resources.Get "css/interact.css" | resources.Minify | resources.Fingerprint -}}
-    {{- dict "Source" $interactCSS.RelPermalink "Fingerprint" false | dict "Scratch" .Scratch "Data" | partial "scratch/style.html" -}}
+    {{- dict "Source" "css/interact.css" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/style.html" -}}
 {{- end -}}
 
 {{- /* LeanCloud config for likes */ -}}
 {{- if $like.enable -}}
-    {{- $comment := .Scratch.Get "comment" | default dict -}}
-    {{- $valine := $comment.valine | default dict -}}
+    {{- $valine := .Site.Params.comment.valine | default dict -}}
     {{- $likeConfig := dict "appId" $valine.appId "appKey" $valine.appKey -}}
     {{- with $valine.serverURLs -}}
         {{- $likeConfig = dict "serverURLs" . | merge $likeConfig -}}
@@ -240,14 +238,12 @@
 
 {{- /* Custom interact JS */ -}}
 {{- if $like.enable -}}
-    {{- $interactJS := resources.Get "js/interact.js" | resources.Minify | resources.Fingerprint -}}
-    {{- dict "Source" $interactJS.RelPermalink "Fingerprint" false | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+    {{- dict "Source" "js/interact.js" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 {{- end -}}
 
 {{- /* TTS JS */ -}}
 {{- if $tts.enable -}}
-    {{- $ttsJS := resources.Get "js/tts.js" | resources.Minify | resources.Fingerprint -}}
-    {{- dict "Source" $ttsJS.RelPermalink "Fingerprint" false | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+    {{- dict "Source" "js/tts.js" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 {{- end -}}
 
 {{- with (.Scratch.Get "this").scriptArr -}}

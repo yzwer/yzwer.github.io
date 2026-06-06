@@ -1,4 +1,4 @@
-{{- $like := (.Scratch.Get "params").like | default dict -}}
+{{- $like := .Site.Params.like | default dict -}}
 {{- if $like.enable -}}
 <div class="post-like" id="post-like" data-url="{{ .RelPermalink }}">
     <button class="like-btn" id="like-btn" title="点赞">
