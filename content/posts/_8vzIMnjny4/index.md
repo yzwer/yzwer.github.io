@@ -1,0 +1,166 @@
+---
+title: "欧盟准备与中国\"开战\"：贸易博弈背后的攻防战"
+date: 2026-06-06
+draft: false
+description: "欧洲对中国，多年来一直是一种很矛盾的状态：一方面，欧洲需要中国的市场、中国的投资、中国的供应链；另一方面，欧洲又觉得中国是个\"系统性竞争对手\"，担心被中国的产能给淹没。"
+---
+
+{{< inline_style >}}
+.aw{max-width:960px;margin:0 auto;background:#fff}
+.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+.ct{position:relative;z-index:2;text-align:center;padding:40px}
+.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
+.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+
+
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
+.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
+.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
+.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
+.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.sb{border-radius:10px;padding:18px;text-align:center}
+.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
+.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
+.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
+.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
+.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
+.ct2 tr:nth-child(even) td{background:#f8f9fa}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+
+.container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 24px; }
+        h2 { color: #0066cc; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #0066cc; padding-left: 15px; }
+        p { margin-bottom: 20px; text-align: justify; }
+        .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }
+        ul { margin: 20px 0; padding-left: 30px; }
+        li { margin-bottom: 10px; }{{< /inline_style >}}
+<div class="aw">
+<div class="cover">
+<div class="ct">
+<div class="ct-title">欧盟准备与中国"开战"：贸易博弈背后的攻防战</div>
+<div class="ct-sub">欧洲对中国，多年来一直是一种很矛盾的状态：一方面，欧洲需要中国的市场、中国的投资、中国的供应链；另一方面，欧洲又觉得中国是个"系统性竞争对手"，担心被中国的产能给淹没。</div>
+</div>
+</div>
+</div>
+
+<div class="c">
+<div class="highlight">
+            <strong>核心提示：</strong>彭博社近日发文称"欧盟别无选择，只能准备与中国开战（贸易战）"。欧盟正准备对中国采取新的限制性措施。这场贸易博弈背后，是欧洲对中国从"又爱又怕"到"全面防御"的战略转向。
+        </div>
+</div>
+
+<!--more-->
+
+## 一、欧盟的"矛盾心态"：既要市场，又怕被淹没
+
+<div class="c">
+<p>欧洲对中国，多年来一直是一种很矛盾的状态：一方面，欧洲需要中国的市场、中国的投资、中国的供应链；另一方面，欧洲又觉得中国是个"系统性竞争对手"，担心被中国的产能给淹没。</p>
+        <p>这种"又爱又怕"的心态，已经维持了很多年。但现在，这个平衡正在被打破。</p>
+        <p>欧盟内部原来有两派：一派是强硬派，以法国为代表——马克龙一直主张对中国强硬，要保护欧洲产业；另一派是温和派，以德国为代表——德国企业与中国的合作深度，远超其他欧洲国家，无论大众、宝马还是巴斯夫，哪个在中国都有巨大的利益，所以德国一直倾向于"别把事情弄得太僵"。</p>
+        <p>但现在，德国也开始动摇了。德国开始说，要进入"战略防御状态"——意思是，他们要开始保护自己了。而德国一旦倒向强硬派，欧盟整体对华政策，势必就会全面收紧。</p>
+</div>
+
+## 二、中国企业已在欧洲感受到"明显敌意"
+
+<div class="c">
+<p>对于中国企业来说，这种敌意已经不是感觉，而是实打实的动作。</p>
+        <p>比亚迪在匈牙利赛格德新建的新能源车生产基地，欧盟直接去查，认为比亚迪从匈牙利政府那里拿了"不合理的补贴"。这个调查本身就是一种信号。</p>
+        <p>对于一些中国企业来说，原本东欧看起来是个出路——匈牙利、罗马尼亚这些国家，本来就相对落后，需要外部投资，中国企业去那边建厂，当地政府高兴还来不及。但欧盟也看穿了这个路子。</p>
+        <p>欧盟委员会现在专门调查"各国给中国投资提供补贴的情况"，担心多国政府用政府补贴，去资助中国企业，变相绕开欧盟的监管规则。欧盟的逻辑是：你匈牙利给比亚迪补贴，等于是拿欧盟给的转移支付，去帮中国企业降低成本，最后砸的是欧洲其他本土企业的饭碗。</p>
+</div>
+
+## 三、德国"防线"全面收紧：从投资审查到技术封锁
+
+<div class="c">
+<p>德国是欧洲最大的经济体，又和中国经济深度纠缠，德国的感受在很大程度上决定了欧盟的走向。</p>
+        <p>最近德国发生了几件事，很能说明问题：</p>
+        <ul>
+            <li><strong>2025年底</strong>：一家意大利能源企业SNAM，想入股德国天然气网络运营商"欧洲网关"。这本来是一笔正常的欧洲企业间的收购交易。但德国经济部查出来，SNAM背后有中国国家电网的股份——于是直接出手阻止了这笔交易。注意：中国国家电网只是SNAM的股东之一，并非直接收购德国企业，但德国还是把这笔交易给拦下来了。这说明德国对投资审查的口子，已经收得很紧了，而且还会继续收。</li>
+            <li><strong>风力发电设备</strong>：2025年8月，中国的明阳智能参与了德国近海风电项目的投标，经过好几轮竞标，合同都快出了，但最后德国政府变卦，说不用明阳的设备了。明阳之前还在德国四处找地方建工厂，结果工厂没落地，项目也没了。</li>
+        </ul>
+        <p>这些动作背后，是德国对中国投资的警惕全面升级。</p>
+</div>
+
+## 四、跨境电商：欧盟"重拳出击"
+
+<div class="c">
+<p>投资和收购方面，欧盟还需要克制一点（毕竟还需要中国的投资）。但对中国的出口，例如跨境电商，欧盟的出手就不留情了，直接"重拳出击"。</p>
+        <p><strong>今年5月</strong>：欧盟委员会根据《数字服务法》，对Temu（拼多多旗下的跨境电商平台）开出了两亿欧元的罚单，理由是"产品安全和合规问题"。</p>
+        <p>但这只是开始。欧盟说这个调查还会继续下去，如果发现更多问题，最高可以罚Temu全球年销售额的6%。Temu 2025年的全球营业额为530亿美元，6%就是超过30亿美元——这个数字足以让Temu在欧洲的发展策略"推倒重来"。</p>
+        <p>有意思的是，基于这个《数字服务法》，之前开出的第一张大额罚单，是给马斯克的X平台的，罚了1.2亿欧元。X也没办法，乖乖交了。现在轮到了Temu。这个法规正在成为欧盟管制外来平台的一把利器。</p>
+        <p>然后还有<strong>关税门槛的提高</strong>：从2026年7月1日起，来自Temu、SHEIN（希音）、AliExpress等平台的150元以下的小包裹，要额外缴纳3欧元的"处理费"和附加关税。这个针对的是这些平台长期依赖的"低价小包裹免税漏洞"——以前这些平台的货，会拆成一个个小包裹，走免税的口子，现在欧盟把这个口子堵上了。</p>
+</div>
+
+## 五、京东收购Ceconomy：一笔被"按住"的交易
+
+<div class="c">
+<p>然后还有京东收购德国零售巨头Ceconomy这件事，最近也出了问题。</p>
+        <p>德国本来已经批准了，结果奥地利出来说"不行，要单独审查"。然后欧盟委员会直接介入，启动调查，规定在10月1日之前，收购工作"实质性暂停"。</p>
+        <p>一笔正在推进的企业收购，就这样硬生生被按住了。</p>
+        <p>这一系列动作的背后，是欧盟对中国资本收购欧洲战略性资产的警惕——零售渠道、基础设施、能源网络，这些都被视为"不能随便卖给中国"的领域。</p>
+</div>
+
+## 六、欧盟的"阳谋"：用规则逼中国技术转移
+
+<div class="c">
+<p>说了很多欧盟打压中国企业的事，有一点很重要：欧盟并不是完全不要中国的投资——它要的是"特定形式"的投资。</p>
+        <p>2025年，中国对欧投资同比增长67%，达到168亿欧元，创下2018年以来的最高水平。其中<strong>绿地投资</strong>（就是在欧洲直接新建生产基地，而不是收购现有企业）接近90亿欧元，比2024年增长了51%。</p>
+        <p>所谓"绿地投资"，就是在欧洲直接新建生产基地。欧盟委员会觉得，这正是他们强硬政策的成果——"我对你的进口加关税，你在欧洲卖产品就会增加成本，那你为了规避关税，就会选择在欧洲本地建工厂"。工厂建了，能带来就业，也带来了税收。</p>
+        <p>最明显的一个例子就是：欧盟对中国进口电动车加征"保护性关税"，所以中国整条电动车产业链，开始在欧洲落地——</p>
+        <ul>
+            <li>奇瑞在西班牙巴塞罗那自由贸易区，接管了日产废弃的工厂，开始生产电动车；</li>
+            <li>中创新航和远景能源，在葡萄牙建电池工厂；</li>
+            <li>宁德时代在匈牙利，建了欧洲最大的电池生产基地；</li>
+            <li>国轩高科去了斯洛伐克，带去了当地几乎史上最大的单笔投资；</li>
+            <li>极氪可能会收购福特在西班牙的部分资产。</li>
+        </ul>
+        <p>伴随着这些工厂，中国的供应链和物流公司也跟着来了。中远海运最近拿下了"巴塞罗那以南100公里的塔拉戈纳港口"的经营权——而这个港口，离奇瑞的西班牙工厂，不到100公里。</p>
+        <p>就在这几年，欧洲那些闲置的旧工厂、老码头，逐渐成为"中国制造"的配套设施。</p>
+        <p>但欧盟想要的，可不只是工厂落地——它真正想要的，是<strong>技术转移</strong>。</p>
+        <p>这个套路，欧洲以前对日本和韩国用过。上世纪80年代，日本车企在欧洲建厂，条件之一就是"必须把技术带过来，必须用本地供应商，必须培训本地工匠"。</p>
+        <p>其实中国在90年代，也干过同样的事。当年外国车企想进入中国汽车市场，没那么容易——中国开的条件是：你要来，就必须把发动机技术和整车制造技术一起带过来，必须在中国建技术研发中心，必须搞本土化的工匠培训。大众、通用、丰田，一个个都是这么进来的。中国用"市场准入"换来了技术转移，用市场换来了工业学习的机会。几十年下来，中国汽车工业从完全依赖外资技术，到今天能造出自己的电动车，卖到全世界。</p>
+        <p>所以欧盟现在打的这张牌，中国人其实很熟悉——只不过这次，攻守意味完全反过来了：是欧盟用规则逼中国，做同样的事。</p>
+        <p>这个轮回，多少带点讽刺。</p>
+</div>
+
+## 七、德国的两难：企业想留，政府要防
+
+<div class="c">
+<p>想要理解欧洲现在这种态度，可以先从德国的处境来看——因为德国是欧洲最大的经济体，又和中国经济的深度纠缠，德国的感受在很大程度上决定了欧盟的走向。</p>
+        <p>2025年，中国超过美国，成为德国最大的贸易伙伴。双边贸易额2500亿欧元。听起来好像德中关系密切，但问题在于这里面结构——德国对中国的贸易逆差将近900亿美元。算下来，每天逆差2.5亿欧元。一个高度依赖出口的制造业强国，每天在最大贸易伙伴那里亏2.5亿——这个压力是非常大的。</p>
+        <p>更让德国人坐不住的，是德国传统优势行业的出口顺差，正在快速萎缩：</p>
+        <ul>
+            <li><strong>机械行业</strong>：德国对中国的出口顺差，2018年是105亿欧元，到2025年只剩28亿欧元了。7年缩水了将近75%。</li>
+            <li><strong>汽车行业</strong>：更惨。2022年是历史高点——德国汽车及零部件卖给中国300亿欧元。到2025年只剩136亿欧元了。而且2025年比2024年，直接下降了10%。出口崩塌就发生在这1-2年之间。</li>
+        </ul>
+        <p>有人算过：德国对中国出口额的整体下降，有75%是汽车产业拖累的。汽车是德国的命根子——大众、宝马、奔驰、博世——这套产业链，撑起了德国南部大片地区的就业和经济。现在汽车对华出口腰斩，德国人自然开始慌了。</p>
+        <p>德国经济研究所（IWK）专门做了量化研究，说"中国出口冲击正在重创德国汽车工业"，用了一个词叫<strong>"中国冲击波"</strong>。这个词本来是美国MIT的经济学家奥托尔教授在2013年发明的，用来形容中国制造的崛起，对美国各州造成的冲击——比如中国纺织品涌入，把美国北卡罗来纳州的纺织小镇冲垮了；中国家具涌入，把密西西比州的家具产业给淹没了。现在德国媒体和智库，把这个词又拾起来用，暗示的是：德国南部的汽车重镇，可能会成为"下一个底特律"。</p>
+        <p>这种叙事非常有煽动性。德国人一听到"底特律"，就懂了。大家都知道，那是一个曾经辉煌的工业城市，如何一步步走向衰败的故事。没有人愿意看着慕尼黑和斯图加特变成那样。</p>
+</div>
+
+## 八、中国的反制：供应链合规的"两难困局"
+
+<div class="c">
+<p>总体来看，全球贸易正在出现一个"大陆板块相互撞击"的新时期。美中两个国家的贸易战，已经产生了明显的溢出效应，重塑了中欧的经济关系。欧洲针对中资企业的敌意，就像导火线一样四处蔓延，四处燃起"战火"。关税壁垒、补贴调查、《数字服务法》、《外国补贴条例》、《供应链法案》等多重旗下，欧洲的防御机制，正从"单点反击"转向"全覆盖行业"的"软装甲式防御"。</p>
+        <p>中国企业在欧洲，无论是出口还是投资，都碰到了四处可见的政策篱笆锁。而且接下来这段时间，大概率还是只能这样艰难地往前行进。</p>
+        <div class="highlight">
+            <p><strong>结语：</strong>欧盟对中国从"接触合作"转向"战略防御"，背后是德国汽车出口崩塌、贸易逆差扩大、以及欧洲对中国产能过剩的深度焦虑。欧盟用关税、补贴调查、数字服务法、投资审查等多重工具，试图逼中国在欧洲做技术转移、用本地供应链——这套路，中国人其实再熟悉不过。只不过这次，攻守易势了。</p>
+            <p>接下来，中欧贸易博弈还会继续升温。中国企业需要习惯在欧洲"带着镣铐跳舞"的新常态。</p>
+        </div>
+</div>
