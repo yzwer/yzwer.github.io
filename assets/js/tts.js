@@ -34,7 +34,19 @@
 
     function findChineseVoice() {
         var voices = syn.getVoices();
-        // Prefer zh-CN, fallback to any zh
+        // Neural voice names (Windows/Mac) that sound natural
+        var preferred = ['Xiaoxiao', 'Yunxi', 'Yunjian', 'Xiaochen', 'Xiaohan',
+                         'Xiaomeng', 'Xiaoshuang', 'Xiaoyan', 'Xiaoyou',
+                         'Yunyang', 'Yunze', 'Zhiyu', 'Tingting', 'Samantha'];
+        // 1) Try to find a zh voice matching a preferred name
+        for (var i = 0; i < preferred.length; i++) {
+            var v = voices.find(function (vx) {
+                return vx.lang.startsWith('zh') &&
+                       vx.name.indexOf(preferred[i]) !== -1;
+            });
+            if (v) return v;
+        }
+        // 2) Prefer zh-CN, fallback to any zh
         var v = voices.find(function (v) { return v.lang === 'zh-CN'; })
               || voices.find(function (v) { return v.lang.startsWith('zh'); });
         return v || null;
