@@ -1,0 +1,305 @@
+---
+title: "以色列与真主党的恩怨 - 从1982年到\"国中之国\"的崛起"
+date: 2026-06-25
+draft: false
+description: "接下来这几十年，真主党就是在和以色列的反复较量中，一点点壮大起来的："
+---
+
+{{< inline_style >}}
+.aw{max-width:960px;margin:0 auto;background:#fff}
+.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+.ct{position:relative;z-index:2;text-align:center;padding:40px}
+.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
+.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+
+
+.c p{margin-bottom:18px;font-size:16px;text-align:justify}
+.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
+.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
+.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
+.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
+.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
+.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
+.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
+.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.sb{border-radius:10px;padding:18px;text-align:center}
+.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
+.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
+.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
+.sc h4{font-size:18px;margin-bottom:16px}
+.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
+.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
+.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
+.ft{text-align:center;padding:24px;color:#999;font-size:13px}
+.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
+.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
+.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
+.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
+.ct2 tr:nth-child(even) td{background:#f8f9fa}
+.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+
+.container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #1e3a8a;
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 15px;
+        }
+        
+        h2 {
+            color: #1e40af;
+            font-size: 22px;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            padding-left: 15px;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        p {
+            margin-bottom: 18px;
+            text-align: justify;
+            font-size: 16px;
+        }
+        
+        .highlight-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        
+        .highlight-box strong {
+            color: #92400e;
+        }
+        
+        strong {
+            color: #1e3a8a;
+            font-weight: 600;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e7eb;
+            text-align: center;
+            color: #6b7280;
+            font-size: 14px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 19px;
+            }
+        }{{< /inline_style >}}
+<div class="aw">
+<div class="cover">
+<div class="ct">
+<div class="ct-title">以色列与真主党的恩怨 - 从1982年到"国中之国"的崛起</div>
+<div class="ct-sub">接下来这几十年，真主党就是在和以色列的反复较量中，一点点壮大起来的：</div>
+</div>
+</div>
+</div>
+
+<div class="c">
+<h1>🔵 以色列与真主党的恩怨<br>从1982年黎巴嫩战争到"国中之国"的崛起</h1>
+</div>
+
+<!--more-->
+
+## 一、真主党：黎巴嫩的"国中之国"
+
+<div class="c">
+<p>真主党（Hezbollah），阿拉伯语意为"上帝党"，是黎巴嫩的<strong>什叶派伊斯兰政治军事组织</strong>，背后站着的是<strong>伊朗</strong>。这个组织被美国、以色列以及欧盟一部分成员国列为恐怖组织，但在黎巴嫩国内，它的政治影响力和社会服务网络铺得相当广。</p>
+        
+        <p>除武装活动外，真主党还经营着医院、学校、文化中心、诊所和建筑公司等社会事业，甚至还有自己的经济与金融渠道，<strong>独立于黎巴嫩国家银行系统</strong>。所以黎巴嫩人常常管它叫<strong>"国中之国"</strong>——因为它嵌入黎巴嫩国家结构内，却独立运作，不完全服从中央政府，甚至能左右国家决策。</p>
+        
+        <div class="highlight-box">
+            <strong>⚠️ 核心提示：</strong>真主党不是一个普通的民兵组织，而是一个拥有完整社会服务体系、独立武装和金融体系的政治军事实体，其影响力已深入黎巴嫩国家肌理。
+        </div>
+</div>
+
+## 二、1982年：真主党的诞生之年
+
+<div class="c">
+<p>真主党是怎么冒出来的？这还得从<strong>1982年</strong>说起。那一年，黎巴嫩内战已经打了七年，国家四分五裂。叙利亚的军队在北边，马龙派控制着沿海地区，南边几块飞地，被激进派穆斯林和巴勒斯坦解放组织占着。</p>
+        
+        <p>就在这一年的<strong>6月6日</strong>，以色列借口伦敦的以色列大使被刺杀，大举入侵黎巴嫩，史称<strong>第一次黎巴嫩战争</strong>。以色列一开始便猛烈袭击，<strong>上万发炮弹和炸弹砸下去</strong>，死伤五百多人。但这只是个序幕。</p>
+        
+        <p>接下来几天，以色列地面部队<strong>两万多人</strong>涌进黎巴嫩南部，后续陆陆续续进来<strong>十几万大军</strong>。短短几天之内，叙利亚的防空导弹基地几乎被打成了筛子——<strong>二十多个萨姆六导弹基地、三个萨姆九导弹基地、八十二架战斗机全没了</strong>，而以色列自己只损失了<strong>九架飞机</strong>，就把制空权拿到手了。</p>
+        
+        <p>以色列军队一路打到首都贝鲁特，占了黎巴嫩<strong>四分之一的国土</strong>。这场仗打到九月份，联合国维和部队进驻贝鲁特，巴解组织被迫撤离，总部搬到了突尼斯。<strong>一万两千名巴解队员</strong>分散到约旦、叙利亚、伊拉克这些阿拉伯国家，巴解组织基本上就这么退出了黎巴嫩这块舞台。</p>
+        
+        <div class="highlight-box">
+            <strong>📊 关键数据：</strong><br>
+            • 以色列投入兵力：<strong>10万+</strong><br>
+            • 叙利亚损失：<strong>82架战机、20+导弹基地</strong><br>
+            • 以色列损失：<strong>仅9架飞机</strong><br>
+            • 占领面积：黎巴嫩<strong>25%</strong>的国土
+        </div>
+</div>
+
+## 三、从抵抗民兵到第一大政党
+
+<div class="c">
+<p>这场战争对黎巴嫩什叶派来说，却是一道分水岭。以色列的入侵和占领，把南部什叶派民众的怒火彻底点燃了。而恰好就在这个时间点上，<strong>1979年伊朗刚刚发生伊斯兰革命</strong>，霍梅尼上台，什叶派的政治力量正处在一个对外输出革命热情最旺盛的阶段。</p>
+        
+        <p>伊朗革命卫队借着这个机会，派出了大概<strong>1500名卫队成员</strong>进入黎巴嫩，给钱给枪给训练，把当地原本零散的什叶派抵抗力量整合起来——这就是<strong>真主党的雏形</strong>。</p>
+        
+        <p>当时，黎巴嫩本来有<strong>20多个</strong>抵抗以色列的什叶派组织各自为战。两年之后这些组织合并，<strong>1984年开始用真主党这个名字</strong>，1985年正式发表声明对公开。真主党从一开始就不是单纯的民间武装，背后有伊朗的资金、武器、训练体系撑着，目标也很明确：<strong>抵抗以色列占领，在黎巴嫩建立伊斯兰共和国，反对西方影响，并且要消灭以色列</strong>。</p>
+        
+        <p>接下来这几十年，真主党就是在和以色列的反复较量中，一点点壮大起来的：</p>
+        
+        <p><strong>1990年</strong>，黎巴嫩内战结束，按照政府的决定，各派武装都要解除，唯独真主党以抗击以色列为理由，<strong>没有交出武器</strong>。伊朗从中斡旋，叙利亚点头，黎巴嫩政府也就默许了真主党在南部保留武装。</p>
+        
+        <p><strong>1992年</strong>，真主党的总书记穆萨维被炸身亡，<strong>哈桑·纳斯鲁拉接任总书记</strong>。也是从这一年起，真主党开始正式参加黎巴嫩的议会选举，从一个纯粹的武装组织，变成了一个既有枪杆子、又有选票的政治实体。</p>
+        
+        <p><strong>2000年</strong>，在长期游击战的消耗下，以色列从黎巴嫩南部撤军。真主党把这件事当成自己历史上<strong>最重大的胜利来宣传</strong>。</p>
+        
+        <p><strong>2005年</strong>，叙利亚也从黎巴嫩撤军，真主党趁着这个权力真空期，控制了黎巴嫩南部山区、东部山区贝卡谷地的一部分，还有首都贝鲁特南郊，<strong>正式成为黎巴嫩第一大政党</strong>。同一年，真主党成员第一次进入政府担任部长。</p>
+        
+        <p><strong>2006年</strong>，真主党绑架了两名以色列士兵，直接引爆了那一年的<strong>黎以战争</strong>。以色列对黎巴嫩南部展开猛烈轰炸，双方都说自己赢了，但实际上打成了平手。这场仗也让外界第一次真正意识到，<strong>真主党的军事能力已经远远超过了一般的民兵武装</strong>。</p>
+        
+        <div class="highlight-box">
+            <strong>🎯 时间线：真主党的崛起之路</strong><br>
+            <strong>1982年</strong>：以色列入侵黎巴嫩，什叶派抵抗力量萌芽<br>
+            <strong>1985年</strong>：真主党正式公开亮相<br>
+            <strong>1992年</strong>：纳斯鲁拉接任，开始参政<br>
+            <strong>2000年</strong>：以色列撤军，真主党宣称"胜利"<br>
+            <strong>2005年</strong>：成为黎巴嫩第一大政党<br>
+            <strong>2006年</strong>：黎以战争，展现实力
+        </div>
+</div>
+
+## 四、为什么以色列如此痛恨真主党？
+
+<div class="c">
+<p>让我们回到一开始的问题：以色列为什么这么恨真主党，恨到不惜任何代价也要铲除它？这事儿得从<strong>生存威胁的角度</strong>去理解。</p>
+        
+        <p>首先，真主党的章程和历年声明里，<strong>明确把消灭以色列写成核心目标之一</strong>，认为以色列是非法实体，必须通过圣战去抵抗。同时，真主党是<strong>伊朗"抵抗之弧"里最重要的一环</strong>，通过代理人战争的方式，把威胁直接顶到以色列北部边境的家门口。</p>
+        
+        <p>军事能力上，真主党手里握着<strong>大量短程火箭、精确导弹、无人机</strong>，还有<strong>错综复杂的地道网络</strong>，理论上可以覆盖以色列<strong>大片人口中心</strong>。这种打击能力<strong>比加沙的哈马斯要强出一大截</strong>。</p>
+        
+        <p>再加上真主党被指控在海外<strong>多次袭击犹太人和以色列目标</strong>（比如1990年代阿根廷的爆炸案），还长期向哈马斯等其他抵抗组织提供支持。对以色列来说，最现实的恐惧是：<strong>真主党有能力像2023年10月那样发动渗透式袭击，或者在未来的全面战争中，用饱和攻击的方式压垮以色列的防空系统</strong>。</p>
+        
+        <p>联合国虽然有决议要求真主党撤出边境、解除武装，但<strong>这些决议始终没有被真正执行过</strong>。所以以色列对真主党的敌意，本质上<strong>不是单纯的意识形态对立，还有实实在在的生存安全考量</strong>。</p>
+        
+        <div class="highlight-box">
+            <strong>🚨 以色列的核心担忧：</strong><br>
+            1. 真主党章程明确要<strong>消灭以色列</strong><br>
+            2. 拥有<strong>10万+枚火箭弹和导弹</strong>，可覆盖以色列全境<br>
+            3. 是伊朗"抵抗之弧"的<strong>最重要一环</strong><br>
+            4. 在海外多次袭击犹太人目标<br>
+            5. 联合国决议<strong>形同虚设</strong>，无法约束真主党
+        </div>
+</div>
+
+## 五、黎巴嫩：教派政治的迷宫
+
+<div class="c">
+<p>讲完了真主党和以色列这条线，咱们再把镜头拉回黎巴嫩这个国家本身，看看它目前的政治权力结构。</p>
+        
+        <p>黎巴嫩是个<strong>多教派国家</strong>，面积只有大概<strong>1.05万平方公里</strong>（与国内省级行政区比较的话，比重庆、北京小，比上海、天津大），人口大概<strong>530万</strong>。<strong>54%信伊斯兰教</strong>（主要是什叶派、逊尼派和德鲁兹派），<strong>46%信基督教</strong>（主要是马龙派、希腊东正教、罗马天主教和亚美尼亚东正教）。</p>
+        
+        <p>这里有一个特别值得说到的人口结构变化：<strong>1950年代的时候，马龙派为主的基督徒人口大概占黎巴嫩总人口的50%到55%，是绝对的人口多数</strong>。但是到了今天，<strong>什叶派占总人口的32.2%左右，逊尼派占31.2%左右</strong>，剩下的才是马龙派等基督徒。</p>
+        
+        <p>人口结构发生这么大的逆转，主要是两个原因：一个是<strong>马龙派等基督徒大量外迁移民</strong>，往欧美等地跑；另一个是<strong>什叶派的生育率一直比较高</strong>。</p>
+        
+        <p>黎巴嫩的<strong>政治制度完完全全是按照教派来分配权力的</strong>：</p>
+        
+        <p>• <strong>总统</strong>这个职位，规定必须由<strong>马龙派基督徒</strong>担任<br>
+        • <strong>总理</strong>这个职位，必须由<strong>逊尼派穆斯林</strong>担任<br>
+        • <strong>议长</strong>这个职位，必须由<strong>什叶派穆斯林</strong>担任</p>
+        
+        <p>黎巴嫩议会一共<strong>128个席位</strong>，基督徒始终占<strong>64席</strong>，穆斯林始终也占<strong>64席</strong>。这个比例是被<strong>严格锁死</strong>的，不管选举结果怎么变，教派之间的这个天平都不会动。</p>
+        
+        <p>结果就是：虽然今天黎巴嫩的基督徒已经不是人口多数了，但他们在议会里<strong>依然稳稳占着50%的席位</strong>。这种人口和权力的错位，让一部分黎巴嫩人开始呼吁宪法改革，但在可预见的未来，<strong>这类改革基本不可能成功</strong>。</p>
+        
+        <div class="highlight-box">
+            <strong>📌 黎巴嫩权力分配机制：</strong><br>
+            • 议会席位：<strong>128席（基督徒64席+穆斯林64席）</strong><br>
+            • 总统：马龙派基督徒（名义上最高统帅）<br>
+            • 总理：逊尼派穆斯林（实际行政权力最大）<br>
+            • 议长：什叶派穆斯林（权力相对较小）<br>
+            • <strong>这种分配比例被宪法锁定，不随人口变化而调整</strong>
+        </div>
+</div>
+
+## 六、深层逻辑：神权网络与民族国家体系的碰撞
+
+<div class="c">
+<p>说到这儿，咱们再往更深一层，聊聊真主党"伊朗代理人"的这个身份。</p>
+        
+        <p>现代国际关系的基础单元是<strong>主权国家</strong>，这套体系预设的是一种横向相互制衡的权力结构。在这个框架下，伊朗革命卫队、黎巴嫩真主党、也门胡塞武装、伊拉克人民动员力量，通常都被理解成<strong>伊朗伸出去的触手，是德黑兰的代理人</strong>。这个理解当然没错，它精准地描述了金钱、武器、技术是怎么从伊朗流进这些组织的。</p>
+        
+        <p>但是，这个理解<strong>漏掉了一个更深层的东	西</strong>：就是这个"抵抗之弧"的网络，<strong>究竟是靠什么自我强化、自我维系下去的</strong>？</p>
+        
+        <p>如果换一个<strong>政治神学</strong>的视角去看，这其实<strong>不是一个主权国家单方面在操控非国家行为体</strong>，而是一场<strong>跨国的什叶派伊斯兰复兴运动</strong>，借着现有的国家体系这个壳子在运作。</p>
+        
+        <p>这张网固然是用<strong>伊朗的石油美元搭建起来的</strong>，但是真正维系它的核心经脉，是<strong>"殉难与救赎"这套宗教叙事</strong>。从历史上卡尔巴拉战役中侯赛因的牺牲，到两伊战争里什叶派士兵的人海冲锋，再到叙利亚战场上什叶派民兵的跨国动员，贯穿始终的是一种<strong>"他们认为的对于不公的反抗，以及对神圣共同体的守护"</strong>。</p>
+        
+        <p>在这个政治网络里，当"苦难降临"的时候，彼此出手相助，靠的<strong>不是利益计算的战略投机，而是各自宗教合法性赖以存在的根基</strong>。</p>
+        
+        <p>所以，对于真主党而言，它存在的根本意义就在于<strong>"抵抗"</strong>。如果加沙或者德黑兰遭受"灭顶之灾"而无动于衷，它会在自己的支持者面前<strong>瞬间丧失道德权威，失去存在的正当性</strong>。</p>
+        
+        <p>同样道理，对伊朗革命卫队而言，"输出革命、保卫圣地"是它区别于世俗国防军、并且<strong>能够凌驾于后者之上的政治经济特权的神圣理由</strong>。当以色列的炸弹落在被称为真主党"圣殿"的达西耶地区，德黑兰决策势力回响的声音是：<strong>"兄弟在流血，共同体正在被切割。"</strong>在这种语境下，不做出反应，<strong>甚至会被视为一种叛教行为</strong>。</p>
+        
+        <div class="highlight-box">
+            <strong>💡 深层洞察：</strong>中东冲突的根源，不仅仅是领土、资源或地缘政治，更是一套<strong>基于宗教叙事的深层意义结构</strong>。这种结构使得表面的和平协议很难真正奏效，因为<strong>任何对"深层结构"的妥协，都会被视作对信仰的背叛</strong>。
+        </div>
+        
+        <p>这就注定了一件事：<strong>中东的战火会反反复复地爆发</strong>。伊朗世俗文官层面取得的初步谈判成果，往往很难得到这张神权网络的真正背书。在外界的理解框架里，这种现象常常被解读成<strong>"伊朗内部的矛盾，是温和派和强硬派的路线之争"</strong>，但是放在中东自身的逻辑里，这其实是<strong>"核心与边缘之间一种必然存在的张力"</strong>。</p>
+        
+        <p>文官系统负责管理的是<strong>"表层结构"里日常事务的运转</strong>，而神权网络守护的是<strong>"深层结构"里那套终极意义</strong>。一旦表层结构的妥协，威胁到了深层结构的合法性根基，<strong>后者会毫不犹豫地把前者否决掉</strong>。</p>
+        
+        <p>所以，即便伊朗最高领袖在某份协议上签字画押，也<strong>很可能只是一种战术性的"塔基亚"（Taqiyya）</strong>——也就是伊斯兰教里允许信徒在受迫害的处境下，对外掩饰真实信仰、做出表面妥协的原则。本质上是在力量悬殊的情况下，对异教徒摆出表面尊重的姿态而已。</p>
+        
+        <p>与此同时，<strong>代理人网络也未必会真正执行协议条款</strong>，因为这张网络里的每一个节点，都各自有一套属于自己的"反抗叙事"，谁也不会轻易放弃。这就使得<strong>在中东这片土地上，所谓的和平，往往只是动乱与动乱之间的一段间歇期</strong>。</p>
+        
+        <p>以色列其实是最清楚这一点的，因为它自己就长期生活在这场<strong>神学政治博弈的腹地</strong>，天天面对它的现实逻辑。但是这套深层逻辑，以色列却<strong>很难拿去说服它的西方盟友</strong>，毕竟西方的政治分析框架，习惯的还是<strong>"主权国家之间相互博弈"的那套语言</strong>。</p>
+</div>
+
+## 结语：恩怨难断，纠葛长存
+
+<div class="c">
+<p>那么今天关于以色列和黎巴嫩、真主党的那些事儿，咱们就先聊到这。</p>
+        
+        <p>从<strong>1982年那场改变整个黎巴嫩什叶派命运的入侵战争</strong>，到真主党几十年间一步步从地下民兵壮大成"国中之国"；从黎巴嫩国内基督教与伊斯兰教那套<strong>精密到席位都锁死的权利分配</strong>，最后落到这张<strong>跨国什叶派抵抗网络背后那套"殉难与救赎"的宗教逻辑</strong>……</p>
+        
+        <p>咱们能看到的是：<strong>这个地区的冲突，从来都不是一两份停火协议能彻底解决的</strong>。他们的恩怨纠纷，<strong>比我们想象的要复杂得多的多</strong>。</p>
+        
+        <div class="highlight-box">
+            <strong>🔍 核心结论：</strong><br>
+            以色列与真主党的冲突，表面上是<strong>国家与非国家行为体之间的安全对抗</strong>，实质上反映了<strong>现代民族国家体系与跨国宗教神权网络之间的深层张力</strong>。只要这套宗教叙事依然存在，只要"抵抗"依然是真主党存在的根本意义，那么<strong>任何试图通过传统外交手段实现持久和平的努力，都注定是脆弱的</strong>。
+        </div>
+        
+        <div class="footer">
+            <p>📖 本文根据视频内容整理生成</p>
+            <p>视频ID: wtb43tGENXk</p>
+            <p>© 2026 深度观察·中东系列</p>
+        </div>
+</div>
