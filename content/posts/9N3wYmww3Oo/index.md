@@ -1,6 +1,6 @@
 ---
 title: "北京朝阳红头执法骗局：21辆货车背后的黑色产业链"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "假冒执法骗局深度调查：货车司机遭遇的黑色产业链全揭示"
 ---
@@ -65,7 +65,6 @@ description: "假冒执法骗局深度调查：货车司机遭遇的黑色产业
         }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <div class="header">
             <h1>21辆货车"凭空消失"<br>一条黑色产业链如何吞噬物流业</h1>
@@ -181,4 +180,4 @@ description: "假冒执法骗局深度调查：货车司机遭遇的黑色产业
             本文基于视频转录内容整理生成 | 视频ID: 9N3wYmww3Oo
         </div>
     </div>
-</div>
+

@@ -1,6 +1,6 @@
 ---
 title: "工业利润增速18.8%的真相：AI和传统产业的极端分化"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "规模以上工业企业利润数据解读：产业分化的深层逻辑"
 ---
@@ -71,7 +71,6 @@ description: "规模以上工业企业利润数据解读：产业分化的深层
         }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <div class="header">
             <h1>工业利润增速18.8%背后<br>只有15个行业在赚钱，24个行业在失血</h1>
@@ -173,4 +172,4 @@ description: "规模以上工业企业利润数据解读：产业分化的深层
             本文基于视频转录内容整理生成 | 视频ID: 0GXrUF-DGsM
         </div>
     </div>
-</div>
+

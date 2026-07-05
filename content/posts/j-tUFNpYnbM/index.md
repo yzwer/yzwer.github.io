@@ -1,6 +1,6 @@
 ---
 title: "Meta出租算力引爆全球AI股暴跌，科创板跌7.7%"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "Meta出租算力引发全球AI板块恐慌：费城半导体指数跌6.27%，三星跌9%，科创板跌7.7%"
 ---
@@ -57,7 +57,6 @@ description: "Meta出租算力引发全球AI板块恐慌：费城半导体指数
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <h1>Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌</h1>
         <div class="meta">📅 2026年7月 · 🔔 科技股市场分析</div>
@@ -150,4 +149,4 @@ description: "Meta出租算力引发全球AI板块恐慌：费城半导体指数
             <p>这些问题不需要立刻有答案——因为怀疑本身，就已经在改变市场的游戏规则了。</p>
         </div>
     </div>
-</div>
+

@@ -1,6 +1,6 @@
 ---
 title: "日元跌破162：创1986年以来新低，日本央行11万亿干预打水漂"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "日元汇率危机深度分析：套利交易、LTCM幽灵、日美利差结构性矛盾"
 ---
@@ -56,7 +56,6 @@ description: "日元汇率危机深度分析：套利交易、LTCM幽灵、日�
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <h1>日元跌破162：创1986年以来新低！日本央行11万亿干预打水漂，全球套利资金正在引爆"定时炸弹"</h1>
         <div class="meta">📅 2026年7月5日 · 🔔 国际金融市场风险预警</div>
@@ -146,4 +145,4 @@ description: "日元汇率危机深度分析：套利交易、LTCM幽灵、日�
             <p>162不是终点。真正的问题不是日元还要贬多少，而是当它开始反转时，谁会是那个站着最后的人。</p>
         </div>
     </div>
-</div>
+

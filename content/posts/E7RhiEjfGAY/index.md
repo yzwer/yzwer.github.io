@@ -1,6 +1,6 @@
 ---
 title: "欧洲想要新广场协议？德国总理喊话人民币升值30%"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "德国总理默茨+欧央行行长拉加德推动人民币升值议题，欧洲对华经贸政策系统性升级"
 ---
@@ -58,7 +58,6 @@ description: "德国总理默茨+欧央行行长拉加德推动人民币升值�
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <h1>欧洲想要"新广场协议"？德国总理喊话人民币升值30%，中欧经贸风暴前夜</h1>
         <div class="meta">📅 2026年7月 · 🔔 国际经济深度分析</div>
@@ -152,4 +151,4 @@ description: "德国总理默茨+欧央行行长拉加德推动人民币升值�
             <p>对于每一个关心国际经济走向的人而言，2026年的这个夏天，值得被记住。因为从这里开始，很多事情可能就不再一样了。</p>
         </div>
     </div>
-</div>
+

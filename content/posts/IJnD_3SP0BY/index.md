@@ -1,6 +1,6 @@
 ---
 title: "求是6000字雄文：官方首次承认房地产压垮消费"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "求是杂志重磅文章解读：提振消费政策的深层逻辑与房地产的历史转折"
 ---
@@ -64,7 +64,6 @@ description: "求是杂志重磅文章解读：提振消费政策的深层逻辑
         }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <div class="header">
             <h1>求是杂志6000字雄文<br>当官方首次承认"房地产压垮了消费"</h1>
@@ -161,4 +160,4 @@ description: "求是杂志重磅文章解读：提振消费政策的深层逻辑
             本文基于视频转录内容整理生成 | 视频ID: IJnD_3SP0BY
         </div>
     </div>
-</div>
+

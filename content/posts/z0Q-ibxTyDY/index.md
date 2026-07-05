@@ -1,6 +1,6 @@
 ---
 title: "端午节港股暴跌：从中东到莫斯科，三线战争升级冲击市场"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "端午节期间全球局势与港股市场波动分析"
 ---
@@ -63,7 +63,6 @@ description: "端午节期间全球局势与港股市场波动分析"
         }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <div class="header">
             <h1>端午节全球杀跌<br>从也门到莫斯科，三场战争同时升级</h1>
@@ -159,4 +158,4 @@ description: "端午节期间全球局势与港股市场波动分析"
             本文基于视频转录内容整理生成 | 视频ID: z0Q-ibxTyDY
         </div>
     </div>
-</div>
+

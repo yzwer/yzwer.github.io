@@ -1,6 +1,6 @@
 ---
 title: "普京命运攸关讲话：乌克兰无人机能力跃迁改变战场规则"
-date: 2026-07-05T11:22:11+08:00
+date: 2026-07-05T11:26:59+08:00
 draft: false
 description: "普京最新讲话分析：俄罗斯的战略处境与战争的深层逻辑"
 ---
@@ -60,7 +60,6 @@ description: "普京最新讲话分析：俄罗斯的战略处境与战争的深
         }
 {{< /inline_style >}}
 
-<div class="container">
 <div class="container">
         <div class="header">
             <h1>普京喊出"命运攸关"<br>俄罗斯正在经历什么？</h1>
@@ -173,4 +172,4 @@ description: "普京最新讲话分析：俄罗斯的战略处境与战争的深
             本文基于视频转录内容整理生成 | 视频ID: wECTtPHwm1A
         </div>
     </div>
-</div>
+
