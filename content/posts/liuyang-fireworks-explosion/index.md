@@ -5,54 +5,167 @@ draft: false
 description: "2026年5月4日华盛烟花厂爆炸事故完整还原"
 tags: ["深度调查", "安全生产", "浏阳烟花"]
 ---
-{{< inline_style >}}.aw{max-width:680px;margin:0 auto;background:#fff}
-.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.ct{position:relative;z-index:2;text-align:center;padding:40px}
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{padding:30px 24px 40px}
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.st{display:flex;align-items:center;margin:36px 0 18px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.stx{font-size:20px;font-weight:700;color:#1a1a1a}
-.hl{background:linear-gradient(to top,rgba(255,200,0,.25) 40%,transparent 40%);padding:0 2px;font-weight:600}
-.hr{background:linear-gradient(to top,rgba(231,76,60,.2) 40%,transparent 40%);padding:0 2px;font-weight:600;color:#c0392b}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'2';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.tl{position:relative;padding-left:28px;margin:24px 0}
-.tl::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#e74c3c,#3498db)}
-.ti{position:relative;margin-bottom:20px}
-.ti::before{content:'';position:absolute;left:-24px;top:6px;width:12px;height:12px;background:#e74c3c;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 2px #e74c3c}
-.td{font-size:13px;color:#e74c3c;font-weight:700;margin-bottom:4px}
-.tx{font-size:15px;color:#444;line-height:1.7}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sb h5{font-size:15px;margin-bottom:8px}
-.sp h5{color:#c62828}
-.sr h5{color:#e65100}
-.sb p{font-size:14px;color:#555;margin:0;line-height:1.8}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'¹3';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}{{< /inline_style >}}
+
+{{< inline_style >}}
+/* 主题's .content 内文章内容样式 */
+/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+
+/* 子标题 */
+h2 {
+    font-size: 20px;
+    color: #1a3a5c;
+    margin: 30px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f8;
+    font-weight: 600;
+}
+
+h2:first-child { margin-top: 0; }
+
+/* 段落 */
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* 高亮框 */
+div.highlight-box {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.highlight-box p {
+    margin: 0;
+    color: #5d4e00;
+    font-weight: 500;
+}
+
+div.highlight-blue {
+    background: #e3f2fd;
+    border-left: 4px solid #1565c0;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.highlight-blue p {
+    margin: 0;
+    color: #0d47a1;
+}
+
+/* 数据网格 */
+div.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.data-card {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.data-card .number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.data-card .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* 数据框 */
+div.data-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #e9ecef;
+}
+
+.data-box h3 {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 12px;
+}
+
+/* 警告框 */
+div.warning-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.warning-box strong { color: #856404; }
+
+/* 步骤框 */
+div.step-box {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.step-box .step-title { font-weight: 700; color: #0d47a1; }
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table tr:last-child td { border-bottom: none; }
+
+/* 强调 */
+strong { color: #1565c0; }
+
+span.warning { color: #c62828; font-weight: 600; }
+
+/* 分割线 */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    margin: 30px 0;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    div.data-grid { grid-template-columns: 1fr; }
+    h2 { font-size: 18px; }
+    p { font-size: 15px; }
+}
+
+{{< /inline_style >}}
+
 <style>
 .aw{max-width:680px;margin:0 auto;background:#fff;font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#333;line-height:1.8;font-size:16px}
 .cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
@@ -104,14 +217,7 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 .tl2{font-weight:700;color:#2c3e50;text-align:left!important}
 </style>
 
-<div class="aw">
-<div class="cover">
-<div class="ct">
-<div class="ct-tag">深度调查</div>
-<div class="ct-title">屡查屡犯、终酿惨剧<br>湖南浏阳烟花厂爆炸37人遇难</div>
-<div class="ct-sub">2026年5月4日华盛烟花厂爆炸事故完整还原</div>
-</div>
-</div>
+
 <div class="c">
 
 <div class="lead">
@@ -120,13 +226,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 <p>爆炸发生几天后，村子依然没能平静下来。空气中弥漫着烧焦的气味，路两旁散落着铁皮、玻璃碎片和炸裂的瓦片。</p>
 
-
 <!-- 1 -->
 
-
-## <span class="sn">1</span>蘑菇云升起的那一刻
-
-
+<h2><span class="sn">1</span>蘑菇云升起的那一刻</h2>
 
 <p>现场视频拍下了爆炸的瞬间——空中升起几百米高的白色蘑菇云，冲击波把周围十多个车间直接夷为平地。燃烧着的爆竹残片、纸板，还有被炸飞的大铁板，全部被冲击波卷向周边村庄。</p>
 
@@ -134,13 +236,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 <p>爆炸发生时，村民感觉连地面都在震动，有人形容"像地震一样"。有屋顶被炸飞的铁板直接砸穿，还有厂房的钢梁被掀进了村子。</p>
 
-
 <!-- 2 -->
 
-
-## <span class="sn">2</span>废墟中的村庄
-
-
+<h2><span class="sn">2</span>废墟中的村庄</h2>
 
 <p>记者进入田交村时，空气里还有烧焦的气味，路两边散落着铁皮、玻璃碎片以及炸裂的瓦片。好几户人家门口堆着清出来的废墟建材，有人踩着梯子修屋顶，有人在换震裂的窗框。村里一直传来敲瓦片和焊铁门的声音。</p>
 
@@ -148,13 +246,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 <p>他家背后的幼儿园和小学也遭波及：教学楼玻璃大面积破裂，部分墙体出现裂缝，学生已被转移到别处上课。</p>
 
-
 <!-- 3 -->
 
-
-## <span class="sn">3</span>那些逝去的生命
-
-
+<h2><span class="sn">3</span>那些逝去的生命</h2>
 
 <div class="wc">
 <h4>🕯️ 遇难者故事</h4>
@@ -167,13 +261,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </ul>
 </div>
 
-
 <!-- 4 -->
 
-
-## <span class="sn">4</span>花炮之乡：没有选择的选择
-
-
+<h2><span class="sn">4</span>花炮之乡：没有选择的选择</h2>
 
 <p>浏阳号称"花炮之乡"，烟花不只是一门产业，它几乎渗透进了当地每一个村庄的生计。在华盛烟花厂所在的关渡镇周边，当地不少家庭都有人从事花炮行业——有人做药物线，有人在表皮、组盆，在封装车间做计件工，有人负责拉火舱。一个家庭里往往同时有两三个人在烟花厂上班。</p>
 
@@ -190,13 +280,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </ul>
 </div>
 
-
 <!-- 5 -->
 
-
-## <span class="sn">5</span>24次查处，为何仍未阻止悲剧？
-
-
+<h2><span class="sn">5</span>24次查处，为何仍未阻止悲剧？</h2>
 
 <p>事故发生前，华盛烟花厂已经因为安全问题被处罚多次。央视报道显示，<span class="hr">2022年以来这家企业共接受了24次执法检查，其中18次发现安全隐患</span>。有些问题多次出现，却没有真正整改到位。</p>
 
@@ -223,13 +309,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </ul>
 </div>
 
-
 <!-- 6 -->
 
-
-## <span class="sn">6</span>停工—复工—赶工：一个恶性循环
-
-
+<h2><span class="sn">6</span>停工—复工—赶工：一个恶性循环</h2>
 
 <p>事故发生后第二天，湖南省应急管理厅宣布全省烟花爆竹企业全面停产整顿。不仅是生产企业，连经营、运输、燃放、出口都涵盖在内。</p>
 
@@ -247,13 +329,9 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 
 <p>停工之后，工厂不会得到政府赔偿，亏损只能自己扛。有出口烟花厂的员工说，政府不会给停工赔偿，亏损只能自己担。普通工人更惨——计件制，不开工就没有收入，只能回家干等。师小明也说，停工后管理人员还能领一部分工资，但普通工人是计件结款，不开工就没钱。</p>
 
-
 <!-- 7 -->
 
-
-## <span class="sn">7</span>这个行业还要不要继续存在？
-
-
+<h2><span class="sn">7</span>这个行业还要不要继续存在？</h2>
 
 <p>事故之后，关于烟花产业是否应该继续存在的讨论又出现了。但在浏阳当地，很少有人愿意简单地把事故和产业的存在画上等号。</p>
 
@@ -285,13 +363,3 @@ table.ct2 tr:nth-child(even) td{background:#f8f9fa}
 </div>
 
 <div class="dv"></div>
-
-<div class="ft">
-<span>深度调查</span>
-<span>湖南浏阳</span>
-<span>烟花厂爆炸</span>
-<span>安全生产</span>
-</div>
-
-</div>
-</div>

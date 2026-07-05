@@ -11,84 +11,165 @@ tags:
 ---
 
 {{< inline_style >}}
-.aw{max-width:960px;margin:0 auto;background:#fff}
-.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.ct{position:relative;z-index:2;text-align:center;padding:40px}
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+/* 主题's .content 内文章内容样式 */
+/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
 
+/* 子标题 */
+h2 {
+    font-size: 20px;
+    color: #1a3a5c;
+    margin: 30px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f8;
+    font-weight: 600;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+h2:first-child { margin-top: 0; }
 
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 50% 50%,rgba(100,255,100,.2),transparent 60%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+/* 段落 */
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
 
-.ct-tag{display:inline-block;background:rgba(100,220,100,.9);color:#002400;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px;font-weight:700}
-.ct-title{font-size:26px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+/* 高亮框 */
+div.highlight-box {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #228B22;padding:16px 16px 16px 20px;margin:24px 0;line-height:2;background:#f0fff0}
-.st{display:flex;align-items:center;margin:36px 0 18px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#228B22,#006400);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.stx{font-size:20px;font-weight:700;color:#1a1a1a}
-.ic{background:#f0fff0;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #228B22}
-.ic h4{font-size:16px;color:#006400;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'▸';color:#228B22;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff8f0;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #d35400}
-.wc h4{font-size:16px;color:#d35400;margin-bottom:12px}
-.sc{background:linear-gradient(135deg,#002400,#006a00);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'▸';position:absolute;left:0;color:#7cfc00}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
-th{background:#f0fff0;padding:10px 14px;border:1px solid #c8e8c0;color:#006400;font-weight:700}
-td{padding:10px 14px;border:1px solid #c8e8c0;color:#555}
-tr:nth-child(even){background:#fafafa}
-h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
-<div class="aw">
-<div class="cover">
-<div class="ct">
-<div class="ct-tag">深度分析</div>
-<div class="ct-title">华为"掏定律"真相：技术创新还是营销包装？</div>
-<div class="ct-sub">从摩尔定律到"掏定律"——为什么业内的反应如此强烈</div>
-</div>
-</div>
-</div>
+.highlight-box p {
+    margin: 0;
+    color: #5d4e00;
+    font-weight: 500;
+}
 
-<div class="c">
+div.highlight-blue {
+    background: #e3f2fd;
+    border-left: 4px solid #1565c0;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.highlight-blue p {
+    margin: 0;
+    color: #0d47a1;
+}
+
+/* 数据网格 */
+div.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.data-card {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.data-card .number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.data-card .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* 数据框 */
+div.data-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #e9ecef;
+}
+
+.data-box h3 {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 12px;
+}
+
+/* 警告框 */
+div.warning-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.warning-box strong { color: #856404; }
+
+/* 步骤框 */
+div.step-box {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.step-box .step-title { font-weight: 700; color: #0d47a1; }
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table tr:last-child td { border-bottom: none; }
+
+/* 强调 */
+strong { color: #1565c0; }
+
+span.warning { color: #c62828; font-weight: 600; }
+
+/* 分割线 */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    margin: 30px 0;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    div.data-grid { grid-template-columns: 1fr; }
+    h2 { font-size: 18px; }
+    p { font-size: 15px; }
+}
+
+{{< /inline_style >}}
+
 <div class="lead">
 华为最近搞了个大活，提出"掏定律"，说要取代摩��定律，引发了很大争议。今天我们来好好聊一聊，这里面究竟有什么问题。
 </div>
@@ -191,9 +272,3 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <p>这也许能让炒作的人很开心：因为又有概念可以炒作了，<strong>但也就仅此而已</strong>。这种做法短期看也许赢了舆论，但长期看是在不断消耗公信力。</p>
 <div class="dv"></div>
 <p style="color:#999;font-size:14px;text-align:right;">—— 基于YouTube视频内容整理分析</p>
-</div>
-<div class="ft">
-<span>深度分析</span><span>华为</span><span>摩尔定律</span><span>半导体</span>
-</div>
-
-<!--more-->

@@ -12,115 +12,167 @@ tags:
 ---
 
 {{< inline_style >}}
-.aw{max-width:960px;margin:0 auto;background:#fff}
-.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.ct{position:relative;z-index:2;text-align:center;padding:40px}
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+/* 主题's .content 内文章内容样式 */
+/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
 
+/* 子标题 */
+h2 {
+    font-size: 20px;
+    color: #1a3a5c;
+    margin: 30px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f8;
+    font-weight: 600;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+h2:first-child { margin-top: 0; }
 
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+/* 段落 */
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
 
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+/* 高亮框 */
+div.highlight-box {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.st{display:flex;align-items:center;margin:36px 0 18px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.stx{font-size:20px;font-weight:700;color:#1a1a1a}
-.hl{background:linear-gradient(to top,rgba(255,200,0,.25) 40%,transparent 40%);padding:0 2px;font-weight:600}
-.hr{background:linear-gradient(to top,rgba(231,76,60,.2) 40%,transparent 40%);padding:0 2px;font-weight:600;color:#c0392b}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.tl{position:relative;padding-left:28px;margin:24px 0}
-.tl::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#e74c3c,#3498db)}
-.ti{position:relative;margin-bottom:20px}
-.ti::before{content:'';position:absolute;left:-24px;top:6px;width:12px;height:12px;background:#e74c3c;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 2px #e74c3c}
-.td{font-size:13px;color:#e74c3c;font-weight:700;margin-bottom:4px}
-.tx{font-size:15px;color:#444;line-height:1.7}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sb h5{font-size:15px;margin-bottom:8px}
-.sp h5{color:#c62828}
-.sr h5{color:#e65100}
-.sb p{font-size:14px;color:#555;margin:0;line-height:1.8}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
-<div class="aw">
-<div class="cover">
-<div class="ct">
-<div class="ct-tag">深度科普</div>
-<div class="ct-title">南极游轮病毒事件调查：汉坦病毒的真相与误读</div>
-<div class="ct-sub">汉坦病毒游轮事件完整还原 · 从零号病人到全球预警</div>
-</div>
-</div>
-</div>
+.highlight-box p {
+    margin: 0;
+    color: #5d4e00;
+    font-weight: 500;
+}
 
-<div class="c">
-<div class="lead">
-最近，汉坦病毒相关新闻突然冲上了热搜。很多人一看到"病毒爆发"几个字，心里就开始发毛——毕竟新冠那几年的经历太过<span class="hl">刻骨铭心</span>。封控、抢菜、天天核酸……那段记忆对很多人来说根本没有真正过去。
-</div>
-<p>所以听说又有病毒，社交媒体上立刻就炸了。</p>
-<p>这个<span class="hr">汉坦病毒</span>到底是个什么来路？有多危险？这次会不会又是一场全球大流行？新闻中四川那个人又是怎么回事？会不会传开？</p>
-<p>这些问题，接下来一一解答。让我们先从头说起，把整件事的来龙去脉搞清楚。</p>
-<!-- 1 -->
-</div>
+div.highlight-blue {
+    background: #e3f2fd;
+    border-left: 4px solid #1565c0;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-<!--more-->
+.highlight-blue p {
+    margin: 0;
+    color: #0d47a1;
+}
 
-## <span class="sn">1</span>一切从一艘南极游轮说起
+/* 数据网格 */
+div.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
 
-<div class="c">
+.data-card {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.data-card .number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.data-card .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* 数据框 */
+div.data-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #e9ecef;
+}
+
+.data-box h3 {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 12px;
+}
+
+/* 警告框 */
+div.warning-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.warning-box strong { color: #856404; }
+
+/* 步骤框 */
+div.step-box {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.step-box .step-title { font-weight: 700; color: #0d47a1; }
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table tr:last-child td { border-bottom: none; }
+
+/* 强调 */
+strong { color: #1565c0; }
+
+span.warning { color: #c62828; font-weight: 600; }
+
+/* 分割线 */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    margin: 30px 0;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    div.data-grid { grid-template-columns: 1fr; }
+    h2 { font-size: 18px; }
+    p { font-size: 15px; }
+}
+
+{{< /inline_style >}}
+
+<h2><span class="sn">1</span>一切从一艘南极游轮说起</h2>
+
 <p>事件的起点是一艘名叫<span class="hl">"洪迪厄尔斯号"</span>的游轮。很多人可能觉得，游轮嘛，就是那种甲板好几层、乘客几千人、在海上晒太阳喝酒的豪华大船。但洪迪厄尔斯号并不是这么回事。</p>
 <p>它是一艘<span class="hl">极地探险观光游轮</span>，专门带人去南极看风景的，设计乘客容量仅170人左右。</p>
 <div class="ic">
@@ -137,9 +189,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <p>听起来很酷对吧？能看到南极大陆，还能踩着历史的足迹探访那些充满故事的岛屿。而且这艘船不像普通游轮那样只能待在甲板上喝酒——它的介绍里明确说了，<span class="hl">每天可以在陆地上步行好几个小时</span>，妥妥的户外探险风格。</p>
 <p>所以会买这张船票的人，基本上就是两类：<span class="hl">有钱</span>，或者<span class="hl">爱折腾户外</span>。</p>
 <!-- 2 -->
-</div>
 
-## <span class="sn">2</span>零号病人：一对看鸟的老夫妻
+<h2><span class="sn">2</span>零号病人：一对看鸟的老夫妻</h2>
 
 <div class="c">
 <p>紧接着就是这次事件的关键人物——一对<span class="hr">荷兰籍老夫妻</span>，于今年4月1日登上了这艘船。丈夫70岁，妻子69岁。根据后来调查人员的追溯，他们就是这次疫情的<span class="hr">零号病人</span>，也就是最源头的感染者。</p>
@@ -156,7 +207,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 3 -->
 </div>
 
-## <span class="sn">3</span>从"普通感冒"到死亡：完整事件时间线
+<h2><span class="sn">3</span>从"普通感冒"到死亡：完整事件时间线</h2>
 
 <div class="c">
 <div class="tl">
@@ -193,7 +244,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 4 -->
 </div>
 
-## <span class="sn">4</span>汉坦病毒到底是什么？
+<h2><span class="sn">4</span>汉坦病毒到底是什么？</h2>
 
 <div class="c">
 <p>现在正式来了解一下这个<span class="hr">汉坦病毒</span>。很多人可能连名字都没听过，但它并非什么陌生病毒——人类发现它至今已有近50年的历史了。</p>
@@ -237,7 +288,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 5 -->
 </div>
 
-## <span class="sn">5</span>"三痛三红"：如何识别汉坦病毒感染？
+<h2><span class="sn">5</span>"三痛三红"：如何识别汉坦病毒感染？</h2>
 
 <div class="c">
 <p>感染安迪斯病毒之后，典型表现为<span class="hr">三痛三红</span>：</p>
@@ -268,7 +319,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 6 -->
 </div>
 
-## <span class="sn">6</span>为什么偏偏是这艘船？人传人的深层原因
+<h2><span class="sn">6</span>为什么偏偏是这艘船？人传人的深层原因</h2>
 
 <div class="c">
 <p>洪迪厄尔斯号能碰上安迪斯病毒也不是纯粹的运气不好，背后有其客观原因。</p>
@@ -296,7 +347,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 7 -->
 </div>
 
-## <span class="sn">7</span>普通人需要恐慌吗？全球大爆发的风险
+<h2><span class="sn">7</span>普通人需要恐慌吗？全球大爆发的风险</h2>
 
 <div class="c">
 <p>现如今这艘船停在海上，有点进退两难。附近的一些岛屿和国家不愿意让它靠岸——这其实也可以理解：那些小岛国的医疗资源本来就有限，突然来一艘有近150名密切接触者的船，谁敢轻易接收。</p>
@@ -338,11 +389,11 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <p>如果当时船上能更警觉一些，如果船长能更重视那个"普通感冒"的死亡，如果更早启动防疫和报告机制——也许就不会有后续的悲剧。</p>
 <p>这或许就是这次事件最值得我们深思的地方：<span class="hl">在传染病的防控中，最危险的往往不是病毒本身，而是我们的麻痹大意。</span></p>
 <div class="dv"></div>
-<div class="ft">
+
 <span>深度科普</span>
 <span>汉坦病毒</span>
 <span>安迪斯病毒</span>
 <span>公共卫生</span>
 <span>游轮疫情</span>
-</div>
+
 </div>

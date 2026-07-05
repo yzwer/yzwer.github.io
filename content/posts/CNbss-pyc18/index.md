@@ -1,4 +1,4 @@
----
+﻿---
 title: "贷款转负、社融腰斩：一份金融数据背后的经济真相"
 date: 2026-05-17
 draft: false
@@ -11,114 +11,167 @@ tags:
 ---
 
 {{< inline_style >}}
-.aw{max-width:960px;margin:0 auto;background:#fff}
-.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.ct{position:relative;z-index:2;text-align:center;padding:40px}
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+/* 主题's .content 内文章内容样式 */
+/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
 
+/* 子标题 */
+h2 {
+    font-size: 20px;
+    color: #1a3a5c;
+    margin: 30px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f8;
+    font-weight: 600;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+h2:first-child { margin-top: 0; }
 
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(200,80,255,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,100,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+/* 段落 */
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
 
-.ct-tag{display:inline-block;background:rgba(180,80,255,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:28px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+/* 高亮框 */
+div.highlight-box {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #8e44ad;padding-left:16px;margin:24px 0;line-height:2}
-.st{display:flex;align-items:center;margin:36px 0 18px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#8e44ad,#6c3483);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.stx{font-size:20px;font-weight:700;color:#1a1a1a}
-.hl{background:linear-gradient(to top,rgba(142,68,173,.25) 40%,transparent 40%);padding:0 2px;font-weight:600}
-.hr{background:linear-gradient(to top,rgba(231,76,60,.2) 40%,transparent 40%);padding:0 2px;font-weight:600;color:#c0392b}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #8e44ad}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#8e44ad;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.tl{position:relative;padding-left:28px;margin:24px 0}
-.tl::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,#8e44ad,#e74c3c)}
-.ti{position:relative;margin-bottom:20px}
-.ti::before{content:'';position:absolute;left:-24px;top:6px;width:12px;height:12px;background:#8e44ad;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 2px #8e44ad}
-.td{font-size:13px;color:#8e44ad;font-weight:700;margin-bottom:4px}
-.tx{font-size:15px;color:#444;line-height:1.7}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#f5f0ff,#ece4f9);border:1px solid #d7bde2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sdn{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sb h5{font-size:15px;margin-bottom:8px}
-.sp h5{color:#6c3483}
-.sr h5{color:#e65100}
-.sdn h5{color:#c62828}
-.sb p{font-size:14px;color:#555;margin:0;line-height:1.8}
-.sc{background:linear-gradient(135deg,#2c1a3a,#1a0d2e);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#bb8fce}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-table.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-table.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-table.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-table.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
-h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
-<div class="aw">
-<div class="cover">
-<div class="ct">
-<div class="ct-tag">财经深度</div>
-<div class="ct-title">贷款转负、社融腰斩：一份金融数据背后的经济真相</div>
-<div class="ct-sub">4月金融数据全面低于预期，全球市场同步暴跌——发生了什么？</div>
-</div>
-</div>
-</div>
+.highlight-box p {
+    margin: 0;
+    color: #5d4e00;
+    font-weight: 500;
+}
 
-<div class="c">
-<div class="lead">
-央行公布了4月金融数据，结果比市场最悲观的预期还要差——社融新增只有预测值的一半，人民币贷款出现历史性负增长，居民不敢借钱，企业不愿投资，钱从银行存款搬进了股市和理财。与此同时，全球市场全线杀跌，韩国股市暴跌6%触发熔断。这背后到底发生了什么？
-</div>
-<!-- 1 -->
-</div>
+div.highlight-blue {
+    background: #e3f2fd;
+    border-left: 4px solid #1565c0;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-<!--more-->
+.highlight-blue p {
+    margin: 0;
+    color: #0d47a1;
+}
 
-## <span class="sn">1</span>社融腰斩：连预期的一半都没达到
+/* 数据网格 */
+div.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
 
-<div class="c">
+.data-card {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.data-card .number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.data-card .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* 数据框 */
+div.data-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #e9ecef;
+}
+
+.data-box h3 {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 12px;
+}
+
+/* 警告框 */
+div.warning-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.warning-box strong { color: #856404; }
+
+/* 步骤框 */
+div.step-box {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.step-box .step-title { font-weight: 700; color: #0d47a1; }
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table tr:last-child td { border-bottom: none; }
+
+/* 强调 */
+strong { color: #1565c0; }
+
+span.warning { color: #c62828; font-weight: 600; }
+
+/* 分割线 */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    margin: 30px 0;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    div.data-grid { grid-template-columns: 1fr; }
+    h2 { font-size: 18px; }
+    p { font-size: 15px; }
+}
+
+{{< /inline_style >}}
+
+<h2><span class="sn">1</span>社融腰斩：连预期的一半都没达到</h2>
+
 <p>先看最核心的社融数据。一季度新增社融14.83万亿，前4个月累计15.45万亿——也就是说，<span class="hl">4月单月新增社融仅6200亿</span>。</p>
 <p>这个数字单独看好像还行，但问题在于市场预期是1.2万亿。实际值连预测值的一半都不到，直接被腰斩。更关键的是，市场预期本来就不算激进，结果真实值还是大幅低于预期。</p>
 <div class="wc">
@@ -131,9 +184,8 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 </ul>
 </div>
 <!-- 2 -->
-</div>
 
-## <span class="sn">2</span>贷款负增长：史无前例的4月
+<h2><span class="sn">2</span>贷款负增长：史无前例的4月</h2>
 
 <div class="c">
 <p>最值得警惕的信号是人民币贷款数据。一季度（1-3月）新增贷款8.6万亿，但前4个月合计只有8.59万亿。<span class="hr">4月整整一个月，贷款不但没新增，还少了100亿——这是历年4月从未出现过的</span>。</p>
@@ -152,7 +204,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 3 -->
 </div>
 
-## <span class="sn">3</span>居民不借钱：一线热、其他凉的楼市困局
+<h2><span class="sn">3</span>居民不借钱：一线热、其他凉的楼市困局</h2>
 
 <div class="c">
 <p>居民中长期贷款大幅缩水，背后对应的主要就是房贷。买房要贷款，贷款期限长，所以是中长期的。居民中长期贷款的多少，和地产市场冷热直接挂钩。</p>
@@ -169,7 +221,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 4 -->
 </div>
 
-## <span class="sn">4</span>企业不投资：高油价扼住了扩张的咽喉
+<h2><span class="sn">4</span>企业不投资：高油价扼住了扩张的咽喉</h2>
 
 <div class="c">
 <p>企业中长期贷款由正转负，背后是企业固定资产投资——买设备、盖厂房、扩大产能的支出全面收缩。</p>
@@ -188,7 +240,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 5 -->
 </div>
 
-## <span class="sn">5</span>存款大搬家：钱从银行流向了哪里？
+<h2><span class="sn">5</span>存款大搬家：钱从银行流向了哪里？</h2>
 
 <div class="c">
 <p>存款端有两个数字非常扎眼：</p>
@@ -202,7 +254,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 6 -->
 </div>
 
-## <span class="sn">6</span>M1偏弱：资金活化程度依然低迷
+<h2><span class="sn">6</span>M1偏弱：资金活化程度依然低迷</h2>
 
 <div class="c">
 <p>M2（广义货币）4月同比增长8.6%，增速比3月微增，大方向在回升。8%-9%的M2增速明显高过名义GDP增速，说明货币仍在放水——但力度比2022-2023年温和多了。</p>
@@ -220,7 +272,7 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <!-- 7 -->
 </div>
 
-## <span class="sn">7</span>全球暴跌：通胀恐惧与债务危机的阴影
+<h2><span class="sn">7</span>全球暴跌：通胀恐惧与债务危机的阴影</h2>
 
 <div class="c">
 <p>与国内金融数据同步的，是全球市场全线杀跌——</p>
@@ -262,10 +314,3 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 </ul>
 </div>
 <div class="dv"></div>
-<div class="ft">
-<span>财经深度</span>
-<span>金融数据</span>
-<span>宏观经济</span>
-<span>全球市场</span>
-</div>
-</div>

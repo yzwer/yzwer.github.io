@@ -11,84 +11,165 @@ tags:
 ---
 
 {{< inline_style >}}
-.aw{max-width:960px;margin:0 auto;background:#fff}
-.cover{height:380px;background:linear-gradient(135deg,#0a1628,#1a3a5c,#0d4a6b);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(0,200,255,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
-.ct{position:relative;z-index:2;text-align:center;padding:40px}
-.ct-tag{display:inline-block;background:rgba(255,80,80,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}
-.ct-title{font-size:30px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
-.c{max-width:960px;margin:0 auto;background:#fff;padding:30px 24px 40px}
+/* 主题's .content 内文章内容样式 */
+/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
 
+/* 子标题 */
+h2 {
+    font-size: 20px;
+    color: #1a3a5c;
+    margin: 30px 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8f0f8;
+    font-weight: 600;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #e74c3c;padding-left:16px;margin:24px 0;line-height:2}
-.ic{background:#f8f9fa;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #3498db}
-.ic h4{font-size:16px;color:#2c3e50;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'\2022';color:#3498db;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.sg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.sb{border-radius:10px;padding:18px;text-align:center}
-.sp{background:linear-gradient(135deg,#fff5f5,#ffe8e8);border:1px solid #ffcdd2}
-.sr{background:linear-gradient(135deg,#fff8e1,#ffecb3);border:1px solid #ffe082}
-.sc{background:linear-gradient(135deg,#1a3a5c,#0d4a6b);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'\2713';position:absolute;left:0;color:#4fc3f7}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e74c3c,#c0392b);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.ct2{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-.ct2 th{background:linear-gradient(135deg,#2c3e50,#34495e);color:#fff;padding:14px 16px;font-size:14px;font-weight:600;text-align:center}
-.ct2 td{padding:12px 16px;font-size:14px;text-align:center;border-bottom:1px solid #eee}
-.ct2 tr:nth-child(even) td{background:#f8f9fa}
-.tl2{font-weight:700;color:#2c3e50;text-align:left!important}
+h2:first-child { margin-top: 0; }
 
-.cover::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 50% 50%,rgba(200,160,80,.2),transparent 60%);animation:pulse 6s ease-in-out infinite}
-@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+/* 段落 */
+p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #333;
+}
 
-.ct-tag{display:inline-block;background:rgba(200,160,80,.9);color:#1a0a00;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px;font-weight:700}
-.ct-title{font-size:28px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
-.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}
+/* 高亮框 */
+div.highlight-box {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
 
-.c p{margin-bottom:18px;font-size:16px;text-align:justify}
-.lead{font-size:17px;color:#555;border-left:4px solid #b8860b;padding:16px 16px 16px 20px;margin:24px 0;line-height:2;background:#fff8f0}
-.st{display:flex;align-items:center;margin:36px 0 18px}
-.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#b8860b,#8b6508);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}
-.stx{font-size:20px;font-weight:700;color:#1a1a1a}
-.ic{background:#fff8f0;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #b8860b}
-.ic h4{font-size:16px;color:#8b6508;margin-bottom:12px}
-.ic li{font-size:15px;color:#555;padding:6px 0 6px 20px;position:relative;line-height:1.7;list-style:none}
-.ic li::before{content:'▸';color:#b8860b;font-weight:bold;position:absolute;left:0}
-.wc{background:#fff5f5;border-radius:12px;padding:20px 22px;margin:24px 0;border-left:4px solid #e74c3c}
-.wc h4{font-size:16px;color:#c0392b;margin-bottom:12px}
-.sc{background:linear-gradient(135deg,#1a0a00,#3a1a00);border-radius:14px;padding:28px 24px;margin:32px 0;color:#fff}
-.sc h4{font-size:18px;margin-bottom:16px}
-.sc li{font-size:15px;padding:6px 0 6px 18px;position:relative;line-height:1.8;opacity:.9;list-style:none}
-.sc li::before{content:'▸';position:absolute;left:0;color:#ffd700}
-.dv{height:1px;background:linear-gradient(to right,transparent,#ddd,transparent);margin:32px 0}
-.ft{text-align:center;padding:24px;color:#999;font-size:13px}
-.ft span{display:inline-block;background:#f0f0f0;padding:4px 14px;border-radius:20px;margin:4px}
-table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px;}
-th{background:#fff8f0;padding:10px 14px;border:1px solid #e0d4c8;color:#8b6508;font-weight:700}
-td{padding:10px 14px;border:1px solid #e0d4c8;color:#555}
-tr:nth-child(even){background:#fafafa}
-h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{< /inline_style >}}
-<div class="aw">
-<div class="cover">
-<div class="ct">
-<div class="ct-tag">深度解读</div>
-<div class="ct-title">巴菲特退休后首次股东大会：后巴菲特时代，伯克希尔向何处去？</div>
-<div class="ct-sub">从"一人独舞"到"团队协作"，3973亿美元现金背后的战略信号</div>
-</div>
-</div>
-</div>
+.highlight-box p {
+    margin: 0;
+    color: #5d4e00;
+    font-weight: 500;
+}
 
-<div class="c">
+div.highlight-blue {
+    background: #e3f2fd;
+    border-left: 4px solid #1565c0;
+    padding: 18px 20px;
+    margin: 24px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.highlight-blue p {
+    margin: 0;
+    color: #0d47a1;
+}
+
+/* 数据网格 */
+div.data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.data-card {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.data-card .number {
+    font-size: 22px;
+    font-weight: 700;
+    color: #c62828;
+}
+
+.data-card .label {
+    font-size: 13px;
+    color: #666;
+    margin-top: 4px;
+}
+
+/* 数据框 */
+div.data-box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 1px solid #e9ecef;
+}
+
+.data-box h3 {
+    font-size: 16px;
+    color: #495057;
+    margin-bottom: 12px;
+}
+
+/* 警告框 */
+div.warning-box {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 25px 0;
+}
+
+.warning-box strong { color: #856404; }
+
+/* 步骤框 */
+div.step-box {
+    background: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 12px 0;
+}
+
+.step-box .step-title { font-weight: 700; color: #0d47a1; }
+
+/* 表格 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+table th {
+    background: #1a3a5c;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+table tr:last-child td { border-bottom: none; }
+
+/* 强调 */
+strong { color: #1565c0; }
+
+span.warning { color: #c62828; font-weight: 600; }
+
+/* 分割线 */
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+    margin: 30px 0;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    div.data-grid { grid-template-columns: 1fr; }
+    h2 { font-size: 18px; }
+    p { font-size: 15px; }
+}
+
+{{< /inline_style >}}
+
 <div class="lead">
 当地时间5月2日，伯克希尔·哈撒韦召开了最新一届的股东大会。本次股东大会是巴菲特退休之后的首次股东大会，标志着伯克希尔正式进入"后巴菲特时代"。
 </div>
@@ -181,9 +262,3 @@ h2{font-size:20px;font-weight:700;color:#2c3e50;margin:36px 0 18px;padding:0}{{<
 <p>投资亦然。市场可以继续狂飙，泡沫也可能继续膨胀，但<strong>决定你最终胜负的，不是你曾经赚了多少，而是你是否能一直确保自己留在牌桌上</strong>。</p>
 <div class="dv"></div>
 <p style="color:#999;font-size:14px;text-align:right;">—— 基于YouTube视频内容整理分析</p>
-</div>
-<div class="ft">
-<span>深度解读</span><span>巴菲特</span><span>伯克希尔</span><span>投资哲学</span>
-</div>
-
-<!--more-->
