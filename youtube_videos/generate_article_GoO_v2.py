@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+生成 GoO-MQcVnI8 公众号文章（完整版）
+"""
+import json
+import sys
+
+VID = "GoO-MQcVnI8"
+JSON_PATH = r'C:\Users\11132\.qclaw\workspace-yw3plsutb1jupnif\youtube_videos\GoO-MQcVnI8.json'
+OUTPUT_PATH = r'C:\Users\11132\.qclaw\workspace-yw3plsutb1jupnif\youtube_videos\GoO-MQcVnI8_wechat_article.html'
+
+print('[1/3] 读取 Whisper 转录...')
+try:
+    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    print('OK: 读取成功')
+    print(f'    文本段落数: {len(data.get("segments", []))}')
+except Exception as e:
+    print(f'ERROR: 读取失败: {e}')
+    sys.exit(1)
+
+# 提取完整文本
+full_text = data.get('text', '')
+if not full_text:
+    segments = data.get('segments', [])
+    full_text = ' '.join([s.get('text', '') for s in segments])
+
+print(f'[2/3] 生成文章 HTML...')
+print(f'    文本长度: {len(full_text)} 字符')
+
+# 从内容提炼标题
+title = "特朗普访华拿到什么？普京紧急跟进：中美俄三角关系正在重写"
+
+# 生成 HTML（分段写入，避免字符串过长）
+html_parts = []
+html_parts.append('<!DOCTYPE html>\n')
+html_parts.append('<html>\n')
+html_parts.append('<head>\n')
+html_parts.append('    <meta charset="UTF-8">\n')
+html_parts.append('    <meta name="viewport" content="width=device-width, initial-scale=1.0">\n')
+html_parts.append(f'    <title>{title}</title>\n')
+html_parts.append('    <style>\n')
+html_parts.append('        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }\n')
+html_parts.append('        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }\n')
+html_parts.append('        h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }\n')
+html_parts.append('        h2 { color: #0066cc; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #0066cc; padding-left: 15px; }\n')
+html_parts.append('        p { margin-bottom: 20px; text-align: justify; }\n')
+html_parts.append('        .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }\n')
+html_parts.append('        ul { margin: 20px 0; padding-left: 30px; }\n')
+html_parts.append('        li { margin-bottom: 10px; }\n')
+html_parts.append('    </style>\n')
+html_parts.append('</head>\n')
+html_parts.append('<body>\n')
+html_parts.append('    <div class="container">\n')
+html_parts.append(f'        <h1>{title}</h1>\n')
+html_parts.append('        <div class="highlight">\n')
+html_parts.append('            <strong>核心提示：</strong>特朗普刚结束北京之行，普京就紧急访华。中美达成波音订单、农产品采购、机制建设等成果，但芯片、台湾等核心矛盾未解。普京紧急跟进，背后有三重考量。\n')
+html_parts.append('        </div>\n')
+
+# 第一章
+html_parts.append('        <h2>一、特朗普的"成果清单"</h2>\n')
+html_parts.append('        <p>特朗普这次北京之行（5月13-15日），两国元首互动时间近9小时。他本人在空军1号上评价这是"非常成功的访问"，达成了"很多了不起的贸易协议"。</p>\n')
+html_parts.append('        <p>外界评价是"仪式感拉满，实际内容一般"，但特朗普本人可不这么认为。他在回程的空军1号上跟记者聊说：这是一次非常成功的访问，达成了很多了不起的贸易协议，对两国都很好，很多好事发生了。</p>\n')
+
+# 第二章
+html_parts.append('        <h2>二、波音订单：200架的"初步承诺"</h2>\n')
+html_parts.append('        <p>特朗普重点提及：中国同意购买200架波音飞机，后续可能追加到750架。他特别得意地说：这超出了波音自己的预期，波音原本希望的是150架，结果直接拿到200架的初步承诺。</p>\n')
+html_parts.append('        <p>波音公司那边也确认了这个信息。不过需要注意：中方的表述相对低调。中国商务部公告里提到"双方就中方向美方采购飞机...达成有关安排"，没有直接报200架这个数字。后续怎么落地，还得看具体谈判。</p>\n')
+
+# 第三章
+html_parts.append('        <h2>三、农产品和能源：数十亿美元采购</h2>\n')
+html_parts.append('        <p>中国会增加采购美国的农产品，大豆是重点，还有牛肉。特朗普说规模是数十亿美元。能源方面，石油和天然气也会多买些。</p>\n')
+html_parts.append('        <p>特朗普说他期待美国农民从中受益，这对他的农业州选民来说是个好消息。中国商务部的公告里也提到了，双方会推动解决一些农产品的关税壁垒和市场准入问题。</p>\n')
+
+# 第四章
+html_parts.append('        <h2>四、机制建设：贸易理事会和投资理事会</h2>\n')
+html_parts.append('        <p>双方同意成立贸易理事会和投资理事会。以后两国在贸易投资领域有什么分歧、有什么诉求，将通过这两个理事会来讨论，而不是直接互相对加关税。</p>\n')
+html_parts.append('        <p>中国商务部公告里还提到，双方原则同意对同等规模的各自关注产品降税。就是说，我关心的产品你给我降，你关心的我也给你降，相互对等。具体哪些产品降多少，后续会通过贸易理事会谈。</p>\n')
+html_parts.append('        <p>这个机制的建立，意味着中美以后有了一个正式的沟通渠道。从长远看，算是这次峰会比较扎实的一个成果。</p>\n')
+
+# 第五章
+html_parts.append('        <h2>五、芯片问题：H200没下单的背后</h2>\n')
+html_parts.append('        <p>峰会之前和峰会期间，有消息传出来说美国批准英伟达向某些中国科技企业出口芯片，每家最多7.5万个H200。这个消息当时引发了很多人的关注，但一直没有得到官方正式确认。</p>\n')
+html_parts.append('        <p>然后特朗普回美之后自己透露了一句话："美国是批准出售了，但中国没有下单。"这话一出，很多人就开始分析了：中国为啥没买？</p>\n')
+html_parts.append('        <p>原因大概有这么几个：</p>\n')
+html_parts.append('        <ul>\n')
+html_parts.append('            <li><strong>价格贵</strong>：中国买H200要交昂贵的"过路费"——美国政府要加征25%的税。</li>\n')
+html_parts.append('            <li><strong>技术迭代快</strong>：H200这个芯片，从技术上说，他的"黄金期"过了。英伟达下半年就要量产新一代的Rubin系列芯片（代号R100），那才是最顶级的。排第二的是Blackwell系列，比如B200、B100，在2025年已经大规模出货，是现在真正的新王者。B200在训练速度、整体算力、内存带宽上全面碾压H200。曾经的旗舰H200，已经滑到第三梯队。这个时候花大价钱买一个即将被取代的芯片，确实有点亏，性价比有点低。</li>\n')
+html_parts.append('            <li><strong>国产替代</strong>：中国要给国产芯片留出发展空间。虽然目前国产芯片单卡性能还没有能完全赶上H200的，但华为昇腾910C/910B这些，在某些特定场景下已经能跟H200接近，集群层面甚至可以硬刚。此外还有B2000、海光DCU、平头哥玄铁810、璧仞BR100这些，表现也都还不错。买H200，某种程度上是在帮英伟达清库存，还变相打压了国内芯片企业的市场空间。这个账，其实不难算。</li>\n')
+html_parts.append('        </ul>\n')
+html_parts.append('        <p>所以国内现在的策略是：两条腿走路。美国最好的芯片，中国当然是想要的，但如果要多交钱，还是库存货，那可能就算了。自主研发、国产替代，是基本战略，这个方向不会动摇。</p>\n')
+html_parts.append('        <p>至于英伟达最近一个交易日跌了4.42%，有人把原因归结到中国没下单这件事，也算是市场的一种反应吧。</p>\n')
+
+# 第六章
+html_parts.append('        <h2>六、台湾、霍尔木兹、AI安全</h2>\n')
+html_parts.append('        <p>台湾问题：中方该说的都说了，重申了一贯立场。特朗普那边低调处理，白宫的表述是"双方重申各自立场"，没有进一步计划。</p>\n')
+html_parts.append('        <p>霍尔木兹海峡这块：双方同意要保持开放，能源通道不能出乱子。这背后涉及伊朗问题，两国在这个问题上有共同利益，所以能达成共识。</p>\n')
+html_parts.append('        <p>AI安全：双方同意建立一个对话机制，以后在这个议题上保持沟通。特朗普还提及了香港、黎智英的问题，但明确说"没有什么进展"。</p>\n')
+
+# 第七章
+html_parts.append('        <h2>七、总体评价：降温稳局，有限突破</h2>\n')
+html_parts.append('        <div class="highlight">\n')
+html_parts.append('            <p><strong>一句话概括</strong>：降温稳局，谈点生意，没有翻天覆地的大突破。</p>\n')
+html_parts.append('            <p>特朗普拿到了波音订单、农产品采购承诺，回去能跟选民说"拿到了合同，创造了就业"，政治上有个交代。</p>\n')
+html_parts.append('            <p>中国这边，接待规格给得很高，定调是"建设性战略稳定关系"，意思就是"互相尊重、有限竞争、别脱钩"，也算拿到了想要的稳定信号。</p>\n')
+html_parts.append('            <p>但核心矛盾——例如科技封锁、台湾问题、贸易结构不平衡——一个都没真正解决。而且很多成果只是初步共识，历史上这种峰会后的承诺打折扣的情况挺常见的。</p>\n')
+html_parts.append('            <p>后续谈判还会继续，我们就边走边看吧。</p>\n')
+html_parts.append('        </div>\n')
+
+# 第八章
+html_parts.append('        <h2>八、普京紧急访华：三天够干什么？</h2>\n')
+html_parts.append('        <p>特朗普前脚刚走没多久，普京也要来了。北京时间5月18日晚间，中俄同时宣布：俄罗斯总统普京将于5月19日至20日对中国进行国事访问。</p>\n')
+html_parts.append('        <p>而且更有意思的是，普京这次是5月16号正式放出消息的，5月19号人就到了。中间多少时间呢？只有三天。一个大国领导人的国事访问，从宣布到成型也就三天。</p>\n')
+html_parts.append('        <p>普通人出门旅游，收拾个行李、定个机票、规划一下路线，可能都不止这点时间。堂堂俄罗斯总统，一次正式国事访问搞得这么着急，似乎不太寻常。</p>\n')
+html_parts.append('        <p>还有人注意到，19日到20日，这不就是"520情人节"吗？普京掐着这个时间来，他是不是知道中国这个梗？咱不好说，但这个细节确实会让人忍不住多想一下。</p>\n')
+
+# 第九章
+html_parts.append('        <h2>九、普京为什么这么急？三种可能性</h2>\n')
+html_parts.append('        <p><strong>第一种可能：来打听消息、探探口风</strong></p>\n')
+html_parts.append('        <p>特朗普跟习近平谈了什么，公开的部分大家都知道：波音飞机、农产品贸易、理事会这些。但任何高级别会谈，真正重要的内容往往是在屏退记者之后，两个领导人一对一聊的那部分。这部分究竟聊了些什么，外人不知道，普京大概率也不知道。</p>\n')
+html_parts.append('        <p>普京现在最怕的一件事，就是自己在这场中美博弈里变成了"筹码"。中国和美国在谈某些交易的时候，有没有可能拿俄罗斯的利益去换点什么？比如在乌克兰问题上，有没有达成某种默契？在对俄制裁问题上，有没有什么暗示？这些是普京如果只靠外交电报、靠情报分析，心里是没底的。他需要亲自来，面对面问，当面确认，拿到一个明确的承诺。这种承诺是不会写在纸上的，是领导人之间眼神对上了、话说清楚了，能得到心理上的那种踏实。所以，他急着来，很可能就是这个原因：不亲自确认一趟，他不放心。</p>\n')
+html_parts.append('        <p><strong>第二种可能性：他是来送诚意、来做交易的</strong></p>\n')
+html_parts.append('        <p>这里面的逻辑是这样的：普京知道中美刚谈完，美国肯定会在某些问题上做一些接触，试图影响中俄关系。所以普京要赶快来，向北京表态：中俄关系牢不可破，我来给你吃定心丸。但光说不行，得带点干货。俄罗斯现在经济压力大，企业购买力相对有限，能拿出来的经济筹码不多。那能谈什么呢？可能会是地缘问题：中亚方向、远东方向，俄罗斯在某些地缘问题上可以给中国让出一些空间，换取中国在某些问题上更硬的支持。普京拿到这个回去，到乌克兰谈判桌上，手里的筹码也会更多一些。</p>\n')
+html_parts.append('        <p><strong>第三种可能：多少有点戏谑，普京就是想来"体验一下"，顺便走动走动、露个脸</strong></p>\n')
+html_parts.append('        <p>这个听起来像个玩笑，但也不是完全没道理。你看这几天，外国领导人、商界大佬来中国，留下了很多名场面：黄仁勋在蜜雪冰城打卡，特朗普吃凉拌牛肉，马斯克到处拍照。普京这人，自然也不甘寂寞，去蹭一蹭流量，感受一下氛围，也未尝不可嘛。当然，认真说，这几种可能也不是"非此即彼"，很可能是同时存在的：打探消息、拿筹码、做交易，这几个动机最强，然后顺便享受一下，谁能说就一定没有呢？只不过，这个时间点卡得很微妙，特朗普刚走，普京就到北京，这一周，的确是很热闹。</p>\n')
+
+# 第十章
+html_parts.append('        <h2>十、中俄关系背景：不是"政治热、经济冷"了</h2>\n')
+html_parts.append('        <p>先看几个数据：普京是现任主要国家领导人里，访华次数最多的，没有之一。从1999年底担任总统算起（把疫情内那三年跑掉），他平均每年都来中国一次，加上这次，一共来了23次。有些年份，他甚至一年来两趟，就像走亲戚一样。</p>\n')
+html_parts.append('        <p>再看经济方面：中俄关系早已不是当年那种"政治热、经济冷"的状态了。2025年全年，中俄贸易额达到2279亿美元，这个数字相当可观。中国已经连续好多年，稳居俄罗斯第一大贸易伙伴的位置。</p>\n')
+html_parts.append('        <p>两国之间的互补性很强：能源产品、汽车、农业、能源原材料，各有所需、各有所供，经济上已经深度融合。</p>\n')
+
+# 结尾
+html_parts.append('        <h2>结语：边走边看</h2>\n')
+html_parts.append('        <p>这次普京访华，官方公布的议程看起来很常规：首先，这是习近平邀请的正式国事访问，规格是最高级别的；其次，时间节点有很强的纪念意义——今年正好是中俄睦邻友好合作条约签订25周年。这个条约是中俄关系的基石，奠定了两国长期战略合作的法律框架，25年这个节点，双方都很重视。</p>\n')
+html_parts.append('        <p>所以这次访问本身就带着很强的象征意义。普京来了之后要做哪些事呢？跟习近平深入会谈，这是核心；随后也会会见李强总理；另外，双方还要一起启动"俄中文化教育与年"（就是2026年到2027年的中俄人文交流项目），搞文化、教育、青年这些方面的往来。</p>\n')
+html_parts.append('        <p>要谈的议题，大方向基本是确定的：继续深化全面战略协作伙伴关系，推进经贸、能源、投资这些实质性合作；还要就国际热点交换意见，例如乌克兰战局、伊朗问题、中东局势，这些肯定都会聊。访问结束之后，应该会有联合声明发出来，还会签一批合作文件。</p>\n')
+html_parts.append('        <p>但说实话，这次访问最值得深挖的，不是官方议程，而是普京为什么这么急。三种可能性里，第一种（打探消息）和第二种（做交易），可能性最强。至于第三种（来玩一玩、蹭一蹭），多少有点戏谑，但也不能完全排除。</p>\n')
+html_parts.append('        <p>只不过，这个时间点卡得很微妙。特朗普刚走，普京就到北京。这一周，的确是很热闹。</p>\n')
+html_parts.append('        <p style="margin-top: 40px; color: #666; font-size: 14px;">—— 本文由 AI 根据 YouTube 视频内容自动生成 ——</p>\n')
+
+html_parts.append('    </div>\n')
+html_parts.append('</body>\n')
+html_parts.append('</html>')
+
+# 写入文件
+print('[3/3] 写入 HTML 文件...')
+try:
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        f.writelines(html_parts)
+    import os
+    size_kb = os.path.getsize(OUTPUT_PATH) / 1024
+    print(f'OK: 文章已生成: {OUTPUT_PATH}')
+    print(f'    文件大小: {size_kb:.1f} KB')
+    print(f'    章节数: 10 章')
+except Exception as e:
+    print(f'ERROR: 写入失败: {e}')
+    sys.exit(1)
+
+print('\n=== 文章生成完成 ===')
+print(f'输出文件: {OUTPUT_PATH}')
+print('下一步: 上传到公众号草稿箱')
