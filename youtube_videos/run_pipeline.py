@@ -233,8 +233,10 @@ def _convert_html_to_hugo(video_id, html_file, repo_root):
 
 
 def main():
+    import sys
+    manual_vid = sys.argv[1] if len(sys.argv) > 1 else None
     log("=" * 60)
-    log("YouTube Pipeline v2.3 started")
+    log("YouTube Pipeline v2.4 started" + (f" [manual: {manual_vid}]" if manual_vid else ""))
     log(f"Proxy: {PROXY_ARG.strip() or 'NONE (direct)'}")
     log("=" * 60)
     os.chdir(WORK_DIR)
@@ -266,13 +268,28 @@ def main():
         log(f"Done! {ok_count}/{len(to_process)} succeeded")
 
         # ===== Hugo: Convert any new HTML articles to Hugo posts =====
+        # AI agent generates HTML articles; this step converts them to Hugo posts.
+        # Also catches any previously-generated HTML from earlier AI sessions.
+        hugo_done = []
         for v in reversed(to_process):
             vid = v['id']
             html_file = WORK_DIR / f"{vid}_wechat_article.html"
             if html_file.exists():
                 _convert_html_to_hugo(vid, html_file, _repo_root)
+                hugo_done.append(vid)
             else:
-                log(f"[Hugo] No HTML article yet for {vid}, skipping Hugo conversion")
+                log(f"[Hugo] No HTML article yet for {vid}, will convert on next run")
+
+        # Also scan for any pre-existing HTML articles that weren't converted yet
+        _processed_ids = {v['id'] for v in reversed(to_process)}
+        for hf in sorted(WORK_DIR.glob("*_wechat_article.html")):
+            vid2 = hf.stem.replace('_wechat_article', '')
+            if vid2 in _processed_ids:
+                continue  # already handled above
+            post_md = _repo_root / "content" / "posts" / vid2 / "index.md"
+            if not post_md.exists():
+                log(f"[Hugo] Backfill: converting {vid2} from earlier session")
+                _convert_html_to_hugo(vid2, hf, _repo_root)
 
         # ===== Git Push (youtube_videos + content/posts) =====
         try:
