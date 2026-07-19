@@ -1,189 +1,40 @@
 ---
-title: "欧盟准备与中国\"开战\"：贸易博弈背后的攻防战"
-date: 2026-06-06
+title: "欧盟准备与中国"开战"：贸易博弈背后的攻防战"
+date: 2026-06-06T22:54:56+08:00
 draft: false
-description: "欧洲对中国，多年来一直是一种很矛盾的状态：一方面，欧洲需要中国的市场、中国的投资、中国的供应链；另一方面，欧洲又觉得中国是个\"系统性竞争对手\"，担心被中国的产能给淹没。"
+description: "欧盟准备与中国"开战"：贸易博弈背后的攻防战"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+{< inline_style >}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
+        .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 24px; }
+        h2 { color: #0066cc; margin-top: 40px; margin-bottom: 20px; border-left: 4px solid #0066cc; padding-left: 15px; }
+        p { margin-bottom: 20px; text-align: justify; }
+        .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }
+        ul { margin: 20px 0; padding-left: 30px; }
+        li { margin-bottom: 10px; }
+        .cover { width: 100%; border-radius: 8px; margin-bottom: 30px; }
+{< /inline_style >}
 
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
+<h1>欧盟准备与中国"开战"：贸易博弈背后的攻防战</h1>
+<div class="highlight">
+<strong>核心提示：</strong>彭博社近日发文称"欧盟别无选择，只能准备与中国开战（贸易战）"。欧盟正准备对中国采取新的限制性措施。这场贸易博弈背后，是欧洲对中国从"又爱又怕"到"全面防御"的战略转向。
+</div>
 
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
-
-<h2>一、欧盟的"矛盾心态"：既要市场，又怕被淹没</h2>
-
+<h2>一、欧盟的"矛盾心态"：既要市场，又怕被淹没</h2>
 <p>欧洲对中国，多年来一直是一种很矛盾的状态：一方面，欧洲需要中国的市场、中国的投资、中国的供应链；另一方面，欧洲又觉得中国是个"系统性竞争对手"，担心被中国的产能给淹没。</p>
 <p>这种"又爱又怕"的心态，已经维持了很多年。但现在，这个平衡正在被打破。</p>
 <p>欧盟内部原来有两派：一派是强硬派，以法国为代表——马克龙一直主张对中国强硬，要保护欧洲产业；另一派是温和派，以德国为代表——德国企业与中国的合作深度，远超其他欧洲国家，无论大众、宝马还是巴斯夫，哪个在中国都有巨大的利益，所以德国一直倾向于"别把事情弄得太僵"。</p>
 <p>但现在，德国也开始动摇了。德国开始说，要进入"战略防御状态"——意思是，他们要开始保护自己了。而德国一旦倒向强硬派，欧盟整体对华政策，势必就会全面收紧。</p>
 
-<h2>二、中国企业已在欧洲感受到"明显敌意"</h2>
-
-<div class="c">
+<h2>二、中国企业已在欧洲感受到"明显敌意"</h2>
 <p>对于中国企业来说，这种敌意已经不是感觉，而是实打实的动作。</p>
 <p>比亚迪在匈牙利赛格德新建的新能源车生产基地，欧盟直接去查，认为比亚迪从匈牙利政府那里拿了"不合理的补贴"。这个调查本身就是一种信号。</p>
 <p>对于一些中国企业来说，原本东欧看起来是个出路——匈牙利、罗马尼亚这些国家，本来就相对落后，需要外部投资，中国企业去那边建厂，当地政府高兴还来不及。但欧盟也看穿了这个路子。</p>
 <p>欧盟委员会现在专门调查"各国给中国投资提供补贴的情况"，担心多国政府用政府补贴，去资助中国企业，变相绕开欧盟的监管规则。欧盟的逻辑是：你匈牙利给比亚迪补贴，等于是拿欧盟给的转移支付，去帮中国企业降低成本，最后砸的是欧洲其他本土企业的饭碗。</p>
-</div>
 
-<h2>三、德国"防线"全面收紧：从投资审查到技术封锁</h2>
-
-<div class="c">
+<h2>三、德国"防线"全面收紧：从投资审查到技术封锁</h2>
 <p>德国是欧洲最大的经济体，又和中国经济深度纠缠，德国的感受在很大程度上决定了欧盟的走向。</p>
 <p>最近德国发生了几件事，很能说明问题：</p>
 <ul>
@@ -191,30 +42,21 @@ span.warning { color: #c62828; font-weight: 600; }
 <li><strong>风力发电设备</strong>：2025年8月，中国的明阳智能参与了德国近海风电项目的投标，经过好几轮竞标，合同都快出了，但最后德国政府变卦，说不用明阳的设备了。明阳之前还在德国四处找地方建工厂，结果工厂没落地，项目也没了。</li>
 </ul>
 <p>这些动作背后，是德国对中国投资的警惕全面升级。</p>
-</div>
 
-<h2>四、跨境电商：欧盟"重拳出击"</h2>
-
-<div class="c">
+<h2>四、跨境电商：欧盟"重拳出击"</h2>
 <p>投资和收购方面，欧盟还需要克制一点（毕竟还需要中国的投资）。但对中国的出口，例如跨境电商，欧盟的出手就不留情了，直接"重拳出击"。</p>
 <p><strong>今年5月</strong>：欧盟委员会根据《数字服务法》，对Temu（拼多多旗下的跨境电商平台）开出了两亿欧元的罚单，理由是"产品安全和合规问题"。</p>
 <p>但这只是开始。欧盟说这个调查还会继续下去，如果发现更多问题，最高可以罚Temu全球年销售额的6%。Temu 2025年的全球营业额为530亿美元，6%就是超过30亿美元——这个数字足以让Temu在欧洲的发展策略"推倒重来"。</p>
 <p>有意思的是，基于这个《数字服务法》，之前开出的第一张大额罚单，是给马斯克的X平台的，罚了1.2亿欧元。X也没办法，乖乖交了。现在轮到了Temu。这个法规正在成为欧盟管制外来平台的一把利器。</p>
 <p>然后还有<strong>关税门槛的提高</strong>：从2026年7月1日起，来自Temu、SHEIN（希音）、AliExpress等平台的150元以下的小包裹，要额外缴纳3欧元的"处理费"和附加关税。这个针对的是这些平台长期依赖的"低价小包裹免税漏洞"——以前这些平台的货，会拆成一个个小包裹，走免税的口子，现在欧盟把这个口子堵上了。</p>
-</div>
 
-<h2>五、京东收购Ceconomy：一笔被"按住"的交易</h2>
-
-<div class="c">
+<h2>五、京东收购Ceconomy：一笔被"按住"的交易</h2>
 <p>然后还有京东收购德国零售巨头Ceconomy这件事，最近也出了问题。</p>
 <p>德国本来已经批准了，结果奥地利出来说"不行，要单独审查"。然后欧盟委员会直接介入，启动调查，规定在10月1日之前，收购工作"实质性暂停"。</p>
 <p>一笔正在推进的企业收购，就这样硬生生被按住了。</p>
 <p>这一系列动作的背后，是欧盟对中国资本收购欧洲战略性资产的警惕——零售渠道、基础设施、能源网络，这些都被视为"不能随便卖给中国"的领域。</p>
-</div>
 
-<h2>六、欧盟的"阳谋"：用规则逼中国技术转移</h2>
-
-<div class="c">
+<h2>六、欧盟的"阳谋"：用规则逼中国技术转移</h2>
 <p>说了很多欧盟打压中国企业的事，有一点很重要：欧盟并不是完全不要中国的投资——它要的是"特定形式"的投资。</p>
 <p>2025年，中国对欧投资同比增长67%，达到168亿欧元，创下2018年以来的最高水平。其中<strong>绿地投资</strong>（就是在欧洲直接新建生产基地，而不是收购现有企业）接近90亿欧元，比2024年增长了51%。</p>
 <p>所谓"绿地投资"，就是在欧洲直接新建生产基地。欧盟委员会觉得，这正是他们强硬政策的成果——"我对你的进口加关税，你在欧洲卖产品就会增加成本，那你为了规避关税，就会选择在欧洲本地建工厂"。工厂建了，能带来就业，也带来了税收。</p>
@@ -233,11 +75,8 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>其实中国在90年代，也干过同样的事。当年外国车企想进入中国汽车市场，没那么容易——中国开的条件是：你要来，就必须把发动机技术和整车制造技术一起带过来，必须在中国建技术研发中心，必须搞本土化的工匠培训。大众、通用、丰田，一个个都是这么进来的。中国用"市场准入"换来了技术转移，用市场换来了工业学习的机会。几十年下来，中国汽车工业从完全依赖外资技术，到今天能造出自己的电动车，卖到全世界。</p>
 <p>所以欧盟现在打的这张牌，中国人其实很熟悉——只不过这次，攻守意味完全反过来了：是欧盟用规则逼中国，做同样的事。</p>
 <p>这个轮回，多少带点讽刺。</p>
-</div>
 
-<h2>七、德国的两难：企业想留，政府要防</h2>
-
-<div class="c">
+<h2>七、德国的两难：企业想留，政府要防</h2>
 <p>想要理解欧洲现在这种态度，可以先从德国的处境来看——因为德国是欧洲最大的经济体，又和中国经济的深度纠缠，德国的感受在很大程度上决定了欧盟的走向。</p>
 <p>2025年，中国超过美国，成为德国最大的贸易伙伴。双边贸易额2500亿欧元。听起来好像德中关系密切，但问题在于这里面结构——德国对中国的贸易逆差将近900亿美元。算下来，每天逆差2.5亿欧元。一个高度依赖出口的制造业强国，每天在最大贸易伙伴那里亏2.5亿——这个压力是非常大的。</p>
 <p>更让德国人坐不住的，是德国传统优势行业的出口顺差，正在快速萎缩：</p>
@@ -248,11 +87,8 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>有人算过：德国对中国出口额的整体下降，有75%是汽车产业拖累的。汽车是德国的命根子——大众、宝马、奔驰、博世——这套产业链，撑起了德国南部大片地区的就业和经济。现在汽车对华出口腰斩，德国人自然开始慌了。</p>
 <p>德国经济研究所（IWK）专门做了量化研究，说"中国出口冲击正在重创德国汽车工业"，用了一个词叫<strong>"中国冲击波"</strong>。这个词本来是美国MIT的经济学家奥托尔教授在2013年发明的，用来形容中国制造的崛起，对美国各州造成的冲击——比如中国纺织品涌入，把美国北卡罗来纳州的纺织小镇冲垮了；中国家具涌入，把密西西比州的家具产业给淹没了。现在德国媒体和智库，把这个词又拾起来用，暗示的是：德国南部的汽车重镇，可能会成为"下一个底特律"。</p>
 <p>这种叙事非常有煽动性。德国人一听到"底特律"，就懂了。大家都知道，那是一个曾经辉煌的工业城市，如何一步步走向衰败的故事。没有人愿意看着慕尼黑和斯图加特变成那样。</p>
-</div>
 
-<h2>八、中国的反制：供应链合规的"两难困局"</h2>
-
-<div class="c">
+<h2>八、中国的反制：供应链合规的"两难困局"</h2>
 <p>总体来看，全球贸易正在出现一个"大陆板块相互撞击"的新时期。美中两个国家的贸易战，已经产生了明显的溢出效应，重塑了中欧的经济关系。欧洲针对中资企业的敌意，就像导火线一样四处蔓延，四处燃起"战火"。关税壁垒、补贴调查、《数字服务法》、《外国补贴条例》、《供应链法案》等多重旗下，欧洲的防御机制，正从"单点反击"转向"全覆盖行业"的"软装甲式防御"。</p>
 <p>中国企业在欧洲，无论是出口还是投资，都碰到了四处可见的政策篱笆锁。而且接下来这段时间，大概率还是只能这样艰难地往前行进。</p>
 <div class="highlight">

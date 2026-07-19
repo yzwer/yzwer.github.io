@@ -1,169 +1,64 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌"
+date: 2026-07-05T11:02:19+08:00
 draft: false
-description: ""
+description: "Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+            line-height: 1.8; color: #333; background: #f5f7fa; padding: 20px;
+        }
+        .container {
+            max-width: 800px; margin: 0 auto; background: white;
+            border-radius: 12px; box-shadow: 0 2px 20px rgba(0,0,0,0.1); padding: 40px;
+        }
+        h1 {
+            font-size: 26px; color: #0d1b2a;
+            border-bottom: 3px solid #e67e22; padding-bottom: 16px; margin-bottom: 25px; line-height: 1.4;
+        }
+        .meta { color: #888; font-size: 14px; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        h2 {
+            font-size: 20px; color: #0d1b2a; margin-top: 40px; margin-bottom: 18px;
+            border-left: 5px solid #e67e22; padding-left: 15px; line-height: 1.4;
+        }
+        p { margin-bottom: 18px; text-align: justify; font-size: 16px; color: #444; }
+        .highlight {
+            background: linear-gradient(135deg, #fff8f0, #fff); padding: 24px; border-radius: 8px;
+            margin: 25px 0; border-left: 5px solid #e67e22; box-shadow: 0 2px 8px rgba(230,126,34,0.08);
+        }
+        .highlight strong { color: #d35400; }
+        .data-box { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef; }
+        .data-box h3 { font-size: 16px; color: #495057; margin-bottom: 12px; }
+        ul { margin: 15px 0 20px 25px; }
+        li { margin-bottom: 10px; font-size: 16px; color: #444; }
+        .metric-callout {
+            background: white; border: 2px solid #e67e22; border-radius: 10px; padding: 20px; margin: 20px 0; text-align: center;
+        }
+        .metric-callout .big-number { font-size: 32px; font-weight: 800; color: #e67e22; }
+        .metric-callout .metric-label { font-size: 14px; color: #666; margin-top: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 15px; }
+        table th { background: #0d1b2a; color: white; padding: 10px 12px; text-align: left; }
+        table td { padding: 10px 12px; border-bottom: 1px solid #e9ecef; }
+        .conclusion {
+            background: linear-gradient(135deg, #0d1b2a, #1b2838); color: white; padding: 30px; border-radius: 10px; margin: 35px 0 20px;
+        }
+        .conclusion h2 { color: #f8f9fa; border-left-color: #e67e22; }
+        .conclusion p { color: #dee2e6; }
+        .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
+        .signal-box {
+            background: #e8f5e9; border: 1px solid #66bb6a; border-radius: 8px; padding: 20px; margin: 25px 0;
+        }
+        .warning {
+            background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 20px; margin: 25px 0;
+        }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
+{< /inline_style >}
 
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+<h1>Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌</h1>
+<div class="meta">📅 2026年7月 · 🔔 科技股市场分析</div>
 
 <div class="highlight">
 <strong>⚡ 核心事件：</strong>7月2日，据彭博社援引知情人士报道，Meta正在制定向外部客户出租AI算力和模型访问权限的计划。消息一出，全球AI和半导体板块雪崩——费城半导体指数跌6.27%，韩国KOSPI跌7.89%，三星跌9%，SK海力士跌14.57%，A股上证跌2%、创业板跌5.7%、科创50跌7.7%。Meta一家公司出租算力的消息，就带崩了整条硬件产业链。
@@ -251,4 +146,5 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>对于OpenAI和Anthropic来说，这是强者恒强的抽水效应。对于CoreWeave这类"算力中间商"来说，这是生存威胁。对于整个半导体产业链来说，这是情绪面的"压力测试"。</p>
 <p>怀疑的种子已经种下：大科技巨头到底愿不愿意继续每年膨胀30%的资本支出？AI的变现逻辑到底能不能在C端跑通？如果头部玩家都开始"认输"，还有谁在真正攀登技术的高峰？</p>
 <p>这些问题不需要立刻有答案——因为怀疑本身，就已经在改变市场的游戏规则了。</p>
+</div>
 </div>

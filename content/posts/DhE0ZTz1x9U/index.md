@@ -1,169 +1,41 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 18 Pro参数全曝光、供应链底牌被扒光"
+date: 2026-07-05T11:03:42+08:00
 draft: false
-description: ""
+description: "苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 18 Pro参数全曝光、供应链底牌被扒光"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background: #f5f7fa; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 2px 20px rgba(0,0,0,0.1); padding: 40px; }
+        h1 { font-size: 26px; color: #1a1a2e; border-bottom: 3px solid #8e44ad; padding-bottom: 16px; margin-bottom: 25px; line-height: 1.4; }
+        .meta { color: #888; font-size: 14px; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        h2 { font-size: 20px; color: #1a1a2e; margin-top: 40px; margin-bottom: 18px; border-left: 5px solid #8e44ad; padding-left: 15px; line-height: 1.4; }
+        p { margin-bottom: 18px; text-align: justify; font-size: 16px; color: #444; }
+        .highlight { background: linear-gradient(135deg, #f5f0ff, #fff); padding: 24px; border-radius: 8px; margin: 25px 0; border-left: 5px solid #8e44ad; box-shadow: 0 2px 8px rgba(142,68,173,0.08); }
+        .highlight strong { color: #6c3483; }
+        .data-box { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef; }
+        .data-box h3 { font-size: 16px; color: #495057; margin-bottom: 12px; }
+        ul { margin: 15px 0 20px 25px; }
+        li { margin-bottom: 10px; font-size: 16px; color: #444; line-height: 1.7; }
+        .metric-callout { background: white; border: 2px solid #8e44ad; border-radius: 10px; padding: 20px; margin: 20px 0; text-align: center; }
+        .metric-callout .big-number { font-size: 32px; font-weight: 800; color: #8e44ad; }
+        .metric-callout .metric-label { font-size: 14px; color: #666; margin-top: 5px; }
+        .spec-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; margin: 15px 0; }
+        .spec-item { background: #f8f9fa; padding: 12px; border-radius: 6px; border: 1px solid #e9ecef; }
+        .spec-label { font-size: 12px; color: #888; }
+        .spec-value { font-size: 15px; font-weight: 600; color: #333; }
+        .conclusion { background: linear-gradient(135deg, #1a1a2e, #2d1b4e); color: white; padding: 30px; border-radius: 10px; margin: 35px 0 20px; }
+        .conclusion h2 { color: #f8f9fa; border-left-color: #af7ac5; }
+        .conclusion p { color: #dee2e6; }
+        .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
+        .warning { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 20px; margin: 25px 0; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } .spec-grid { grid-template-columns: 1fr; } }
+{< /inline_style >}
 
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+<h1>苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 18 Pro参数全曝光、供应链底牌被扒光</h1>
+<div class="meta">📅 2026年7月 · 🔔 科技大事件深度分析</div>
 
 <div class="highlight">
 <strong>⚡ 核心事件：</strong>一个名为World Leaks的黑客勒索组织入侵了苹果在印度的核心代工厂——塔塔电子（Tata Electronics），将偷出的海量数据打包挂到了暗网上。路透社报道确认：此次泄密文件总量达<strong>630GB</strong>，文件数量超过20万份。涵盖了尚未发布的iPhone 18系列完整零部件清单、主板精密设计图纸、跌落测试报告、苹果供应链核心底牌，甚至波及特斯拉和台积电。这是苹果公司历史上最严重的泄密事件，没有之一。
@@ -258,4 +130,5 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>苹果历史上最严重的泄密事件，发生在它最寄予厚望的印度工厂。这是一个极具讽刺意味的黑色幽默——苹果为了地缘风险分散供应链，却在一个安全系数远低于预期的环节栽了跟头。</p>
 <p>这个教训是双重的：对于苹果而言，供应链管理的竞争本质已经从"成本控制"扩展到"数据安全控制"；对于整个科技制造业而言，印度制造的大规模转移，正在以一场泄密事件的方式展示它的B面——不是产能的上升，而是安全的裂缝。</p>
 <p>当一个630GB的压缩包就能让一家万亿市值公司的核心机密暴露无遗时，所有的"防泄密体系"和"信息安全投入"，可能都比不过一个在供应链最薄弱环节发生的、被忽视的安全漏洞。而这，或许是这个时代全球科技巨头面临的共同命题。</p>
+</div>
 </div>

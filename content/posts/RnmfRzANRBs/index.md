@@ -1,169 +1,38 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "审计署年度报告出炉：每年含金量最高的"官方自查"曝光了什么？"
+date: 2026-07-05T11:02:52+08:00
 draft: false
-description: ""
+description: "审计署年度报告出炉：每年含金量最高的"官方自查"曝光了什么？"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+            line-height: 1.8; color: #333; background: #f5f7fa; padding: 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 2px 20px rgba(0,0,0,0.1); padding: 40px; }
+        h1 { font-size: 26px; color: #1a1a2e; border-bottom: 3px solid #2c3e50; padding-bottom: 16px; margin-bottom: 25px; line-height: 1.4; }
+        .meta { color: #888; font-size: 14px; margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        h2 { font-size: 20px; color: #1a1a2e; margin-top: 40px; margin-bottom: 18px; border-left: 5px solid #2c3e50; padding-left: 15px; line-height: 1.4; }
+        p { margin-bottom: 18px; text-align: justify; font-size: 16px; color: #444; }
+        .highlight { background: linear-gradient(135deg, #f0f0f0, #fff); padding: 24px; border-radius: 8px; margin: 25px 0; border-left: 5px solid #2c3e50; box-shadow: 0 2px 8px rgba(44,62,80,0.08); }
+        .highlight strong { color: #c0392b; }
+        .data-box { background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #e9ecef; }
+        ul { margin: 15px 0 20px 25px; }
+        li { margin-bottom: 10px; font-size: 16px; color: #444; line-height: 1.7; }
+        .metric-callout { background: white; border: 2px solid #2c3e50; border-radius: 10px; padding: 20px; margin: 20px 0; text-align: center; }
+        .metric-callout .big-number { font-size: 32px; font-weight: 800; color: #c0392b; }
+        .metric-callout .metric-label { font-size: 14px; color: #666; margin-top: 5px; }
+        .conclusion { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; padding: 30px; border-radius: 10px; margin: 35px 0 20px; }
+        .conclusion h2 { color: #f8f9fa; border-left-color: #e74c3c; }
+        .conclusion p { color: #dee2e6; }
+        .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
+        @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
+{< /inline_style >}
 
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+<h1>审计署年度报告出炉：每年含金量最高的"官方自查"曝光了什么？</h1>
+<div class="meta">📅 2025年度审计报告解读 · 🔔 政策深度分析</div>
 
 <div class="highlight">
 <strong>⚡ 核心事件：</strong>每年6月，中国国家审计署会向全国人大常委会提交上一年度的中央预算执行审计报告。这份报告被公认为全年"含金量最高"的官方文件之一，因为它会真正揭露问题——不是歌功颂德，而是指出制度性不足、资金浪费、违规操作和需要整改的深层次矛盾。2025年度的报告同样信息量巨大。
@@ -214,4 +83,5 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>审计报告的最大价值，不是它发现了多少问题——而是这些问题被曝光之后，有没有得到真实的整改。</p>
 <p>从过往经验看，审计报告指出的问题基本都会在后续的整改中得到回应，但"表面整改""局部整改""整改后又复发"的问题仍然存在。从这个角度说，审计报告是一面镜子——它照出的不仅是财政资金管理中的具体疏漏，更是整个治理体系运行效率的一个缩影。</p>
 <p>对于理解中国经济的人来说，审计报告是一份难得的"非粉饰"文本。把这份报告读懂了，对经济运行的真实状态就有了比大多数宏观分析更准确的判断。这也是为什么它有"含金量最高的官方文件"之称——因为说实话，从来都是最值钱的。</p>
+</div>
 </div>
