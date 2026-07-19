@@ -1,169 +1,69 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "21辆货车"凭空消失"：一条黑色产业链如何吞噬物流业"
+date: 2026-07-05T11:05:44+08:00
 draft: false
-description: ""
+description: "从广西到北京跨越1400公里的骗局，背后是一张系统性的\"红头执法\"网络"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
-
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px;
+        }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
+        .header {
+            background: linear-gradient(135deg, #1b1b1b 0%, #2d2d2d 50%, #4a0000 100%);
+            color: #fff; padding: 40px 30px; text-align: center;
+        }
+        .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+        .header .subtitle { font-size: 14px; opacity: 0.85; }
+        .content { padding: 30px; }
+        h2 {
+            font-size: 20px; color: #1b1b1b; margin: 30px 0 18px; padding-bottom: 10px;
+            border-bottom: 2px solid #f5e6e6; font-weight: 600;
+        }
+        h2:first-child { margin-top: 0; }
+        p { font-size: 16px; margin-bottom: 16px; text-align: justify; }
+        .highlight-box {
+            background: #fbe9e7; border-left: 4px solid #d32f2f; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-box p { margin: 0; color: #b71c1c; font-weight: 500; }
+        .highlight-blue {
+            background: #e3f2fd; border-left: 4px solid #1565c0; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-blue p { margin: 0; color: #0d47a1; }
+        .data-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0; }
+        .data-card {
+            background: #f0f4f8; padding: 15px; border-radius: 6px; text-align: center;
+        }
+        .data-card .number { font-size: 22px; font-weight: 700; color: #b71c1c; }
+        .data-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+        strong { color: #1565c0; }
+        .warning { color: #b71c1c; font-weight: 600; }
+        .step-box {
+            background: #fafafa; border: 1px solid #e0e0e0; border-radius: 6px;
+            padding: 16px; margin: 12px 0;
+        }
+        .step-box .step-title { font-weight: 700; color: #0d47a1; }
+        .footer {
+            background: #f8f9fa; padding: 20px 30px; text-align: center;
+            font-size: 13px; color: #888; border-top: 1px solid #eee;
+        }
+        .section-divider {
+            height: 1px; background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+            margin: 30px 0;
+        }
+        @media (max-width: 480px) {
+            .header { padding: 30px 20px; }
+            .header h1 { font-size: 22px; }
+            .content { padding: 20px; }
+            h2 { font-size: 18px; }
+            .data-grid { grid-template-columns: 1fr; }
+        }
+{< /inline_style >}
 
 <h2>一、一笔500公里的订单，开出了1400公里的"冤枉路"</h2>
 <p>2025年10月29日，一辆货车从广西出发，目的地是广东中山。全程才500多公里，按正常速度只需5个多小时就能到。结果开出去没多久，货还没到，物流公司先接到了司机的消息——"还有半个小时就到了，在服务区休息。"几小时后，货主说自己没收到货。</p>
@@ -267,3 +167,4 @@ span.warning { color: #c62828; font-weight: 600; }
 <p><span class="warning">这些货车只是明面上的受害者，真正的受害者是那些被"系统性执法"击穿了信任底线的中小企业和个体经营者。损失的是一车货，失去的却可能是对这个市场公平的最后一丝信任。</span></p>
 
 <p>希望这次调查，不会只是台风来了又走。</p>
+</div>

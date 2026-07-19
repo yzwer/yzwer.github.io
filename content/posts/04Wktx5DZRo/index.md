@@ -1,172 +1,140 @@
-﻿---
+---
 title: "中国汽车市场连续下滑：市场饱和信号已现"
-date: 2026-06-25
+date: 2026-06-26T00:03:35+08:00
 draft: false
-description: "💡 核心提示：燃油车和新能源车是一起往下掉的，整个市场的总需求在收缩。这与过去\"燃油车不行了，新能源车崛起\"的叙事完全不同。"
+description: "5月乘用车销量暴跌22.1%，燃油车与新能源车双降"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
+{< inline_style >}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background-color: #f5f7fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            color: #fff;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 26px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.4;
+        }
+        .header .subtitle {
+            font-size: 14px;
+            opacity: 0.85;
+        }
+        .content {
+            padding: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #1e3a5f;
+            margin: 30px 0 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8f0f8;
+            font-weight: 600;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        .highlight-box {
+            background: #fff8e1;
+            border-left: 4px solid #ffc107;
+            padding: 18px 20px;
+            margin: 24px 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .highlight-box p {
+            margin: 0;
+            color: #5d4e00;
+            font-weight: 500;
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin: 20px 0;
+        }
+        .data-card {
+            background: #f0f4f8;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .data-card .number {
+            font-size: 24px;
+            font-weight: 700;
+            color: #c62828;
+        }
+        .data-card .label {
+            font-size: 13px;
+            color: #666;
+            margin-top: 4px;
+        }
+        strong {
+            color: #1565c0;
+        }
+        .warning {
+            color: #c62828;
+            font-weight: 600;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 13px;
+            color: #888;
+            border-top: 1px solid #eee;
+        }
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+            margin: 30px 0;
+        }
+        @media (max-width: 480px) {
+            .header {
+                padding: 30px 20px;
+            }
+            .header h1 {
+                font-size: 22px;
+            }
+            .content {
+                padding: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            .data-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+{< /inline_style >}
 
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
-
-<h2>一、触目惊心的销售数据</h2>
-
+<h2>一、触目惊心的销售数据</h2>
 <p>乘联会最新数据显示，今年<strong>5月份全国乘用车销量同比下降22.1%</strong>，仅售出<strong>150万辆</strong>。值得注意的是，这已是<strong>中国乘用车销售连续第8个月下滑</strong>，呈现一条持续向下的曲线。</p>
 
 <div class="data-grid">
@@ -187,21 +155,15 @@ span.warning { color: #c62828; font-weight: 600; }
 <div class="highlight-box">
 <p>💡 核心提示：燃油车和新能源车是一起往下掉的，整个市场的总需求在收缩。这与过去"燃油车不行了，新能源车崛起"的叙事完全不同。</p>
 </div>
-</div>
 
-<h2>二、制造热与销售冷的矛盾</h2>
-
-<div class="c">
+<h2>二、制造热与销售冷的矛盾</h2>
 <p>将时间拉长看，<strong>2026年1至5月，中国乘用车累计零售715万辆，同比下滑19.5%</strong>，近半年接近五分之一的萎缩，规模相当惊人。</p>
 
 <p>但别看销售端冷成这样，制造端却是另一番景象。<strong>5月份新能源乘用车产量达到139.4万辆，同比增长18.6%</strong>，环比增长15.3%。今年前5个月，<strong>新能源乘用车累计生产530.8万辆</strong>，同比还有<strong>0.9%的正增长</strong>。如果把燃油车也加上，前5个月乘用车产量<strong>超过1000万辆</strong>。</p>
 
 <p>也就是说，一边是工厂里的流水线照样红火，另一边是4S店里门可罗雀。这种"制造热、销售冷"的尴尬局面，导致库存积压越来越严重。截至5月末，<strong>全行业乘用车总库存高达348万辆</strong>。</p>
-</div>
 
-<h2>三、出口增长背后的隐忧</h2>
-
-<div class="c">
+<h2>三、出口增长背后的隐忧</h2>
 <p>这个月数据有没有什么亮点？那就是出口。<strong>5月份中国乘用车整体出口78.4万辆，同比大幅增长75.1%</strong>，环比也小幅提升了2.3%。</p>
 
 <p>其中，<strong>新能源汽车出口42.4万辆，同比增幅高达112.6%</strong>。新能源车在整车出口中的占比<strong>达到54%，创下历史新高</strong>。</p>
@@ -222,11 +184,8 @@ span.warning { color: #c62828; font-weight: 600; }
 <div class="highlight-box">
 <p>⚠️ 警示：当海外出口市场也逐渐饱和，或开始加高贸易壁垒时，中国巨大的过剩产能将进入一个任何产业政策都无法逆转的产能出清阶段。</p>
 </div>
-</div>
 
-<h2>四、市场饱和的根本原因</h2>
-
-<div class="c">
+<h2>四、市场饱和的根本原因</h2>
 <p>乘联会秘书长崔东树给出的官方解释是：俄乌冲突爆发以来国际油价飙升，高油价抑制了消费者对燃油车的购买需求；叠加消费者信心下降，以及国家取消了部分新能源汽车购车补贴。</p>
 
 <p>这个解释只能解释短期现象，但忽略了一个关键因素：<strong>拥有量</strong>。任何消费品都会经历这样一个生命周期：拥有量低时市场快速增长，拥有量趋饱和时市场开始萎缩。</p>
@@ -239,11 +198,8 @@ span.warning { color: #c62828; font-weight: 600; }
 </ul>
 
 <p>2025年，<strong>国内百人汽车拥有率达到26.15辆</strong>。按家庭平均2.5人计算，相当于每百户家庭拥有65.4辆车。剔除极端贫困家庭，<strong>普通中国家庭基本已实现户均一辆车</strong>。</p>
-</div>
 
-<h2>五、为何26辆/百人就饱和了？</h2>
-
-<div class="c">
+<h2>五、为何26辆/百人就饱和了？</h2>
 <p>有人会问：中国百人汽车拥有量才26.1辆，与美国的85.3辆、欧盟的57.6辆相比差距还很大，为何26辆左右就提前进入饱和？</p>
 
 <p>市场饱和水平不是绝对数字，而是相对的，有三个关键变量：</p>
@@ -257,11 +213,8 @@ span.warning { color: #c62828; font-weight: 600; }
 <div class="highlight-box">
 <p>📊 关键数据：中金公司报告显示，14亿人口里约40%（约5.46亿人）月均收入低于1000元。剔除这部分人群后，中国实际有效人群的汽车拥有量已达每百人43辆，接近欧洲水平。</p>
 </div>
-</div>
 
-<h2>六、消费者心态的深层变化</h2>
-
-<div class="c">
+<h2>六、消费者心态的深层变化</h2>
 <p>除了市场饱和的大背景，消费者层面也出现了根本性变化。</p>
 
 <p>一位干了15年的汽车销售感叹道：<strong>"表面看是车难卖，实际是人难哄"</strong>。消费者已经不会被"德系品质""日系省油"轻易打动了，他们会认真算账：这车值不值这个价？三年后能卖多少钱？那些智能配置是真有用还是纯粹噱头？</p>
@@ -283,3 +236,4 @@ span.warning { color: #c62828; font-weight: 600; }
 <p><span class="warning">消费降级、消费谨慎，不是某一个行业的问题，而是整个经济从高速扩张期切换到存量博弈期后，全民做出的理性选择。</span></p>
 
 <p>越来越多的人，正在用最朴素的方式，重新思考——什么才是真正值得花钱的东西。</p>
+</div>

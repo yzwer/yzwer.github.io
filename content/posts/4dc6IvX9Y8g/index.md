@@ -1,170 +1,43 @@
 ---
-title: "22.14亿刷新建国以来贪腐记录 南京开发区“第一人物“的17年“裸官“路"
-date: 2026-07-11
+title: "22.14亿刷新建国以来贪腐记录：南京开发区"第一人物"的17年"裸官"路"
+date: 2026-07-11T13:29:07+08:00
 draft: false
-tags:
-  - 一般
+description: "1993年至2023年，每天贪18.6万，每年7142万；妻子女儿2001年已是美国公民；2008年被实名举报，举报人先进了看守所，报道从网上消失，而被举报的人一路平调升迁——这个案子真正值得记住的，或许不是那个数字"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
-
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
+        .header { background: linear-gradient(135deg, #1b1b1b 0%, #3c0000 50%, #5c1010 100%); color: #fff; padding: 40px 30px; text-align: center; }
+        .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+        .header .subtitle { font-size: 14px; opacity: 0.85; }
+        .content { padding: 30px; }
+        h2 { font-size: 20px; color: #3c0000; margin: 30px 0 18px; padding-bottom: 10px; border-bottom: 2px solid #f5e0e0; font-weight: 600; }
+        h2:first-child { margin-top: 0; }
+        p { font-size: 16px; margin-bottom: 16px; text-align: justify; }
+        .highlight-box { background: #fff8e1; border-left: 4px solid #f9a825; padding: 18px 20px; margin: 24px 0; border-radius: 0 6px 6px 0; }
+        .highlight-box p { margin: 0; color: #5d4e00; font-weight: 500; }
+        .highlight-red { background: #ffebee; border-left: 4px solid #c62828; padding: 18px 20px; margin: 24px 0; border-radius: 0 6px 6px 0; }
+        .highlight-red p { margin: 0; color: #b71c1c; font-weight: 500; }
+        .data-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0; }
+        .data-card { background: #f0f4f8; padding: 15px; border-radius: 6px; text-align: center; }
+        .data-card .number { font-size: 20px; font-weight: 700; color: #c62828; }
+        .data-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+        .timeline { margin: 20px 0; padding-left: 20px; border-left: 3px solid #ddd; }
+        .timeline-item { margin-bottom: 16px; padding-left: 16px; }
+        .timeline-item .year { font-weight: 700; color: #3c0000; font-size: 15px; }
+        .timeline-item .desc { font-size: 15px; color: #555; margin-top: 2px; }
+        strong { color: #5c1010; }
+        .footer { background: #f8f9fa; padding: 20px 30px; text-align: center; font-size: 13px; color: #888; border-top: 1px solid #eee; }
+        @media (max-width: 480px) {
+            .header { padding: 30px 20px; }
+            .header h1 { font-size: 22px; }
+            .content { padding: 20px; }
+            h2 { font-size: 18px; }
+            .data-grid { grid-template-columns: 1fr; }
+        }
+{< /inline_style >}
 
 <h2>一、22.14亿：一年每天18.6万，刷新1949年以来全部记录</h2>
 <p>2026年7月6日，江苏常州市中级人民法院一审公开宣判：南京经济技术开发区管委会原副主任杨有林，因受贿、贪污、行贿、挪用公款、滥用职权、洗钱等六项罪名，数罪并罚，被判处死刑，剥夺政治权利终身，并处没收个人全部财产。</p>
@@ -255,3 +128,4 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>据悉，2025年以来，全国不少体制内单位处级以上，部分单位甚至扩展到中层干部，被组织集中观看过一步片子，叫《杨有林严重违纪违法案件警示录》，目的大概是以案为鉴、强化震慑。里面肯定涉及更多不为人知的细节。所以有评论提出：这个案子涉及重大公共利益，又是公开审理，那么审判和判决的详情，至少应该向社会公开，而不只是公布一个最终结果。</p>
 
 <p>司法公开，本来应该是原则；保密才是例外。</p>
+</div>

@@ -1,169 +1,68 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "48岁UC Berkeley博士栽在一千港元上：香港"拔萃男书院"贿赂案始末"
+date: 2026-07-05T11:07:07+08:00
 draft: false
-description: ""
+description: "香港拔萃男书院入学贿赂案：1.6亿租约做掩护，13位社会精英家长集体落网"
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
-
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px;
+        }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
+        .header {
+            background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #3949ab 100%);
+            color: #fff; padding: 40px 30px; text-align: center;
+        }
+        .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+        .header .subtitle { font-size: 14px; opacity: 0.85; }
+        .content { padding: 30px; }
+        h2 {
+            font-size: 20px; color: #1a237e; margin: 30px 0 18px; padding-bottom: 10px;
+            border-bottom: 2px solid #e8eaf6; font-weight: 600;
+        }
+        h2:first-child { margin-top: 0; }
+        p { font-size: 16px; margin-bottom: 16px; text-align: justify; }
+        .highlight-box {
+            background: #fff8e1; border-left: 4px solid #f9a825; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-box p { margin: 0; color: #5d4e00; font-weight: 500; }
+        .highlight-blue {
+            background: #e3f2fd; border-left: 4px solid #1565c0; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-blue p { margin: 0; color: #0d47a1; }
+        .data-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0; }
+        .data-card {
+            background: #f0f4f8; padding: 15px; border-radius: 6px; text-align: center;
+        }
+        .data-card .number { font-size: 22px; font-weight: 700; color: #1a237e; }
+        .data-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+        strong { color: #1a237e; }
+        .quote-box {
+            background: #f3e5f5; border-left: 4px solid #7b1fa2; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0; font-style: italic;
+        }
+        .quote-box p { margin: 0; color: #4a148c; }
+        .footer {
+            background: #f8f9fa; padding: 20px 30px; text-align: center;
+            font-size: 13px; color: #888; border-top: 1px solid #eee;
+        }
+        .section-divider {
+            height: 1px; background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+            margin: 30px 0;
+        }
+        @media (max-width: 480px) {
+            .header { padding: 30px 20px; }
+            .header h1 { font-size: 22px; }
+            .content { padding: 20px; }
+            h2 { font-size: 18px; }
+            .data-grid { grid-template-columns: 1fr; }
+        }
+{< /inline_style >}
 
 <h2>一、一个离奇的举报</h2>
 <p>2025年10月，香港廉政公署（ICAC）接到一起举报，内容令人匪夷所思：一位香港城市大学的经济金融系教授、48岁的赵某，用自己的专业技术——"对赌租赁"——为未成年的儿子争取到了香港名校"拔萃男书院"的入学资格。</p>
@@ -255,3 +154,4 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>在赵教授看来，这只是"失足"；在家长圈子里，这不过是"潜规则"；但在廉政公署面前，这就是受贿行贿——无论金额多大，无论你是UC Berkeley的博士还是普通市民，法律面前都只有一条线。</p>
 
 <p><span style="color:#1a237e;font-weight:600;">一千港元本身并不重要，但它划出的那条线，才是这个案子的真正分量。</span></p>
+</div>

@@ -1,169 +1,75 @@
 ---
-title: ""
-date: 2026-07-05T12:13:22+08:00
+title: "工业利润增速18.8%背后：只有15个行业在赚钱，24个行业在失血"
+date: 2026-07-05T11:06:23+08:00
 draft: false
-description: ""
+description: "计算机通信业独占43.1%利润，而汽车、钢铁、建材深陷负增长——中国工业从未如此\"分裂\""
 ---
 
-{{< inline_style >}}
-/* 主题's .content 内文章内容样式 */
-/* 作用域：主题默认在 .content 内渲染，selectors 无需额外wrapper */
-
-/* 子标题 */
-h2 {
-    font-size: 20px;
-    color: #1a3a5c;
-    margin: 30px 0 18px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e8f0f8;
-    font-weight: 600;
-}
-
-h2:first-child { margin-top: 0; }
-
-/* 段落 */
-p {
-    font-size: 16px;
-    margin-bottom: 16px;
-    text-align: justify;
-    line-height: 1.8;
-    color: #333;
-}
-
-/* 高亮框 */
-div.highlight-box {
-    background: #fff8e1;
-    border-left: 4px solid #ffc107;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-box p {
-    margin: 0;
-    color: #5d4e00;
-    font-weight: 500;
-}
-
-div.highlight-blue {
-    background: #e3f2fd;
-    border-left: 4px solid #1565c0;
-    padding: 18px 20px;
-    margin: 24px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.highlight-blue p {
-    margin: 0;
-    color: #0d47a1;
-}
-
-/* 数据网格 */
-div.data-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-    margin: 20px 0;
-}
-
-.data-card {
-    background: #f0f4f8;
-    padding: 15px;
-    border-radius: 6px;
-    text-align: center;
-}
-
-.data-card .number {
-    font-size: 22px;
-    font-weight: 700;
-    color: #c62828;
-}
-
-.data-card .label {
-    font-size: 13px;
-    color: #666;
-    margin-top: 4px;
-}
-
-/* 数据框 */
-div.data-box {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border: 1px solid #e9ecef;
-}
-
-.data-box h3 {
-    font-size: 16px;
-    color: #495057;
-    margin-bottom: 12px;
-}
-
-/* 警告框 */
-div.warning-box {
-    background: #fff3cd;
-    border: 1px solid #ffc107;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 25px 0;
-}
-
-.warning-box strong { color: #856404; }
-
-/* 步骤框 */
-div.step-box {
-    background: #fafafa;
-    border: 1px solid #e0e0e0;
-    border-radius: 6px;
-    padding: 16px;
-    margin: 12px 0;
-}
-
-.step-box .step-title { font-weight: 700; color: #0d47a1; }
-
-/* 表格 */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-size: 15px;
-}
-
-table th {
-    background: #1a3a5c;
-    color: #fff;
-    padding: 10px 12px;
-    text-align: left;
-}
-
-table td {
-    padding: 10px 12px;
-    border-bottom: 1px solid #e9ecef;
-}
-
-table tr:last-child td { border-bottom: none; }
-
-/* 强调 */
-strong { color: #1565c0; }
-
-span.warning { color: #c62828; font-weight: 600; }
-
-/* 分割线 */
-.section-divider {
-    height: 1px;
-    background: linear-gradient(to right, transparent, #e0e0e0, transparent);
-    margin: 30px 0;
-}
-
-/* 移动端适配 */
-@media (max-width: 768px) {
-    div.data-grid { grid-template-columns: 1fr; }
-    h2 { font-size: 18px; }
-    p { font-size: 15px; }
-}
-
-{{< /inline_style >}}
+{< inline_style >}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px;
+        }
+        .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
+        .header {
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b2838 50%, #2c3e50 100%);
+            color: #fff; padding: 40px 30px; text-align: center;
+        }
+        .header h1 { font-size: 26px; font-weight: 600; margin-bottom: 12px; line-height: 1.4; }
+        .header .subtitle { font-size: 14px; opacity: 0.85; }
+        .content { padding: 30px; }
+        h2 {
+            font-size: 20px; color: #0d1b2a; margin: 30px 0 18px; padding-bottom: 10px;
+            border-bottom: 2px solid #e8edf2; font-weight: 600;
+        }
+        h2:first-child { margin-top: 0; }
+        p { font-size: 16px; margin-bottom: 16px; text-align: justify; }
+        .highlight-box {
+            background: #fff8e1; border-left: 4px solid #ffc107; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-box p { margin: 0; color: #5d4e00; font-weight: 500; }
+        .highlight-red {
+            background: #ffebee; border-left: 4px solid #c62828; padding: 18px 20px;
+            margin: 24px 0; border-radius: 0 6px 6px 0;
+        }
+        .highlight-red p { margin: 0; color: #b71c1c; font-weight: 500; }
+        .data-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 20px 0; }
+        .data-card {
+            background: #f0f4f8; padding: 15px; border-radius: 6px; text-align: center;
+        }
+        .data-card .number { font-size: 22px; font-weight: 700; }
+        .data-card .label { font-size: 13px; color: #666; margin-top: 4px; }
+        .green { color: #2e7d32; }
+        .red { color: #c62828; }
+        strong { color: #1565c0; }
+        .winner { color: #2e7d32; font-weight: 600; }
+        .loser { color: #c62828; font-weight: 600; }
+        .table-mini {
+            width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px;
+        }
+        .table-mini th {
+            background: #1b2838; color: #fff; padding: 10px 12px; text-align: left;
+        }
+        .table-mini td { padding: 10px 12px; border-bottom: 1px solid #e0e0e0; }
+        .table-mini tr:nth-child(even) { background: #f5f7fa; }
+        .footer {
+            background: #f8f9fa; padding: 20px 30px; text-align: center;
+            font-size: 13px; color: #888; border-top: 1px solid #eee;
+        }
+        .section-divider {
+            height: 1px; background: linear-gradient(to right, transparent, #e0e0e0, transparent);
+            margin: 30px 0;
+        }
+        @media (max-width: 480px) {
+            .header { padding: 30px 20px; }
+            .header h1 { font-size: 22px; }
+            .content { padding: 20px; }
+            h2 { font-size: 18px; }
+            .data-grid { grid-template-columns: 1fr; }
+        }
+{< /inline_style >}
 
 <h2>一、一份表面光鲜的成绩单</h2>
 <p>国家统计局最新数据显示：2026年1-5月，全国规模以上工业企业利润累计同比增长<strong>18.8%</strong>，5月单月更是达到了21.1%的增速，连续5个月维持双位数增长。乍看之下，交出了一份相当漂亮的成绩单。</p>
@@ -253,3 +159,4 @@ span.warning { color: #c62828; font-weight: 600; }
 <p>对于投资者而言，目前最好的赛道依然是"两头"：一头是资源和原材料，一头是科技。资源和科技，是当前增长最确定的两个方向。但需要注意的是，资金已经高度集中在科技一个方向，市场的拥挤度在上升，一旦出现调整可能会剧烈加速。</p>
 
 <p>简单说——AI再火，普通人感不到暖意，因为<strong>这份"暖"并没有装进大多数人的口袋里。</strong></p>
+</div>
