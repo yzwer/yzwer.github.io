@@ -5,7 +5,7 @@ draft: false
 description: "7月12日晚赛力斯发布2026半年报预亏公告，归母净亏损15-18亿；问界汽车单季亏19-21.5亿；车越卖越多、钱越亏越多——华为智选车模式的\"租金\"到底有多贵？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -38,7 +38,7 @@ description: "7月12日晚赛力斯发布2026半年报预亏公告，归母净�
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一份炸裂的业绩预告：从盈利29亿到亏损18亿</h2>
 <p>7月12日晚间，赛力斯发布了2026年半年度业绩预亏公告。经财务部门初步测算，公司预计上半年<strong>归母净利润亏损15亿元到18亿元</strong>。而去年同期，这个数字还是正的——盈利29.4亿元。一年时间，由盈转亏，前后落差高达44亿。</p>

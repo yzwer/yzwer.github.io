@@ -5,7 +5,7 @@ draft: false
 description: "噩耗传来：国内知名经济学家、国投证券原首席经济学家高善文因病去世；北大出身、师从周小川、11次影响力第一；那句\"解释过去头头是道，预测未来躲躲闪闪\"的自嘲，或许是他留给行业最清醒的注脚"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -35,7 +35,7 @@ description: "噩耗传来：国内知名经济学家、国投证券原首席经
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、噩耗传来</h2>
 <p>这两天，财经圈和学术圈都被一条消息刷屏了：国内知名经济学家、国投证券（原安信证券）原首席经济学家高善文，因病去世，年仅55岁。</p>

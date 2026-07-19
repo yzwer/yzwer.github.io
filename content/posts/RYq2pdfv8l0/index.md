@@ -5,7 +5,7 @@ draft: false
 description: "金正恩的"三步走"战略：从世袭统治者到经济改革者"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; }
@@ -17,7 +17,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         .cover { width: 100%; height: 300px; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 36px; font-weight: bold; text-align: center; margin-bottom: 30px; border-radius: 8px; }
         .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
         .divider { height: 1px; background: #eee; margin: 30px 0; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <div class="cover">金正恩的"三步走"战略<br><span style="font-size: 18px; margin-top: 10px; display: block;">从世袭统治者到经济改革者</span></div>
 

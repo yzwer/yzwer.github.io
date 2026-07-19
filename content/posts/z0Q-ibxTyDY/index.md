@@ -5,7 +5,7 @@ draft: false
 description: "原油一度暴涨1%，港股恒指重挫3%，中东停火协议签完即碎，莫斯科炼油厂遇15公里近距打击"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -61,7 +61,7 @@ description: "原油一度暴涨1%，港股恒指重挫3%，中东停火协议�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、端午节"无端"暴跌</h2>
 <p>端午节，中国的传统节日，港股市场原本走势平稳——此前一段时间，以色列与也门胡塞武装的停火谈判一直在推进，双方通过巴基斯坦、埃及等国居中斡旋，一度传出了和平协议的积极信号。</p>

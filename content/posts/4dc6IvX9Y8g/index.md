@@ -5,7 +5,7 @@ draft: false
 description: "1993年至2023年，每天贪18.6万，每年7142万；妻子女儿2001年已是美国公民；2008年被实名举报，举报人先进了看守所，报道从网上消失，而被举报的人一路平调升迁——这个案子真正值得记住的，或许不是那个数字"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -37,7 +37,7 @@ description: "1993年至2023年，每天贪18.6万，每年7142万；妻子女�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、22.14亿：一年每天18.6万，刷新1949年以来全部记录</h2>
 <p>2026年7月6日，江苏常州市中级人民法院一审公开宣判：南京经济技术开发区管委会原副主任杨有林，因受贿、贪污、行贿、挪用公款、滥用职权、洗钱等六项罪名，数罪并罚，被判处死刑，剥夺政治权利终身，并处没收个人全部财产。</p>

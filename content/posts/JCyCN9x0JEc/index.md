@@ -5,7 +5,7 @@ draft: false
 description: "18天内两起重大事故：当遇难者变成数字，谁在让他们"消失"？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; line-height: 1.4; }
@@ -16,7 +16,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         li { margin-bottom: 10px; font-size: 16px; }
         .footer-note { background: #e7f3ff; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #0066cc; }
         strong { color: #1a1a1a; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>18天内两起重大事故：当遇难者变成数字，谁在让他们"消失"？</h1>
 

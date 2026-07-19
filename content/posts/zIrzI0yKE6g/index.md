@@ -5,7 +5,7 @@ draft: false
 description: "武汉众邦银行被接管：六大股东全部爆雷，一场民营银行的"多米诺"正在倒下"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * {
             margin: 0;
             padding: 0;
@@ -212,7 +212,7 @@ description: "武汉众邦银行被接管：六大股东全部爆雷，一场民
             .data-grid { grid-template-columns: 1fr; }
             table { font-size: 14px; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>武汉众邦银行被接管：六大股东全部爆雷，一场民营银行的"多米诺"正在倒下</h1>
 <div class="meta">📅 2026年7月5日 · 🔔 深度分析</div>

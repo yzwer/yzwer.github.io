@@ -5,7 +5,7 @@ draft: false
 description: "香港拔萃男书院入学贿赂案：1.6亿租约做掩护，13位社会精英家长集体落网"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -62,7 +62,7 @@ description: "香港拔萃男书院入学贿赂案：1.6亿租约做掩护，13�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一个离奇的举报</h2>
 <p>2025年10月，香港廉政公署（ICAC）接到一起举报，内容令人匪夷所思：一位香港城市大学的经济金融系教授、48岁的赵某，用自己的专业技术——"对赌租赁"——为未成年的儿子争取到了香港名校"拔萃男书院"的入学资格。</p>

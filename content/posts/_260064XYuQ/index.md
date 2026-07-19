@@ -5,7 +5,7 @@ draft: false
 description: "广州打响第一枪！政府下场收购二手房，房地产拐点真的来了？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; }
@@ -15,7 +15,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; font-size: 16px; }
         .footer-highlight { background: #e7f3ff; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #0066cc; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>广州打响第一枪！政府下场收购二手房，房地产拐点真的来了？</h1>
 

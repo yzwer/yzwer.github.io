@@ -5,7 +5,7 @@ draft: false
 description: "以色列与真主党的恩怨 - 从1982年到"国中之国"的崛起"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * {
             margin: 0;
             padding: 0;
@@ -93,7 +93,7 @@ description: "以色列与真主党的恩怨 - 从1982年到"国中之国"的崛
                 font-size: 19px;
             }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>🔵 以色列与真主党的恩怨<br>从1982年黎巴嫩战争到"国中之国"的崛起</h1>
 

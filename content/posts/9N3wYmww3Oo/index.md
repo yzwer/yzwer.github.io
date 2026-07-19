@@ -5,7 +5,7 @@ draft: false
 description: "从广西到北京跨越1400公里的骗局，背后是一张系统性的\"红头执法\"网络"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -63,7 +63,7 @@ description: "从广西到北京跨越1400公里的骗局，背后是一张系�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一笔500公里的订单，开出了1400公里的"冤枉路"</h2>
 <p>2025年10月29日，一辆货车从广西出发，目的地是广东中山。全程才500多公里，按正常速度只需5个多小时就能到。结果开出去没多久，货还没到，物流公司先接到了司机的消息——"还有半个小时就到了，在服务区休息。"几小时后，货主说自己没收到货。</p>

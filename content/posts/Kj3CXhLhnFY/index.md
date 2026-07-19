@@ -5,7 +5,7 @@ draft: false
 description: "两万亿市值四百位亿万富翁：一场史无前例的造富运动"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }
@@ -14,7 +14,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>两万亿市值四百位亿万富翁：一场史无前例的造富运动</h1>
 <div class="highlight"><strong>核心提示：</strong>2026年6月12日，SpaceX正式挂牌上市，市值突破2万亿美元，一夜之间诞生超过400位亿万富翁。这场人类历史上最大规模的IPO，不仅改写了资本市场的规则，更引发了对财富集中、技术垄断与公共利益的深刻反思。</div>

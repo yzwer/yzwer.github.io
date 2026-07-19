@@ -5,7 +5,7 @@ draft: false
 description: "知名科技空头Ed Zitron万字长文：OpenAI商业模式有根本性缺陷，一旦倒下将引发AI产业链连锁崩塌——堪比2008年金融危机的\"雷曼时刻\"正在AI行业酝酿？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -37,7 +37,7 @@ description: "知名科技空头Ed Zitron万字长文：OpenAI商业模式有根
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、万字长文引爆AI业：OpenAI＝AI时代的雷曼兄弟？</h2>
 <p>最近一篇万字长文，把本就风声鹤唳的AI行业搅得更加人心惶惶。写这篇文章的人叫埃德·奇特隆（Ed Zitron），是科技圈里出了名的AI唱空派，粉丝众多、观点一向激进。这次它抛出了迄今为止最狠的一个判断——<strong>所谓的AI泡沫，根本不是什么行业性泡沫，而是彻头彻尾的OpenAI泡沫</strong>。</p>

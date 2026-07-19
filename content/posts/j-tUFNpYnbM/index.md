@@ -5,7 +5,7 @@ draft: false
 description: "Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
@@ -55,7 +55,7 @@ description: "Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三�
             background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 20px; margin: 25px 0;
         }
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>Meta出租算力引爆全球AI股暴跌！科创板跌7.7%，三星跌9%，一场"认输"引发的恐慌</h1>
 <div class="meta">📅 2026年7月 · 🔔 科技股市场分析</div>

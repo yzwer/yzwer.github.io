@@ -5,7 +5,7 @@ draft: false
 description: "7月6日至11日，乌无人艇在亚速海持续攻击俄影子舰队；6天内72艘油轮被命中；俄罗斯被迫暂停两条关键运输航线；无人机2万美元 vs 防空导弹200万美元的交换比逆转战局"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -38,7 +38,7 @@ description: "7月6日至11日，乌无人艇在亚速海持续攻击俄影子�
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、震惊世界的六天：28艘俄舰同时被命中</h2>
 <p>7月11日晚，据多家媒体报道，乌克兰无人系统部队在亚速海海域发动了一次史无前例的袭击。一举命中28艘俄罗斯影子舰队船只，其中21艘为油轮。整个行动中，乌方无人艇共记录73次有效命中，28艘船平均每艘中弹2.6发。</p>

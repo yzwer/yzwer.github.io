@@ -5,7 +5,7 @@ draft: false
 description: "欧洲想要"新广场协议"？德国总理喊话人民币升值30%，中欧经贸风暴前夜"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
@@ -56,7 +56,7 @@ description: "欧洲想要"新广场协议"？德国总理喊话人民币升值3
         .timeline .item { margin-bottom: 15px; }
         .timeline .date { font-weight: bold; color: #0056b3; }
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>欧洲想要"新广场协议"？德国总理喊话人民币升值30%，中欧经贸风暴前夜</h1>
 <div class="meta">📅 2026年7月 · 🔔 国际经济深度分析</div>

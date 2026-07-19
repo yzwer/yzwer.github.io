@@ -5,7 +5,7 @@ draft: false
 description: "7月17日沪指跌破3800点，创业板暴跌7.15%；融资余额、公募抱团两隐患未爆，韩国杠杆牛警示在前"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -61,7 +61,7 @@ description: "7月17日沪指跌破3800点，创业板暴跌7.15%；融资余额
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、盘面惨烈：近10年最猛单周跌幅</h2>
 <p>这个周五，A股主要指数集体大跌，可谓惨不忍睹。沪指跌3.05%，跌破3800点，收3764.15点，创下2025年9月以来的新低；深圳成指跌5.4%；创业板更惨，暴跌7.15%；科创50指数也暴跌7.12%。</p>

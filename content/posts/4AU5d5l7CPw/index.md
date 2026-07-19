@@ -5,7 +5,7 @@ draft: false
 description: "商务部、海关总署一纸公告：全品类氦气临时禁止出口。作为全球最大氦气进口国，中国根本没有反制他人的资本——这场禁令，是一场高端产业的自保战。"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -38,7 +38,7 @@ description: "商务部、海关总署一纸公告：全品类氦气临时禁止
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一纸禁令：全球最大进口国，为何先"断供"自己？</h2>
 <p>前一天，中国商务部联合海关总署甩出一纸公告：全品类氦气，临时禁止出口，即日起执行。公告就短短一行字，没有详细解释，也没有缓冲期。很多人看到后的第一反应是：中国是不是又在反制谁了，准备拿氦气卡别人的脖子？</p>

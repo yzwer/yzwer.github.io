@@ -35,29 +35,42 @@ def extract_css(html: str) -> str:
 
 
 def extract_body(html: str) -> str:
-    # Try content div first
-    m = re.search(r'<div class="content"[^>]*>(.*?)<div class="footer"', html, re.DOTALL)
-    if m:
-        body = m.group(1).strip()
-    else:
-        m = re.search(r'<div class="content">(.*?)<div class="footer">', html, re.DOTALL)
-        if m:
-            body = m.group(1).strip()
-        else:
-            # Fallback
-            start = html.find('<div class="content">')
-            end = html.rfind('<div class="footer">')
-            if start >= 0 and end > start:
-                body = html[start + len('<div class="content">'):end].strip()
-            else:
-                return ""
+    # Try content div first (new format)
+    body = _try_extract_div(html, 'content', 'footer')
+    if body:
+        return body
+    # Try container div (old format)
+    body = _try_extract_div(html, 'container', None)
+    if body:
+        return body
+    return ""
 
-    # De-indent all lines (avoid Hugo goldmark treating as code blocks)
+
+def _try_extract_div(html: str, div_class: str, end_marker: str) -> str:
+    start_tag = f'<div class="{div_class}"'
+    start = html.find(start_tag)
+    if start < 0:
+        start_tag = f'<div class="{div_class}">'
+        start = html.find(start_tag)
+    if start < 0:
+        return ""
+    # Find the opening div close >
+    end_tag_pos = html.find('>', start)
+    if end_tag_pos < 0:
+        return ""
+    content_start = end_tag_pos + 1
+    if end_marker:
+        end = html.rfind(f'<div class="{end_marker}"')
+    else:
+        end = html.rfind('</body>')
+        if end < 0:
+            end = len(html)
+    if end <= content_start:
+        return ""
+    body = html[content_start:end].strip()
+    # De-indent
     lines = body.split('\n')
-    clean = []
-    for line in lines:
-        t = line.strip()
-        clean.append(t if t else '')
+    clean = [l.strip() if l.strip() else '' for l in lines]
     return '\n'.join(clean).strip()
 
 
@@ -107,19 +120,20 @@ def convert_all(video_id=None):
         post_dir.mkdir(parents=True, exist_ok=True)
         post_file = post_dir / "index.md"
 
-        content = f"""---
-title: "{title}"
-date: {date_str}
-draft: false
-description: "{desc}"
----
-
-{{< inline_style >}}
-{css}
-{{< /inline_style >}}
-
-{body}
-"""
+        shortcode_open = "{{< inline_style >}}"
+        shortcode_close = "{{< /inline_style >}}"
+        content = (
+            "---\n"
+            f'title: "{title}"\n'
+            f"date: {date_str}\n"
+            "draft: false\n"
+            f'description: "{desc}"\n'
+            "---\n\n"
+            + shortcode_open + "\n"
+            + css + "\n"
+            + shortcode_close + "\n\n"
+            + body
+        )
         post_file.write_text(content, encoding='utf-8')
         print(f"[OK] {vid} -> content/posts/{vid}/index.md ({len(content)} bytes)")
         processed += 1

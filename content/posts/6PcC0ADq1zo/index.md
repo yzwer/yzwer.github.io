@@ -5,7 +5,7 @@ draft: false
 description: "烟花炸碎的不只是厂房——浏阳烟花产业的安全困局与生存悖论"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.8;
@@ -81,7 +81,7 @@ body {
             color: #999;
             font-size: 14px;
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>烟花炸碎的不只是厂房——浏阳烟花产业的安全困局与生存悖论</h1>
 

@@ -5,7 +5,7 @@ draft: false
 description: "审计署年度报告出炉：每年含金量最高的"官方自查"曝光了什么？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
@@ -29,7 +29,7 @@ description: "审计署年度报告出炉：每年含金量最高的"官方自�
         .conclusion p { color: #dee2e6; }
         .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>审计署年度报告出炉：每年含金量最高的"官方自查"曝光了什么？</h1>
 <div class="meta">📅 2025年度审计报告解读 · 🔔 政策深度分析</div>

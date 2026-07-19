@@ -5,7 +5,7 @@ draft: false
 description: "日元跌破162：创1986年以来新低！日本央行11万亿干预打水漂，全球套利资金正在引爆"定时炸弹""
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
@@ -54,7 +54,7 @@ description: "日元跌破162：创1986年以来新低！日本央行11万亿干
         .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
         .danger-zone { background: #fcc; border: 2px solid #dc3545; border-radius: 10px; padding: 20px; margin: 25px 0; }
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>日元跌破162：创1986年以来新低！日本央行11万亿干预打水漂，全球套利资金正在引爆"定时炸弹"</h1>
 <div class="meta">📅 2026年7月5日 · 🔔 国际金融市场风险预警</div>

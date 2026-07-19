@@ -5,7 +5,7 @@ draft: false
 description: "26年前那封信，如何改变了俄罗斯的命运？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; }
@@ -15,7 +15,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; }
         .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>26年前那封信，如何改变了俄罗斯的命运？</h1>
 <div class="meta">深度分析 | 约需8分钟阅读</div>

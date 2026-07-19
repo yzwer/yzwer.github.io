@@ -5,7 +5,7 @@ draft: false
 description: "5月乘用车销量暴跌22.1%，燃油车与新能源车双降"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * {
             margin: 0;
             padding: 0;
@@ -132,7 +132,7 @@ description: "5月乘用车销量暴跌22.1%，燃油车与新能源车双降"
                 grid-template-columns: 1fr;
             }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、触目惊心的销售数据</h2>
 <p>乘联会最新数据显示，今年<strong>5月份全国乘用车销量同比下降22.1%</strong>，仅售出<strong>150万辆</strong>。值得注意的是，这已是<strong>中国乘用车销售连续第8个月下滑</strong>，呈现一条持续向下的曲线。</p>

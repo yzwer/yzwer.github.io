@@ -5,7 +5,7 @@ draft: false
 description: "负面清单再扩容：谁在限制中国经济的未来？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }
@@ -14,7 +14,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         .highlight { background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>负面清单再扩容：谁在限制中国经济的未来？</h1>
 <div class="highlight"><strong>核心提示：</strong>2026年6月，中国再次调整"负面清单"，新增和修订多项限制措施。这份清单背后，是外资准入、产业安全与全球化博弈的复杂考量。</div>

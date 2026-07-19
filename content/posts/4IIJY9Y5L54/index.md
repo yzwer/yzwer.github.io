@@ -5,7 +5,7 @@ draft: false
 description: "国宴座位里的人才密码：从流水线女工到坐拥全球供应链"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; }
@@ -16,7 +16,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         li { margin-bottom: 10px; }
         .author { color: #666; font-size: 14px; margin-bottom: 20px; }
         .footer { margin-top: 50px; padding-top: 30px; border-top: 2px solid #eee; color: #999; font-size: 14px; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>国宴座位里的人才密码：从流水线女工到坐拥全球供应链</h1>
 

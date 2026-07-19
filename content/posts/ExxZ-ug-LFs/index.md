@@ -5,7 +5,7 @@ draft: false
 description: "3973亿现金蓄势待发：巴菲特退休后首场股东大会释放的五大信号"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; font-size: 28px; }
@@ -17,7 +17,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         .subtitle { color: #666; font-size: 14px; margin-top: -10px; margin-bottom: 30px; }
         .data-box { background: #f0f7ff; padding: 20px; border-radius: 5px; margin: 25px 0; border-left: 4px solid #0066cc; }
         .quote { font-style: italic; color: #555; border-left: 3px solid #999; padding-left: 20px; margin: 25px 0; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>3973亿现金蓄势待发：巴菲特退休后首场股东大会释放的五大信号</h1>
 <p class="subtitle">伯克希尔·哈撒韦2025年股东大会深度解读</p>

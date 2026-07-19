@@ -5,7 +5,7 @@ draft: false
 description: "3.2亿人「困」在算法里：灵活就业繁荣背后的真相"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }
         .container { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
         h1 { color: #1a1a1a; border-bottom: 3px solid #cc0000; padding-bottom: 15px; margin-bottom: 30px; font-size: 26px; }
@@ -15,7 +15,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
         ul { margin: 20px 0; padding-left: 30px; }
         li { margin-bottom: 10px; }
         .data-box { background: #e9ecef; padding: 15px 20px; border-radius: 5px; margin: 20px 0; font-size: 15px; }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>3.2亿人「困」在算法里：灵活就业繁荣背后的真相</h1>
 <div class="highlight"><strong>核心提示：</strong>中国灵活就业人口已突破3.2亿，覆盖快递员、网约车司机、外卖骑手等群体。他们月入8000元的背后，是每天超12小时的强制"自愿"劳动。这个数字不是就业繁荣的标志，而是宏观经济在就业市场的一面镜子——供需失衡、社保缺失、消费低迷的问题，全都藏在这3.2亿人身上。</div>

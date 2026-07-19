@@ -5,7 +5,7 @@ draft: false
 description: "拆解中国最高级别经济决策框架的认知转变——从\"扩消费\"到\"修报表\"的范式转折"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -62,7 +62,7 @@ description: "拆解中国最高级别经济决策框架的认知转变——从
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一篇比618更"火"的文章</h2>
 <p>2026年618购物节悄无声息，补贴一波接一波，市场水花不见多大。但618刚过，一篇署名"中央财经委员会办公室"的文章在《求是》杂志上刊发，题目直指<strong>"扩大内需、提振消费"</strong>——6000多字，信息密度极高，在政经圈引起巨大震动。</p>

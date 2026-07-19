@@ -5,7 +5,7 @@ draft: false
 description: "计算机通信业独占43.1%利润，而汽车、钢铁、建材深陷负增长——中国工业从未如此\"分裂\""
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -69,7 +69,7 @@ description: "计算机通信业独占43.1%利润，而汽车、钢铁、建材�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一份表面光鲜的成绩单</h2>
 <p>国家统计局最新数据显示：2026年1-5月，全国规模以上工业企业利润累计同比增长<strong>18.8%</strong>，5月单月更是达到了21.1%的增速，连续5个月维持双位数增长。乍看之下，交出了一份相当漂亮的成绩单。</p>

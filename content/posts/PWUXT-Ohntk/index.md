@@ -5,7 +5,7 @@ draft: false
 description: "统计局数据：上半年GDP同比+4.7%，Q2突降至4.3%——生产端热气腾腾，需求端寒气逼人。一季度\"开局不错\"的市场预期正在被数据重新校正。"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -40,7 +40,7 @@ description: "统计局数据：上半年GDP同比+4.7%，Q2突降至4.3%——�
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、Q2突然失速：保五压力卷土重来</h2>
 <p>7月15日，国家统计局公布了上半年经济数据。上半年GDP同比涨了4.7%——一季度还有5%，二季度刷的一下掉到4.3%，突然失速。年初大家还觉得开局不错，全年保五问题不大；二季度这一调，保五的压力又回来了。</p>

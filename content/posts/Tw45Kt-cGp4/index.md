@@ -5,7 +5,7 @@ draft: false
 description: "PPI同比创46个月新高，但环比时隔10个月转负；CPI低于预期；世界银行：中国43%财政花在修路建桥，只有28%花在医疗教育社保；涨价传不下去，降价却传得飞快"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -38,7 +38,7 @@ description: "PPI同比创46个月新高，但环比时隔10个月转负；CPI�
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、PPI同比4.1%：看起来很美，其实是个"翘尾幻觉"</h2>
 <p>前两天，中国统计局公布了6月份的物价数据。这次PPI的数字非常扎眼：6月同比上涨4.1%，创出近46个月以来的新高。听起来似乎一片大好，但仔细一看，你就会有不一样的感受。</p>

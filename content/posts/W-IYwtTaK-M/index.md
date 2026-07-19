@@ -5,7 +5,7 @@ draft: false
 description: "中东"和平协议"的真相：六大问题悬而未决"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * {
             margin: 0;
             padding: 0;
@@ -97,7 +97,7 @@ description: "中东"和平协议"的真相：六大问题悬而未决"
             margin-right: 8px;
             margin-bottom: 8px;
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>🔍 中东"和平协议"达成的真相：六大问题悬而未决</h1>
 

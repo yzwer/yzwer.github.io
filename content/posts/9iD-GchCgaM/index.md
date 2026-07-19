@@ -5,7 +5,7 @@ draft: false
 description: "中指研究院半年报：百城二手房同比跌7.68%；AI算力诞生81支十倍牛股，但低就业密度撑不起大众购买力；复盘日美港欧，回归高点平均要十年以上"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -61,7 +61,7 @@ description: "中指研究院半年报：百城二手房同比跌7.68%；AI算�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、半年报里的"温差"：新房假涨，二手真跌</h2>
 <p>前两天，中指研究院公布了上半年国内的楼市数据。借着这个机会，我们聊聊国内房地产目前是个什么情况，未来会是什么走向，这一轮AI造富狂欢又能给国内楼市带来多大影响。</p>

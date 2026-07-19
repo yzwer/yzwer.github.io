@@ -5,7 +5,7 @@ draft: false
 description: "苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 18 Pro参数全曝光、供应链底牌被扒光"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background: #f5f7fa; padding: 20px; }
         .container { max-width: 800px; margin: 0 auto; background: white; border-radius: 12px; box-shadow: 0 2px 20px rgba(0,0,0,0.1); padding: 40px; }
@@ -32,7 +32,7 @@ description: "苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 
         .divider { text-align: center; margin: 30px 0; color: #ccc; font-size: 24px; letter-spacing: 8px; }
         .warning { background: #fff3cd; border: 1px solid #ffc107; border-radius: 8px; padding: 20px; margin: 25px 0; }
         @media (max-width: 600px) { .container { padding: 20px; } h1 { font-size: 22px; } .spec-grid { grid-template-columns: 1fr; } }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>苹果史上最严重泄密！630GB数据遭黑客泄露：iPhone 18 Pro参数全曝光、供应链底牌被扒光</h1>
 <div class="meta">📅 2026年7月 · 🔔 科技大事件深度分析</div>

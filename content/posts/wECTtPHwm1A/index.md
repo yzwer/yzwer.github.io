@@ -5,7 +5,7 @@ draft: false
 description: "乌克兰无人机一周三袭莫斯科，660架夜袭12州，克里米亚进入紧急状态"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -58,7 +58,7 @@ description: "乌克兰无人机一周三袭莫斯科，660架夜袭12州，克�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、一场不同寻常的讲话</h2>
 <p>6月28日，普京在统一俄罗斯党大会上放出狠话，直言<strong>"俄罗斯的命运到了性命攸关的时刻"</strong>。他警告西方休想在战场上打败俄罗斯，更休想动摇俄罗斯的国内政局。普京还专门提到9月即将举行的国家杜马选举，说这场选举将严格依法举行，并责成有关部门保障选举安全、防范外部操纵。</p>

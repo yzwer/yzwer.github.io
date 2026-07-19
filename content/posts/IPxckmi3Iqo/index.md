@@ -5,7 +5,7 @@ draft: false
 description: "上映3天票房破6亿，预测总票房飙至25亿；但全网吐槽此起彼伏：过时老梗、表演浮夸、特效不如20年前——周星驰的情怀还能透支多久？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -38,7 +38,7 @@ description: "上映3天票房破6亿，预测总票房飙至25亿；但全网�
             .data-grid { grid-template-columns: 1fr; }
             .data-grid-3 { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、票房爆了，口碑崩了</h2>
 <p>根据猫眼专业版数据显示，周星驰导演的新电影《功夫女足》上映仅3天，票房已经正式突破6亿元，观影人次超1739万。预测总票房从最初的14.28亿元一路飙升到<strong>25.05亿元</strong>，眼看着要跟《给阿嬷的情书》去争国产票房第二。</p>

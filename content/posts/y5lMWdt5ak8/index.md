@@ -5,7 +5,7 @@ draft: false
 description: "韩股盘中跳水、年内熔断次数破2008纪录；央行警告杠杆ETF、政府拟征半导体暴利税；7月7日三星财报与A股新规双重来袭"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -61,7 +61,7 @@ description: "韩股盘中跳水、年内熔断次数破2008纪录；央行警�
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、盘中"跳水"：韩股与A股同步异动</h2>
 <p>今天，韩国股市和中国A股盘中一度出现跳水。韩国KOSPI指数从上涨约2.6%，一度转为跌超3%；科创50指数从涨2%到一度跌进3%。但随后双双出现微型反弹，收复了部分失地。</p>

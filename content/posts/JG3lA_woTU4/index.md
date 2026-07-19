@@ -5,7 +5,7 @@ draft: false
 description: "{title}"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.8; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background: #f5f5f5; }}
         .container {{ background: white; padding: 40px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }}
         h1 {{ color: #1a1a1a; border-bottom: 3px solid #0066cc; padding-bottom: 15px; margin-bottom: 30px; }}
@@ -14,7 +14,7 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans
         .highlight {{ background: #fff3cd; padding: 20px; border-radius: 5px; margin: 30px 0; border-left: 4px solid #ffc107; }}
         ul {{ margin: 20px 0; padding-left: 30px; }}
         li {{ margin-bottom: 10px; }}
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>{title}</h1>
 <div class="highlight"><strong>核心提示：</strong>养老金制度、灵活就业保障、社保缴费负担——这个被称为"早该废除"的系统，正让数亿中国人陷入"缴不起、退不出、等不到"的三难困境。</div>

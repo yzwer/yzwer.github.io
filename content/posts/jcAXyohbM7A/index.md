@@ -5,7 +5,7 @@ draft: false
 description: "纸尿裤甲醛检测事件：一场关于婴儿安全的舆论风暴"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * {
             margin: 0;
             padding: 0;
@@ -122,7 +122,7 @@ description: "纸尿裤甲醛检测事件：一场关于婴儿安全的舆论风
                 font-size: 20px;
             }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h1>🍼 纸尿裤甲醛检测事件：一场关于婴儿安全的舆论风暴</h1>
 

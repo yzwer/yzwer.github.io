@@ -5,7 +5,7 @@ draft: false
 description: "哈尔克岛响起爆炸声，伊朗90%原油出口命脉被威胁；美军精准打击80+目标；美国取消伊朗石油销售制裁豁免，油价应声大涨；美伊各有软肋，短暂平静还是新一轮风暴？"
 ---
 
-{< inline_style >}
+{{< inline_style >}}
 * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; line-height: 1.8; color: #333; background-color: #f5f7fa; padding: 20px; }
         .container { max-width: 680px; margin: 0 auto; background: #fff; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); overflow: hidden; }
@@ -33,7 +33,7 @@ description: "哈尔克岛响起爆炸声，伊朗90%原油出口命脉被威胁
             h2 { font-size: 18px; }
             .data-grid { grid-template-columns: 1fr; }
         }
-{< /inline_style >}
+{{< /inline_style >}}
 
 <h2>一、停火才10天，又打起来了</h2>
 <p>停火才刚过去10天，霍尔木兹这边又打起来了。就在7月8日凌晨，伊朗最大的导弹发射岛——哈尔克岛附近突然传出爆炸声，紧接着，伊朗最重要的石油枢纽哈尔克岛也响起了数次爆炸。</p>
