@@ -202,12 +202,35 @@ def process_video(video_id, title):
         log(f"[ERROR] {video_id} failed: {e}")
         return False
 
+def _convert_html_to_hugo(video_id, html_file, repo_root):
+    """Convert HTML article to Hugo post format."""
+    import re
+    try:
+        import subprocess as _sp3
+        script = repo_root / "convert_youtube_to_hugo.py"
+        if not script.exists():
+            log(f"[Hugo] convert_youtube_to_hugo.py not found, skipping Hugo conversion")
+            return
+        result = _sp3.run(
+            [sys.executable, str(script), video_id],
+            capture_output=True, text=True, timeout=30, cwd=str(repo_root)
+        )
+        if result.returncode == 0 and "[OK]" in result.stdout:
+            log(f"[Hugo] Converted {video_id} to Hugo post")
+        else:
+            log(f"[Hugo] Conversion output: {result.stdout[:100]} {result.stderr[:100]}")
+    except Exception as _e:
+        log(f"[Hugo] Conversion error: {_e}")
+
+
 def main():
     log("=" * 60)
     log("YouTube Pipeline v2.3 started")
     log(f"Proxy: {PROXY_ARG.strip() or 'NONE (direct)'}")
     log("=" * 60)
     os.chdir(WORK_DIR)
+
+    _repo_root = Path("C:/Users/11132/.qclaw/workspace-yw3plsutb1jupnif")
 
     try:
         videos = get_latest_videos(count=3)
@@ -233,18 +256,27 @@ def main():
 
         log(f"Done! {ok_count}/{len(to_process)} succeeded")
 
-        # ===== Git Push =====
-        _repo_root = Path("C:/Users/11132/.qclaw/workspace-yw3plsutb1jupnif")
-        _pipe_dir = _repo_root / "youtube_videos"
+        # ===== Hugo: Convert any new HTML articles to Hugo posts =====
+        for v in reversed(to_process):
+            vid = v['id']
+            html_file = WORK_DIR / f"{vid}_wechat_article.html"
+            if html_file.exists():
+                _convert_html_to_hugo(vid, html_file, _repo_root)
+            else:
+                log(f"[Hugo] No HTML article yet for {vid}, skipping Hugo conversion")
+
+        # ===== Git Push (youtube_videos + content/posts) =====
         try:
             import subprocess as _sp2
-            # Check for uncommitted changes
+            # Check for uncommitted changes in both youtube_videos and content/posts
             _st = _sp2.run(["git", "status", "--porcelain"], capture_output=True, text=True,
                            cwd=str(_repo_root), timeout=10)
             if _st.stdout.strip():
                 log("[Git] Uncommitted changes, committing and pushing...")
-                _sp2.run(["git", "add", "-A", "youtube_videos/"], cwd=str(_repo_root), timeout=10)
-                _ci = _sp2.run(["git", "commit", "-m", f"youtube: pipeline run {datetime.now().strftime('%Y-%m-%d %H:%M')}"],
+                _sp2.run(["git", "add", "-A", "youtube_videos/", "content/posts/"],
+                         cwd=str(_repo_root), timeout=10)
+                _ci = _sp2.run(["git", "commit", "-m",
+                               f"youtube: pipeline run {datetime.now().strftime('%Y-%m-%d %H:%M')} + Hugo posts"],
                                capture_output=True, text=True, cwd=str(_repo_root), timeout=10)
                 if _ci.returncode == 0:
                     log(f"[Git] Committed: {_ci.stdout[:200]}")
