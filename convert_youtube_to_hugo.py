@@ -74,8 +74,20 @@ def _try_extract_div(html: str, div_class: str, end_marker: str) -> str:
     return '\n'.join(clean).strip()
 
 
-def escape_desc(s: str) -> str:
-    return s.replace('\\', '\\\\').replace('"', '\\"')
+def escape_yaml_str(s: str) -> str:
+    """Escape a string for YAML double-quoted scalar.
+
+    Handles: backslash, ASCII double-quote, newlines, tabs.
+    Chinese/Japanese/Korean curly quotes (U+201C/U+201D) and em-dashes
+    (U+2014) are NOT ASCII quotes and are valid in YAML double-quoted strings.
+    """
+    s = s.replace('\\', '\\\\')   # escape backslash first
+    s = s.replace('"', '\\"')        # escape ASCII double-quote
+    s = s.replace('\n', '\\n')       # escape newlines
+    s = s.replace('\t', '\\t')       # escape tabs
+    s = s.replace('\r', '\\r')       # escape carriage returns
+    s = s.replace('\x00', '')          # remove NUL (invalid in YAML)
+    return s
 
 
 def convert_all(video_id=None):
@@ -114,7 +126,8 @@ def convert_all(video_id=None):
         dt = datetime.fromtimestamp(mtime)
         date_str = dt.strftime('%Y-%m-%dT%H:%M:%S+08:00')
 
-        desc = escape_desc(subtitle) if subtitle else title
+        desc = escape_yaml_str(subtitle) if subtitle else escape_yaml_str(title)
+        safe_title = escape_yaml_str(title)
 
         post_dir = POSTS_DIR / vid
         post_dir.mkdir(parents=True, exist_ok=True)
@@ -124,7 +137,7 @@ def convert_all(video_id=None):
         shortcode_close = "{{< /inline_style >}}"
         content = (
             "---\n"
-            f'title: "{title}"\n'
+            f"title: \"{safe_title}\"\n"
             f"date: {date_str}\n"
             "draft: false\n"
             f'description: "{desc}"\n'
