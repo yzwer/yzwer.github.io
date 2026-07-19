@@ -202,6 +202,15 @@ def process_video(video_id, title):
         log(f"[ERROR] {video_id} failed: {e}")
         return False
 
+# ====================================================================
+# YouTube Pipeline v2.4
+# Changes from v2.3:
+#   - Auto-converts HTML articles to Hugo posts after pipeline run
+#   - Git push includes content/posts/ directory
+#   - Uses parameterised convert_youtube_to_hugo.py
+#   - Supports single-video conversion via CLI arg
+# ====================================================================
+
 def _convert_html_to_hugo(video_id, html_file, repo_root):
     """Convert HTML article to Hugo post format."""
     import re
