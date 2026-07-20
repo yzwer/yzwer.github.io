@@ -26,4 +26,5 @@ node_modules/
 *.m4a
 *.flac
 *.ogg
+*.part
 youtube_videos/*.log
