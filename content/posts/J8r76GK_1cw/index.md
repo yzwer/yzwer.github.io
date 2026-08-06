@@ -1,0 +1,78 @@
+---
+title: "表面反内卷，实则垄断：三大运营商联手封杀低价流量卡背后的真实逻辑"
+date: 2026-08-06
+draft: false
+description: "8月1日起，中国移动、电信、联通同时叫停第三方渠道号卡分销。抢购潮与反垄断争议蜂拥而至。但这场大戏的真正主角，是被反内卷包装起来的涨价逻辑。"
+tags: ["通信", "运营商", "流量卡", "反垄断", "反内卷"]
+categories: ["经济观察"]
+cover: "https://img.yzwer.top/i/2026/08/J8r76GK_1cw_cover.jpg"
+---
+
+{{< inline_style >}}
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{background:#f5f5f5;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#333;line-height:1.9}.aw{max-width:680px;margin:0 auto;background:#fff}.cover{height:380px;background:linear-gradient(135deg,#1a1a2e,#c62828,#ff8f00);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.cover::before{content:"";position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle at 30% 70%,rgba(255,80,80,.15),transparent 50%),radial-gradient(circle at 70% 30%,rgba(255,193,7,.1),transparent 50%);animation:pulse 6s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}.ct{position:relative;z-index:2;text-align:center;padding:40px}.ct-tag{display:inline-block;background:rgba(198,40,40,.9);color:#fff;font-size:13px;padding:4px 16px;border-radius:20px;margin-bottom:20px;letter-spacing:2px}.ct-title{font-size:26px;font-weight:800;color:#fff;line-height:1.4;margin-bottom:16px;text-shadow:0 2px 20px rgba(0,0,0,.5)}.ct-sub{font-size:15px;color:rgba(255,255,255,.7);line-height:1.6}.c{padding:30px 24px 40px}.c p{margin-bottom:18px;font-size:16px;text-align:justify}.lead{font-size:17px;color:#555;border-left:4px solid #e53935;padding-left:16px;margin:24px 0;line-height:2}.st{display:flex;align-items:center;margin:36px 0 18px}.sn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:linear-gradient(135deg,#e53935,#c62828);color:#fff;font-size:18px;font-weight:800;border-radius:50%;margin-right:12px;flex-shrink:0}.stx{font-size:20px;font-weight:700;color:#1a1a1a}.s1{background:#fff;border-left:4px solid #e53935;padding:16px 20px;margin:24px 0;border-radius:0 8px 8px 0;font-size:15px;line-height:1.9}.s1 strong{color:#c62828}.f{padding:20px 24px;border-top:1px solid #eee;text-align:center;color:#999;font-size:13px;line-height:2}
+</style>
+{{< /inline_style >}}
+
+表面反内卷，实则垄断：三大运营商联手封杀低价流量卡背后的真实逻辑
+
+表面反内卷，实则垄断：三大运营商联手封杀低价流量卡背后的真实逻辑
+流量卡狂欢落幕，涨价逻辑登场
+
+8月1号起，中国移动、中国电信、中国联通同时按下了停止键——全面叫停第三方互联网渠道的号卡分销业务。抢购潮瞬间爆发，有人卡着零点下单系统直接崩溃，有人连最后一波都没赶上。但这场大戏的真正主角，既不是消费者，也不是代理商，而是被「反内卷」包装起来的涨价逻辑。
+
+8月1号起，中国移动、中国电信、中国联通同时按下了停止键，全面叫停第三方互联网渠道的号卡分销业务。
+以后想办号卡，只能走三大运营商自家的APP和官网。
+魔宝、某因直播间里那些19块、119块、200G的大流量卡，基本被判了死刑。
+消息一出，抢购潮当场上演——有的店铺联业爆单，有的一动联通电信的卡全部下架，有人卡着零点去下单，系统直接谈出开卡失败，连最后一波都没赶上。
+对于早已在享受的人来说，已经激活的老卡不受影响，该怎么用怎么用，这波算是提前锁死的绝版收藏。
+但对于正准备办卡、或者流量马上告急的人，这下是真的难受住了。
+
+先给不太了解流量卡的朋友科普一下。
+流量卡本质上也是正经手机卡，只不过主打第一资费、大流量，很多人专门拿它当上网副卡用——主号接打电话，副卡负责刷视频打游戏，一个月能省下几十块话费。
+这套玩法能便宜到什么程度呢？
+19块200G流量随便造，21块520G全国流量畅下，每个月还返十块钱，甚至能跟8块钱的保号套餐组成黄金搭档。
+而放到官方渠道，同样29块钱的月租可能只给你区区3G，第三方代理商却能塞给你280G，这种差价可不是一星半点，是断崖式的悬殊。
+底层逻辑其实是代理商跟运营商谈了个批发价，自己贴钱补贴，互相内卷私杀。
+官方自己压根不敢这么卖，怕把自家高价主套餐的基本盘给搅了。
+
+根据工信部刚公布的2026年上半年数据：全国电信业务收入同比下降2.1%，创下近年新低；
+而移动互联网流量却大涨17.7%，户均月流量达到23.5GB。
+流量越卖越多，收入却越涨越难。
+深层的问题出在内部考核机制上。
+虽然三家都是全国性大企业，但销售指标层层分解到省公司甚至第四级分公司，各省之间本质上是竞争对手。
+过去经常出现荒唐一幕：某省分公司为了完成季度拉新指标，私下给第三方代理商放出超低价流量包，代理商拿到政策直接挂到全国性电商平台上卖，结果邻省用户全跑去买了这些便宜卡，把本地资费体系冲得稀巴烂。
+各省借第三方渠道相互拆台、跨区域抢客，最后陷入卖卡越多亏得越多、用户离网率还极高的恶性循环。
+
+有意思的是，这次联合公告的操作手法：三家运营商步调一致——同一天宣布、同一口径、同一理由，时机之精准，默契之程度，谁看了都得说一句：配合得真漂亮。
+而《反垄断法》第二章第17条写得明明白白——禁止具有竞争关系的经营者达成垄断协议：固定或者变更商品价格是第一条，限制商品销售数量是第二条。
+三大运营商这次的操作，恰好两条全站，恰好两条全犯。
+这要不是垄断，天底下就没有垄断这回事了。
+但这场大戏的真正背书写的是反内卷三个字——国家层面早在前年就定了调，要依法一规治理企业低价无序竞争，快递行业先挨立刀，价格战被强行叫停，轮到通信行业，三大运营商终于也被点了名。
+本该是治理乱象、清理黑产的正经事，可惜执行起来，全变成了涨价的挡箭牌。
+
+官方给出的另一核心理由是：防范信息泄漏和电信诈骗。
+这确实是一个无法回避的事实——第三方代理渠道一直是个让人头疼的破口。
+某些小代理为了充销量、转提成，实名审核只是走个过程，甚至跟黑产团伙勾结，批量挂卡，打着免费领大流量卡旗号，套取用户身份证号、手持身份证照片、银行卡号等敏感信息。
+卡没收到，个人信息已被二次转卖。
+一旦这些卡被用于电信诈骗，追责最后还是落到运营商头上。
+翻翻黑灰产素材也能看到，手机卡黑产里头，绝大多数源头都指向第三方电商平台和直播间商家。
+但问题是：管乱象是好事，很多人心里也在犯嘀咕——借着规范的名义把价格全抬上去，以后在官方渠道只能买到贵且流量少的套餐，那所谓的保护用户权益就显得非常讽刺了。
+
+把目光放到真实的用户身上。
+这场涨价背后，真正吃亏的是三类人：一是重度用户，天天刷视频、打游戏，通勤路上离不开流量的人；
+二是老用户，多年不换号被死死绑在主卡上的人；
+三是低收入群体，本就精打细算过日子，如今连省钱的门路都被堵死、堵透。
+反倒是那些从不差钱、随便用随便充的人，几乎感受不到一点变化。
+2020年，中国人均月流量10GB出头；
+到2025年已经翻了一倍还多。
+流量消费只会越用越多，很难逆向走。
+只要运营商内部的KPI和考核机制一天不变，各省之间抢客户的冲动就一天不会消失；
+只要官方渠道那些套餐还是漫天要价，总会有人在夹缝里寻找出路，总会有市场重新冒出低价的风险。
+
+三大运营商2025年总营收逼近两万亿，总利润将近1800亿，平均下来每个中国人每个月给他们贡献了100块钱营收、10块钱利润。
+这样家底说自己扛不住低价流量卡的冲击，怎么听怎么像是在演戏、在装穷。
+真穷的企业都是在破产边缘挣扎求生，而这三家却常年都是股市里的红利之王和现金奶牛，一边数钱，一边哭穷卖惨。
+涨价不是不可以，但涨价必须讲道理——讲清楚成本构成、利润率、设备折旧、人工工资、网络维护、投资回报，装装账建账都得摆到桌面上，接受全民监督、全民问询、全民质疑。
+不能低价的时候说这是国企让利，是制度优越，涨价的时候又说这是市场规范，是行业整顿，左右逢源、两头通吃。
+这场大戏，远远没有画上句号。
