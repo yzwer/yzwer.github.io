@@ -177,24 +177,6 @@ def process_video(video_id, title):
         # Transcription done -> update last_video.txt immediately
         save_last_video_id(video_id)
         log(f"[OK] {video_id} transcribed. last_video.txt updated.")
-
-        # [4/4] Upload (best effort, don't block on IP whitelist)
-        html = WORK_DIR / f"{video_id}_wechat_article.html"
-        if not html.exists():
-            log("[4/4] No article HTML yet, skip upload. AI will generate later.")
-        else:
-            log("[4/4] Uploading draft...")
-            upload_script = WORK_DIR / "upload_draft.py"
-            if upload_script.exists():
-                cmd = f'python "{upload_script}" "{video_id}"'
-                ok, _ = run_cmd(cmd, retries=2, timeout=300)
-                if ok:
-                    log("[OK] Draft uploaded!")
-                else:
-                    log("[WARN] Upload failed (likely IP whitelist)")
-            else:
-                log("[WARN] upload_draft.py not found")
-
         log("=" * 60)
         return True
 
